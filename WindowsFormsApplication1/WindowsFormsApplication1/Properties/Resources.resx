@@ -118,13 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="1496738078_Information" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\PRE\ICON\1496738078_Information.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="backspace-icon-16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\PRE\ICON\backspace-icon-16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="InforIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\ICON\InforIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1496738078_Information" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\PRE\ICON\1496738078_Information.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1496754918_plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\PRE\ICON\1496754918_plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

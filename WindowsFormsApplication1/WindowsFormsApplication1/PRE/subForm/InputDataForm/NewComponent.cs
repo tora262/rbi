@@ -15,8 +15,23 @@ namespace RBI.PRE.subForm.InputDataForm
         public NewComponent()
         {
             InitializeComponent();
+            addComponentType();
         }
-
+        private void addComponentType()
+        {
+            cbComponentType.Properties.Items.Add("Fixed Roof");
+            cbComponentType.Properties.Items.Add("Floating Roof");
+            cbComponentType.Properties.Items.Add("Shell");
+            cbComponentType.Properties.Items.Add("Tank Bottom");
+        }
+        private void add()
+        {
+            for(int i = 1; i < 10; i++)
+            {
+                cbAPIComponentType.Properties.Items.Add("COURSE-" + i);
+            }
+            cbAPIComponentType.Properties.Items.Add("TANKBOTTOM");
+        }
         //public COMPONENT_MASTER getData()
         //{
         //    //cac so ID chua gan

@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions1 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions2 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.cbAmineSolutionComposition = new DevExpress.XtraEditors.ImageComboBoxEdit();
-            this.cbExposureAmine = new DevExpress.XtraEditors.ImageComboBoxEdit();
             this.chkProcessContainsHydrogen = new System.Windows.Forms.CheckBox();
             this.chkExposedSulphurBearing = new System.Windows.Forms.CheckBox();
             this.chkPresenceHydrofluoricAcid = new System.Windows.Forms.CheckBox();
@@ -68,23 +68,25 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.txtPercentageFluidGoingOffsite = new System.Windows.Forms.TextBox();
+            this.txtPercentageLeavingDike = new System.Windows.Forms.TextBox();
+            this.txtPercentageLeavingRemainsOnSite = new System.Windows.Forms.TextBox();
+            this.label24 = new System.Windows.Forms.Label();
             this.txtFluidHeight = new System.Windows.Forms.TextBox();
-            this.cbPrimaryFluid = new DevExpress.XtraEditors.ImageComboBoxEdit();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.txtPercentageLeavingRemainsOnSite = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.txtPercentageLeavingDike = new System.Windows.Forms.TextBox();
-            this.label24 = new System.Windows.Forms.Label();
-            this.txtPercentageFluidGoingOffsite = new System.Windows.Forms.TextBox();
+            this.cbExposureAmine = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.cbAmineSolutionComposition = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.buttonEdit1 = new DevExpress.XtraEditors.ButtonEdit();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.cbAmineSolutionComposition.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbExposureAmine.Properties)).BeginInit();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.cbPrimaryFluid.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbExposureAmine.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbAmineSolutionComposition.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit1.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -145,24 +147,6 @@
             this.groupBox3.TabIndex = 1;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Environment Condition";
-            // 
-            // cbAmineSolutionComposition
-            // 
-            this.cbAmineSolutionComposition.Location = new System.Drawing.Point(251, 159);
-            this.cbAmineSolutionComposition.Name = "cbAmineSolutionComposition";
-            this.cbAmineSolutionComposition.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.cbAmineSolutionComposition.Size = new System.Drawing.Size(406, 20);
-            this.cbAmineSolutionComposition.TabIndex = 2;
-            // 
-            // cbExposureAmine
-            // 
-            this.cbExposureAmine.Location = new System.Drawing.Point(251, 133);
-            this.cbExposureAmine.Name = "cbExposureAmine";
-            this.cbExposureAmine.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.cbExposureAmine.Size = new System.Drawing.Size(406, 20);
-            this.cbExposureAmine.TabIndex = 2;
             // 
             // chkProcessContainsHydrogen
             // 
@@ -500,13 +484,13 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.buttonEdit1);
             this.groupBox2.Controls.Add(this.txtPercentageFluidGoingOffsite);
             this.groupBox2.Controls.Add(this.txtPercentageLeavingDike);
             this.groupBox2.Controls.Add(this.txtPercentageLeavingRemainsOnSite);
             this.groupBox2.Controls.Add(this.label24);
             this.groupBox2.Controls.Add(this.txtFluidHeight);
             this.groupBox2.Controls.Add(this.label23);
-            this.groupBox2.Controls.Add(this.cbPrimaryFluid);
             this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.label2);
@@ -518,6 +502,37 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Fluid";
             // 
+            // txtPercentageFluidGoingOffsite
+            // 
+            this.txtPercentageFluidGoingOffsite.Location = new System.Drawing.Point(603, 82);
+            this.txtPercentageFluidGoingOffsite.Name = "txtPercentageFluidGoingOffsite";
+            this.txtPercentageFluidGoingOffsite.Size = new System.Drawing.Size(100, 20);
+            this.txtPercentageFluidGoingOffsite.TabIndex = 3;
+            // 
+            // txtPercentageLeavingDike
+            // 
+            this.txtPercentageLeavingDike.Location = new System.Drawing.Point(603, 49);
+            this.txtPercentageLeavingDike.Name = "txtPercentageLeavingDike";
+            this.txtPercentageLeavingDike.Size = new System.Drawing.Size(100, 20);
+            this.txtPercentageLeavingDike.TabIndex = 3;
+            // 
+            // txtPercentageLeavingRemainsOnSite
+            // 
+            this.txtPercentageLeavingRemainsOnSite.Location = new System.Drawing.Point(232, 82);
+            this.txtPercentageLeavingRemainsOnSite.Name = "txtPercentageLeavingRemainsOnSite";
+            this.txtPercentageLeavingRemainsOnSite.Size = new System.Drawing.Size(100, 20);
+            this.txtPercentageLeavingRemainsOnSite.TabIndex = 3;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(408, 82);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(186, 15);
+            this.label24.TabIndex = 0;
+            this.label24.Text = "Percentage of Fluid Going Offsite\r\n";
+            // 
             // txtFluidHeight
             // 
             this.txtFluidHeight.Location = new System.Drawing.Point(232, 45);
@@ -525,14 +540,35 @@
             this.txtFluidHeight.Size = new System.Drawing.Size(100, 20);
             this.txtFluidHeight.TabIndex = 3;
             // 
-            // cbPrimaryFluid
+            // label23
             // 
-            this.cbPrimaryFluid.Location = new System.Drawing.Point(232, 14);
-            this.cbPrimaryFluid.Name = "cbPrimaryFluid";
-            this.cbPrimaryFluid.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.cbPrimaryFluid.Size = new System.Drawing.Size(471, 20);
-            this.cbPrimaryFluid.TabIndex = 2;
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(408, 44);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(179, 30);
+            this.label23.TabIndex = 0;
+            this.label23.Text = "Percentage of Fluid Leaving the\r\nDike";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(37, 77);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(179, 30);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "Percentage of Fluid Leaving the\r\n Dike but Remains on Site";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(338, 50);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(18, 15);
+            this.label9.TabIndex = 0;
+            this.label9.Text = "m";
             // 
             // label2
             // 
@@ -554,66 +590,36 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Fluid";
             // 
-            // label8
+            // cbExposureAmine
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(37, 77);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(179, 30);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "Percentage of Fluid Leaving the\r\n Dike but Remains on Site";
+            this.cbExposureAmine.Location = new System.Drawing.Point(250, 135);
+            this.cbExposureAmine.Name = "cbExposureAmine";
+            this.cbExposureAmine.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cbExposureAmine.Size = new System.Drawing.Size(407, 20);
+            this.cbExposureAmine.TabIndex = 3;
             // 
-            // txtPercentageLeavingRemainsOnSite
+            // cbAmineSolutionComposition
             // 
-            this.txtPercentageLeavingRemainsOnSite.Location = new System.Drawing.Point(232, 82);
-            this.txtPercentageLeavingRemainsOnSite.Name = "txtPercentageLeavingRemainsOnSite";
-            this.txtPercentageLeavingRemainsOnSite.Size = new System.Drawing.Size(100, 20);
-            this.txtPercentageLeavingRemainsOnSite.TabIndex = 3;
+            this.cbAmineSolutionComposition.Location = new System.Drawing.Point(250, 161);
+            this.cbAmineSolutionComposition.Name = "cbAmineSolutionComposition";
+            this.cbAmineSolutionComposition.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cbAmineSolutionComposition.Size = new System.Drawing.Size(407, 20);
+            this.cbAmineSolutionComposition.TabIndex = 4;
             // 
-            // label9
+            // buttonEdit1
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(338, 50);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(18, 15);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "m";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(408, 44);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(179, 30);
-            this.label23.TabIndex = 0;
-            this.label23.Text = "Percentage of Fluid Leaving the\r\nDike";
-            // 
-            // txtPercentageLeavingDike
-            // 
-            this.txtPercentageLeavingDike.Location = new System.Drawing.Point(603, 49);
-            this.txtPercentageLeavingDike.Name = "txtPercentageLeavingDike";
-            this.txtPercentageLeavingDike.Size = new System.Drawing.Size(100, 20);
-            this.txtPercentageLeavingDike.TabIndex = 3;
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(408, 82);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(186, 15);
-            this.label24.TabIndex = 0;
-            this.label24.Text = "Percentage of Fluid Going Offsite\r\n";
-            // 
-            // txtPercentageFluidGoingOffsite
-            // 
-            this.txtPercentageFluidGoingOffsite.Location = new System.Drawing.Point(603, 82);
-            this.txtPercentageFluidGoingOffsite.Name = "txtPercentageFluidGoingOffsite";
-            this.txtPercentageFluidGoingOffsite.Size = new System.Drawing.Size(100, 20);
-            this.txtPercentageFluidGoingOffsite.TabIndex = 3;
+            this.buttonEdit1.Location = new System.Drawing.Point(251, 19);
+            this.buttonEdit1.Name = "buttonEdit1";
+            editorButtonImageOptions1.Image = global::RBI.Properties.Resources.InforIcon;
+            editorButtonImageOptions2.Image = global::RBI.Properties.Resources.backspace_icon_16x16;
+            this.buttonEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(),
+            new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions1, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null),
+            new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions2, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null)});
+            this.buttonEdit1.Size = new System.Drawing.Size(406, 22);
+            this.buttonEdit1.TabIndex = 4;
             // 
             // UCStreamTankBottom
             // 
@@ -625,11 +631,11 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.cbAmineSolutionComposition.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbExposureAmine.Properties)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.cbPrimaryFluid.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbExposureAmine.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbAmineSolutionComposition.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit1.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -675,9 +681,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtNaOHConcentration;
         private System.Windows.Forms.Label label5;
-        private DevExpress.XtraEditors.ImageComboBoxEdit cbAmineSolutionComposition;
-        private DevExpress.XtraEditors.ImageComboBoxEdit cbExposureAmine;
-        private DevExpress.XtraEditors.ImageComboBoxEdit cbPrimaryFluid;
         private System.Windows.Forms.TextBox txtFluidHeight;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtPercentageFluidGoingOffsite;
@@ -687,5 +690,8 @@
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
+        private DevExpress.XtraEditors.ComboBoxEdit cbAmineSolutionComposition;
+        private DevExpress.XtraEditors.ComboBoxEdit cbExposureAmine;
+        private DevExpress.XtraEditors.ButtonEdit buttonEdit1;
     }
 }
