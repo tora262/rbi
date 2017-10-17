@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
-using RBI.PRE.subForm.TabImportExcel;
+using RBI.DAL.MSSQL;
 namespace RBI
 {
     public partial class test : Form
@@ -16,8 +16,13 @@ namespace RBI
         public test()
         {
             InitializeComponent();
-            bool a = true;
-            MessageBox.Show(Convert.ToInt32(a).ToString(), "jddk");
+           
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MSSQL_RBI_CAL_ConnUtils ms = new MSSQL_RBI_CAL_ConnUtils();
+            MessageBox.Show( ms.GET_TBL_511(0.06f, 0, "E").ToString());
         }
     }
 }

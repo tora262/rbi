@@ -34,13 +34,11 @@
             this.cbPreviousFailures = new DevExpress.XtraEditors.ImageComboBoxEdit();
             this.cbJointTypeBranch = new DevExpress.XtraEditors.ImageComboBoxEdit();
             this.cbCyclicLoading = new DevExpress.XtraEditors.ImageComboBoxEdit();
-            this.cbEffectiveCatalog = new DevExpress.XtraEditors.ImageComboBoxEdit();
             this.cbMaxBrillnessHardness = new DevExpress.XtraEditors.ImageComboBoxEdit();
             this.cbPipeCondition = new DevExpress.XtraEditors.ImageComboBoxEdit();
             this.cbNumberFittingPipe = new DevExpress.XtraEditors.ImageComboBoxEdit();
             this.cbBranchDiameter = new DevExpress.XtraEditors.ImageComboBoxEdit();
             this.cbComplexityProtrusion = new DevExpress.XtraEditors.ImageComboBoxEdit();
-            this.label11 = new System.Windows.Forms.Label();
             this.cbAmountShakingPipe = new DevExpress.XtraEditors.ImageComboBoxEdit();
             this.cbCorrectiveAction = new DevExpress.XtraEditors.ImageComboBoxEdit();
             this.cbAccumalatedTimeShakingPipe = new DevExpress.XtraEditors.ImageComboBoxEdit();
@@ -62,7 +60,6 @@
             this.label21 = new System.Windows.Forms.Label();
             this.txtMinRequiredThickness = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
-            this.txtNumberInsp = new System.Windows.Forms.TextBox();
             this.txtDeltaFATT = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.txtNominalThickness = new System.Windows.Forms.TextBox();
@@ -80,7 +77,6 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.lb7 = new System.Windows.Forms.Label();
@@ -97,12 +93,10 @@
             this.imgColFitting = new DevExpress.Utils.ImageCollection(this.components);
             this.imgColBranchDiameter = new DevExpress.Utils.ImageCollection(this.components);
             this.imgColComplexity = new DevExpress.Utils.ImageCollection(this.components);
-            this.imgColEffect = new DevExpress.Utils.ImageCollection(this.components);
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.cbPreviousFailures.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbJointTypeBranch.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbCyclicLoading.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbEffectiveCatalog.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbMaxBrillnessHardness.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbPipeCondition.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbNumberFittingPipe.Properties)).BeginInit();
@@ -122,7 +116,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.imgColFitting)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgColBranchDiameter)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgColComplexity)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgColEffect)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -130,13 +123,11 @@
             this.groupBox1.Controls.Add(this.cbPreviousFailures);
             this.groupBox1.Controls.Add(this.cbJointTypeBranch);
             this.groupBox1.Controls.Add(this.cbCyclicLoading);
-            this.groupBox1.Controls.Add(this.cbEffectiveCatalog);
             this.groupBox1.Controls.Add(this.cbMaxBrillnessHardness);
             this.groupBox1.Controls.Add(this.cbPipeCondition);
             this.groupBox1.Controls.Add(this.cbNumberFittingPipe);
             this.groupBox1.Controls.Add(this.cbBranchDiameter);
             this.groupBox1.Controls.Add(this.cbComplexityProtrusion);
-            this.groupBox1.Controls.Add(this.label11);
             this.groupBox1.Controls.Add(this.cbAmountShakingPipe);
             this.groupBox1.Controls.Add(this.cbCorrectiveAction);
             this.groupBox1.Controls.Add(this.cbAccumalatedTimeShakingPipe);
@@ -158,7 +149,6 @@
             this.groupBox1.Controls.Add(this.label21);
             this.groupBox1.Controls.Add(this.txtMinRequiredThickness);
             this.groupBox1.Controls.Add(this.label20);
-            this.groupBox1.Controls.Add(this.txtNumberInsp);
             this.groupBox1.Controls.Add(this.txtDeltaFATT);
             this.groupBox1.Controls.Add(this.label19);
             this.groupBox1.Controls.Add(this.txtNominalThickness);
@@ -176,7 +166,6 @@
             this.groupBox1.Controls.Add(this.label14);
             this.groupBox1.Controls.Add(this.label13);
             this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.label29);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label12);
             this.groupBox1.Controls.Add(this.lb7);
@@ -202,7 +191,6 @@
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("None", ((short)(0)), 0),
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("One", ((short)(1)), 1),
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Greater than one", ((short)(2)), 2)});
-            this.cbPreviousFailures.Properties.SmallImages = this.imgColPreFail;
             this.cbPreviousFailures.Size = new System.Drawing.Size(368, 20);
             this.cbPreviousFailures.TabIndex = 15;
             // 
@@ -219,7 +207,6 @@
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Threaded, socket welded, or saddle on", ((short)(2)), 2),
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Piping tee weldolets", ((short)(3)), 3),
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Sweepolets", ((short)(4)), 4)});
-            this.cbJointTypeBranch.Properties.SmallImages = this.imgColJoinType;
             this.cbJointTypeBranch.Size = new System.Drawing.Size(368, 20);
             this.cbJointTypeBranch.TabIndex = 9;
             // 
@@ -235,24 +222,8 @@
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("PRV chatter", ((short)(1)), 1),
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Valve with high pressure drop", ((short)(2)), 2),
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("None", ((short)(3)), 3)});
-            this.cbCyclicLoading.Properties.SmallImages = this.imgColCyclicLoad;
             this.cbCyclicLoading.Size = new System.Drawing.Size(368, 20);
             this.cbCyclicLoading.TabIndex = 16;
-            // 
-            // cbEffectiveCatalog
-            // 
-            this.cbEffectiveCatalog.Location = new System.Drawing.Point(246, 207);
-            this.cbEffectiveCatalog.Name = "cbEffectiveCatalog";
-            this.cbEffectiveCatalog.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.cbEffectiveCatalog.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.ImageComboBoxItem[] {
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("", ((short)(-1)), -1),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Below 200", ((short)(0)), 1),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Between 200 and 237", ((short)(1)), 0),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Greater than 237", ((short)(2)), 2)});
-            this.cbEffectiveCatalog.Properties.SmallImages = this.imgColEffect;
-            this.cbEffectiveCatalog.Size = new System.Drawing.Size(368, 20);
-            this.cbEffectiveCatalog.TabIndex = 10;
             // 
             // cbMaxBrillnessHardness
             // 
@@ -265,7 +236,6 @@
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Below 200", ((short)(0)), 1),
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Between 200 and 237", ((short)(1)), 0),
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Greater than 237", ((short)(2)), 2)});
-            this.cbMaxBrillnessHardness.Properties.SmallImages = this.imgColMaxBrinHard;
             this.cbMaxBrillnessHardness.Size = new System.Drawing.Size(368, 20);
             this.cbMaxBrillnessHardness.TabIndex = 10;
             // 
@@ -280,7 +250,6 @@
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Missing or damage supports, improper support", ((short)(0)), 0),
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Broken gussets or gussets welded directly to pipe", ((short)(1)), 1),
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Good condition", ((short)(2)), 2)});
-            this.cbPipeCondition.Properties.SmallImages = this.imgColPipeCondi;
             this.cbPipeCondition.Size = new System.Drawing.Size(368, 20);
             this.cbPipeCondition.TabIndex = 11;
             // 
@@ -295,7 +264,6 @@
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Up to 5", ((short)(0)), 0),
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("6 to 10", ((short)(1)), 1),
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("More than 10", ((short)(2)), 2)});
-            this.cbNumberFittingPipe.Properties.SmallImages = this.imgColFitting;
             this.cbNumberFittingPipe.Size = new System.Drawing.Size(368, 20);
             this.cbNumberFittingPipe.TabIndex = 12;
             // 
@@ -307,9 +275,8 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.cbBranchDiameter.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.ImageComboBoxItem[] {
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("", ((short)(-1)), -1),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Any branch less than or equal to 2 inch Norminal OD", ((short)(0)), 0),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("All branches greater than 2 inch Norminal OD", ((short)(1)), 1)});
-            this.cbBranchDiameter.Properties.SmallImages = this.imgColBranchDiameter;
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Any branch less than or equal to 2\" Norminal OD", ((short)(0)), 0),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("All branches greater than 2\" Norminal OD", ((short)(1)), 1)});
             this.cbBranchDiameter.Size = new System.Drawing.Size(368, 20);
             this.cbBranchDiameter.TabIndex = 13;
             // 
@@ -324,19 +291,8 @@
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Above average", ((short)(0)), 0),
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Average", ((short)(1)), 1),
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Below Average", ((short)(2)), 2)});
-            this.cbComplexityProtrusion.Properties.SmallImages = this.imgColComplexity;
             this.cbComplexityProtrusion.Size = new System.Drawing.Size(368, 20);
             this.cbComplexityProtrusion.TabIndex = 14;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(17, 208);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(148, 15);
-            this.label11.TabIndex = 6;
-            this.label11.Text = "Effective Catalog Thinning";
             // 
             // cbAmountShakingPipe
             // 
@@ -345,11 +301,10 @@
             this.cbAmountShakingPipe.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.cbAmountShakingPipe.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.ImageComboBoxItem[] {
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("", ((short)(-1)), -1),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Minor", ((short)(0)), 0),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Moderate", ((short)(1)), 1),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Severe", ((short)(2)), 2)});
-            this.cbAmountShakingPipe.Properties.SmallImages = this.imgColAmount;
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("", null, -1),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Minor", "0", 0),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Moderate", "1", 1),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Severe", "2", 2)});
             this.cbAmountShakingPipe.Size = new System.Drawing.Size(368, 20);
             this.cbAmountShakingPipe.TabIndex = 5;
             // 
@@ -360,11 +315,10 @@
             this.cbCorrectiveAction.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.cbCorrectiveAction.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.ImageComboBoxItem[] {
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("", ((short)(-1)), -1),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("None", ((short)(0)), 0),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Experience", ((short)(1)), 1),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Engineering Analysis", ((short)(2)), 2)});
-            this.cbCorrectiveAction.Properties.SmallImages = this.imColCorrAct;
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("", null, -1),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Engineering Analysis", "0", 0),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Experience", "1", 1),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("None", "2", 2)});
             this.cbCorrectiveAction.Size = new System.Drawing.Size(368, 20);
             this.cbCorrectiveAction.TabIndex = 5;
             // 
@@ -375,11 +329,10 @@
             this.cbAccumalatedTimeShakingPipe.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.cbAccumalatedTimeShakingPipe.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.ImageComboBoxItem[] {
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("", ((short)(-1)), -1),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Less than 2 weeks", ((short)(0)), 0),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("2 to 13 weeks", ((short)(1)), 1),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("13 to 52 weeks", ((short)(2)), 2)});
-            this.cbAccumalatedTimeShakingPipe.Properties.SmallImages = this.imgColAccu;
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("", "-1", -1),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("13 to 52 weeks", "0", 0),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("2 to 13 weeks", "1", 1),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Less than 2 weeks", "2", 2)});
             this.cbAccumalatedTimeShakingPipe.Size = new System.Drawing.Size(368, 20);
             this.cbAccumalatedTimeShakingPipe.TabIndex = 5;
             // 
@@ -501,9 +454,10 @@
             // 
             // txtCurrentCorrosionRate
             // 
+            this.txtCurrentCorrosionRate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCurrentCorrosionRate.Location = new System.Drawing.Point(248, 73);
             this.txtCurrentCorrosionRate.Name = "txtCurrentCorrosionRate";
-            this.txtCurrentCorrosionRate.Size = new System.Drawing.Size(125, 20);
+            this.txtCurrentCorrosionRate.Size = new System.Drawing.Size(125, 21);
             this.txtCurrentCorrosionRate.TabIndex = 1;
             // 
             // label22
@@ -518,9 +472,10 @@
             // 
             // txtCurrentThickness
             // 
+            this.txtCurrentThickness.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCurrentThickness.Location = new System.Drawing.Point(248, 47);
             this.txtCurrentThickness.Name = "txtCurrentThickness";
-            this.txtCurrentThickness.Size = new System.Drawing.Size(125, 20);
+            this.txtCurrentThickness.Size = new System.Drawing.Size(125, 21);
             this.txtCurrentThickness.TabIndex = 1;
             // 
             // label21
@@ -535,9 +490,10 @@
             // 
             // txtMinRequiredThickness
             // 
+            this.txtMinRequiredThickness.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMinRequiredThickness.Location = new System.Drawing.Point(599, 47);
             this.txtMinRequiredThickness.Name = "txtMinRequiredThickness";
-            this.txtMinRequiredThickness.Size = new System.Drawing.Size(125, 20);
+            this.txtMinRequiredThickness.Size = new System.Drawing.Size(125, 21);
             this.txtMinRequiredThickness.TabIndex = 1;
             // 
             // label20
@@ -550,18 +506,12 @@
             this.label20.TabIndex = 0;
             this.label20.Text = "Branch Diameter";
             // 
-            // txtNumberInsp
-            // 
-            this.txtNumberInsp.Location = new System.Drawing.Point(599, 99);
-            this.txtNumberInsp.Name = "txtNumberInsp";
-            this.txtNumberInsp.Size = new System.Drawing.Size(125, 20);
-            this.txtNumberInsp.TabIndex = 1;
-            // 
             // txtDeltaFATT
             // 
+            this.txtDeltaFATT.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDeltaFATT.Location = new System.Drawing.Point(599, 73);
             this.txtDeltaFATT.Name = "txtDeltaFATT";
-            this.txtDeltaFATT.Size = new System.Drawing.Size(125, 20);
+            this.txtDeltaFATT.Size = new System.Drawing.Size(125, 21);
             this.txtDeltaFATT.TabIndex = 1;
             // 
             // label19
@@ -577,9 +527,10 @@
             // 
             // txtNominalThickness
             // 
+            this.txtNominalThickness.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNominalThickness.Location = new System.Drawing.Point(599, 23);
             this.txtNominalThickness.Name = "txtNominalThickness";
-            this.txtNominalThickness.Size = new System.Drawing.Size(125, 20);
+            this.txtNominalThickness.Size = new System.Drawing.Size(125, 21);
             this.txtNominalThickness.TabIndex = 1;
             // 
             // label18
@@ -594,9 +545,10 @@
             // 
             // txtNominalDiameter
             // 
+            this.txtNominalDiameter.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNominalDiameter.Location = new System.Drawing.Point(248, 22);
             this.txtNominalDiameter.Name = "txtNominalDiameter";
-            this.txtNominalDiameter.Size = new System.Drawing.Size(125, 20);
+            this.txtNominalDiameter.Size = new System.Drawing.Size(125, 21);
             this.txtNominalDiameter.TabIndex = 1;
             // 
             // label17
@@ -718,16 +670,6 @@
             this.label8.Size = new System.Drawing.Size(29, 15);
             this.label8.TabIndex = 0;
             this.label8.Text = "mm";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(450, 103);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(111, 15);
-            this.label29.TabIndex = 0;
-            this.label29.Text = "Number Inspection";
             // 
             // label7
             // 
@@ -858,13 +800,6 @@
             this.imgColComplexity.Images.SetKeyName(1, "yellow.png");
             this.imgColComplexity.Images.SetKeyName(2, "green.png");
             // 
-            // imgColEffect
-            // 
-            this.imgColEffect.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("imgColEffect.ImageStream")));
-            this.imgColEffect.Images.SetKeyName(0, "yellow.png");
-            this.imgColEffect.Images.SetKeyName(1, "green.png");
-            this.imgColEffect.Images.SetKeyName(2, "red.png");
-            // 
             // UCComponentProperties
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -877,7 +812,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.cbPreviousFailures.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbJointTypeBranch.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbCyclicLoading.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbEffectiveCatalog.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbMaxBrillnessHardness.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbPipeCondition.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbNumberFittingPipe.Properties)).EndInit();
@@ -897,7 +831,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.imgColFitting)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgColBranchDiameter)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgColComplexity)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgColEffect)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -946,9 +879,6 @@
         private DevExpress.XtraEditors.ImageComboBoxEdit cbAmountShakingPipe;
         private DevExpress.XtraEditors.ImageComboBoxEdit cbCorrectiveAction;
         private DevExpress.XtraEditors.ImageComboBoxEdit cbAccumalatedTimeShakingPipe;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox txtNumberInsp;
-        private System.Windows.Forms.Label label29;
         private System.Windows.Forms.TextBox txtDeltaFATT;
         private System.Windows.Forms.Label label12;
         private DevExpress.XtraEditors.ImageComboBoxEdit cbPreviousFailures;
@@ -959,7 +889,6 @@
         private DevExpress.XtraEditors.ImageComboBoxEdit cbNumberFittingPipe;
         private DevExpress.XtraEditors.ImageComboBoxEdit cbBranchDiameter;
         private DevExpress.XtraEditors.ImageComboBoxEdit cbComplexityProtrusion;
-        private DevExpress.XtraEditors.ImageComboBoxEdit cbEffectiveCatalog;
         private DevExpress.Utils.ImageCollection imColCorrAct;
         private DevExpress.Utils.ImageCollection imgColMaxBrinHard;
         private DevExpress.Utils.ImageCollection imgColCyclicLoad;
@@ -971,6 +900,5 @@
         private DevExpress.Utils.ImageCollection imgColFitting;
         private DevExpress.Utils.ImageCollection imgColBranchDiameter;
         private DevExpress.Utils.ImageCollection imgColComplexity;
-        private DevExpress.Utils.ImageCollection imgColEffect;
     }
 }

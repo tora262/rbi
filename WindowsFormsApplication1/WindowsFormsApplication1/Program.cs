@@ -21,7 +21,7 @@ namespace RBI
             //Application.Run(new Form1());
             Application.Run(new RibbonForm1());
             
-            //Application.Run(new LoadExcel());
+            //Application.Run(new test());
             //Application.Run(new ImportExcel());
             //Application.Run(new NewFluid());
             //Application.Run(new newComponent());

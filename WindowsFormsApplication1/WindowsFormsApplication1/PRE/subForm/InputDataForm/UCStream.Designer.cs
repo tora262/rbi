@@ -28,14 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions1 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions2 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions3 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions4 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.cbAmineSolutionComposition = new DevExpress.XtraEditors.ImageComboBoxEdit();
-            this.cbExposureAmine = new DevExpress.XtraEditors.ImageComboBoxEdit();
             this.chkToxicConstituents = new System.Windows.Forms.CheckBox();
             this.chkProcessContainsHydrogen = new System.Windows.Forms.CheckBox();
             this.chkExposedSulphurBearing = new System.Windows.Forms.CheckBox();
@@ -74,17 +68,19 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btnEditMostVolatileFluid = new DevExpress.XtraEditors.ButtonEdit();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnEditPrimaryFuid = new DevExpress.XtraEditors.ButtonEdit();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnEditMostVolatileFluid = new DevExpress.XtraEditors.ButtonEdit();
+            this.btnEditPrimaryFuid = new DevExpress.XtraEditors.ButtonEdit();
+            this.cbAmineSolutionComposition = new DevExpress.XtraEditors.ImageComboBoxEdit();
+            this.cbExposureAmine = new DevExpress.XtraEditors.ImageComboBoxEdit();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.cbAmineSolutionComposition.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbExposureAmine.Properties)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnEditMostVolatileFluid.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnEditPrimaryFuid.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbAmineSolutionComposition.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbExposureAmine.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -147,24 +143,6 @@
             this.groupBox3.TabIndex = 1;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Environment Condition";
-            // 
-            // cbAmineSolutionComposition
-            // 
-            this.cbAmineSolutionComposition.Location = new System.Drawing.Point(251, 161);
-            this.cbAmineSolutionComposition.Name = "cbAmineSolutionComposition";
-            this.cbAmineSolutionComposition.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.cbAmineSolutionComposition.Size = new System.Drawing.Size(436, 20);
-            this.cbAmineSolutionComposition.TabIndex = 5;
-            // 
-            // cbExposureAmine
-            // 
-            this.cbExposureAmine.Location = new System.Drawing.Point(251, 135);
-            this.cbExposureAmine.Name = "cbExposureAmine";
-            this.cbExposureAmine.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.cbExposureAmine.Size = new System.Drawing.Size(436, 20);
-            this.cbExposureAmine.TabIndex = 6;
             // 
             // chkToxicConstituents
             // 
@@ -533,19 +511,6 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Fluid";
             // 
-            // btnEditMostVolatileFluid
-            // 
-            this.btnEditMostVolatileFluid.Location = new System.Drawing.Point(311, 46);
-            this.btnEditMostVolatileFluid.Name = "btnEditMostVolatileFluid";
-            editorButtonImageOptions1.Image = global::RBI.Properties.Resources.InforIcon;
-            editorButtonImageOptions2.Image = global::RBI.Properties.Resources.backspace_icon_16x16;
-            this.btnEditMostVolatileFluid.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(),
-            new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions1, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null),
-            new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions2, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null)});
-            this.btnEditMostVolatileFluid.Size = new System.Drawing.Size(363, 22);
-            this.btnEditMostVolatileFluid.TabIndex = 4;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -555,19 +520,6 @@
             this.label2.Size = new System.Drawing.Size(107, 15);
             this.label2.TabIndex = 0;
             this.label2.Text = "Most Volatile Fluid";
-            // 
-            // btnEditPrimaryFuid
-            // 
-            this.btnEditPrimaryFuid.Location = new System.Drawing.Point(311, 11);
-            this.btnEditPrimaryFuid.Name = "btnEditPrimaryFuid";
-            editorButtonImageOptions3.Image = global::RBI.Properties.Resources.InforIcon;
-            editorButtonImageOptions4.Image = global::RBI.Properties.Resources.backspace_icon_16x16;
-            this.btnEditPrimaryFuid.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(),
-            new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions3, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null),
-            new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions4, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null)});
-            this.btnEditPrimaryFuid.Size = new System.Drawing.Size(363, 22);
-            this.btnEditPrimaryFuid.TabIndex = 3;
             // 
             // label1
             // 
@@ -579,6 +531,46 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Primary Fluid";
             // 
+            // btnEditMostVolatileFluid
+            // 
+            this.btnEditMostVolatileFluid.Location = new System.Drawing.Point(311, 46);
+            this.btnEditMostVolatileFluid.Name = "btnEditMostVolatileFluid";
+            this.btnEditMostVolatileFluid.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(),
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph),
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph)});
+            this.btnEditMostVolatileFluid.Size = new System.Drawing.Size(363, 20);
+            this.btnEditMostVolatileFluid.TabIndex = 4;
+            // 
+            // btnEditPrimaryFuid
+            // 
+            this.btnEditPrimaryFuid.Location = new System.Drawing.Point(311, 11);
+            this.btnEditPrimaryFuid.Name = "btnEditPrimaryFuid";
+            this.btnEditPrimaryFuid.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(),
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph),
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph)});
+            this.btnEditPrimaryFuid.Size = new System.Drawing.Size(363, 20);
+            this.btnEditPrimaryFuid.TabIndex = 3;
+            // 
+            // cbAmineSolutionComposition
+            // 
+            this.cbAmineSolutionComposition.Location = new System.Drawing.Point(251, 161);
+            this.cbAmineSolutionComposition.Name = "cbAmineSolutionComposition";
+            this.cbAmineSolutionComposition.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cbAmineSolutionComposition.Size = new System.Drawing.Size(436, 20);
+            this.cbAmineSolutionComposition.TabIndex = 5;
+            // 
+            // cbExposureAmine
+            // 
+            this.cbExposureAmine.Location = new System.Drawing.Point(251, 135);
+            this.cbExposureAmine.Name = "cbExposureAmine";
+            this.cbExposureAmine.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cbExposureAmine.Size = new System.Drawing.Size(436, 20);
+            this.cbExposureAmine.TabIndex = 6;
+            // 
             // UCStream
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -589,12 +581,12 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.cbAmineSolutionComposition.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbExposureAmine.Properties)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnEditMostVolatileFluid.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnEditPrimaryFuid.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbAmineSolutionComposition.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbExposureAmine.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }

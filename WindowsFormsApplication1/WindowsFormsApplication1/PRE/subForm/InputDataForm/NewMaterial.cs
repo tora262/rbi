@@ -70,5 +70,6 @@ namespace RBI.PRE.subForm.InputDataForm
         {
             cbHTHA.Enabled = chkHTHA.Checked ? true : false;
         }
+
     }
 }

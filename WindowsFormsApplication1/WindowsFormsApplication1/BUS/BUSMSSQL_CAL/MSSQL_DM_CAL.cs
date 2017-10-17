@@ -1,10 +1,9 @@
-﻿using RBI.Object.ObjectMSSQL_CAL;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using RBI.DAL.MSSQL;
 namespace RBI.BUS.BUSMSSQL_CAL
 {
     class MSSQL_DM_CAL
@@ -41,8 +40,9 @@ namespace RBI.BUS.BUSMSSQL_CAL
         public int YEAR_IN_SERVICE { set; get; }
 
         ///<summary>
-        /// INPUT SCC
+        /// INPUT SCC CAUSTIC
         /// 1. material is cacbon or allow stell
+        /// 2. Enviroment contain caustic
         ///</summary>
         public String CAUSTIC_INSP_EFF { set; get; }// effect caustic
         public int CAUSTIC_INSP_NUM { set; get; }
@@ -184,7 +184,7 @@ namespace RBI.BUS.BUSMSSQL_CAL
         /// 4. OP TEMP 50-150*C
         ///</summary>
         public Boolean EXTERNAL_INSULATION { set; get; }
-        public DateTime COMPONET_INSTALL_DATE { set; get; }
+        public DateTime COMPONENT_INSTALL_DATE { set; get; }
         public Boolean CRACK_PRESENT { set; get; }
         public String EXTERNAL_EVIRONMENT { set; get; }// DRIVER
         public String EXTERN_COAT_QUALITY { set; get; }
@@ -284,7 +284,7 @@ namespace RBI.BUS.BUSMSSQL_CAL
         {
             return Math.Min(Math.Abs((CurrentThick - NomalThick) / CorrosionRate), 0);
         }
-        private float Art(float age)
+        public float Art(float age)
         {
             if (!InternalCladding)
             {
@@ -296,7 +296,7 @@ namespace RBI.BUS.BUSMSSQL_CAL
                 return Math.Max(x, 0);
             }
         }
-        private float API_ART(float a)
+        public float API_ART(float a)
         {
             float art = 0;
             if (APIComponentType != "TANKBOTTOM")
@@ -387,7 +387,7 @@ namespace RBI.BUS.BUSMSSQL_CAL
         }
         private int DFB_THIN(float age)
         {
-            if (EFF_THIN == null)
+            if (EFF_THIN == null || EFF_THIN == "")
                 EFF_THIN = "E";
             if (APIComponentType == "TANKBOTOM")
             {
@@ -405,7 +405,7 @@ namespace RBI.BUS.BUSMSSQL_CAL
             }
 
         }
-        private float DF_THIN(float age)
+        public float DF_THIN(float age)
         {
             float Fip = 1, Fdl = 1, Fwd = 1, Fam = 1, Fsm = 1, Fom = 1;
             if (HighlyEffectDeadleg)
@@ -417,26 +417,27 @@ namespace RBI.BUS.BUSMSSQL_CAL
                 Fdl = 3;
             else
                 Fdl = 1;
+            if (EquipmentType == "Tank")
+            {
+                if (!ComponentIsWeld)
+                    Fwd = 10;
+                else
+                    Fwd = 1;
 
-            if (!ComponentIsWeld)
-                Fwd = 10;
-            else
-                Fwd = 1;
+                if (!TankMaintain653)
+                    Fam = 5;
+                else
+                    Fam = 1;
 
-            if (!TankMaintain653)
-                Fam = 5;
-            else
-                Fam = 1;
-
-            if (AdjustmentSettle == "Recorded settlement exceeds API 653 criteria")
-                Fsm = 2;
-            else if (AdjustmentSettle == "Recorded settlement meets API 653 criteria")
-                Fsm = 1;
-            else if (AdjustmentSettle == "Settlement never evaluated")
-                Fsm = 1.5f;
-            else
-                Fsm = 1;
-
+                if (AdjustmentSettle == "Recorded settlement exceeds API 653 criteria")
+                    Fsm = 2;
+                else if (AdjustmentSettle == "Recorded settlement meets API 653 criteria")
+                    Fsm = 1;
+                else if (AdjustmentSettle == "Settlement never evaluated")
+                    Fsm = 1.5f;
+                else
+                    Fsm = 1;
+            }
 
             if (OnlineMonitoring == "Amine high velocity corrosion - Electrical resistance probes" || OnlineMonitoring == "Amine high velocity corrosion - Key process variable" || OnlineMonitoring == "Amine low velocity corrosion - Electrical resistance probes" || OnlineMonitoring == "HCI corrosion - Electrical resistance probes" || OnlineMonitoring == "HCI corrosion - Key process variable" || OnlineMonitoring == "HF corrosion - Key process variable" || OnlineMonitoring == "High temperature H2S/H2 corrosion - Electrical resistance probes" || OnlineMonitoring == "High temperature Sulfidic / Naphthenic acid corrosion - Electrical resistance probes"
                 || OnlineMonitoring == "High temperature Sulfidic / Naphthenic acid corrosion - Key process variable" || OnlineMonitoring == "Sour water high velocity corrosion - Key process variable" || OnlineMonitoring == "Sour water low velocity corrosion - Electrical resistance probes" || OnlineMonitoring == "Sulfuric acid (H2S/H2) corrosion high velocity - Electrical resistance probes" || OnlineMonitoring == "Sulfuric acid (H2S/H2) corrosion high velocity - Key process parameters" || OnlineMonitoring == "Sulfuric acid (H2S/H2) corrosion low velocity - Electrical resistance probes")
@@ -474,7 +475,7 @@ namespace RBI.BUS.BUSMSSQL_CAL
                 return DAL_CAL.GET_TBL_64((int)age, LinningType);
             }
         }
-        private float DF_LINNING(float age)
+        public float DF_LINNING(float age)
         {
             float Fdl = 1, Fom = 1;
             if (LINNER_CONDITION == "Poor")
@@ -488,7 +489,6 @@ namespace RBI.BUS.BUSMSSQL_CAL
                 Fom = 0.1f;
             else
                 Fom = 1;
-
             return DFB_LINNING(age) * Fom * Fdl;
         }
 
@@ -549,7 +549,7 @@ namespace RBI.BUS.BUSMSSQL_CAL
             }
             return sev;
         }
-        private float DF_CAUSTIC(float age)
+        public float DF_CAUSTIC(float age)
         {
             if (CARBON_ALLOY)
             {
@@ -605,7 +605,7 @@ namespace RBI.BUS.BUSMSSQL_CAL
                 default: return 1;
             }
         }
-        private float DF_AMINE(float age)
+        public float DF_AMINE(float age)
         {
             if (CARBON_ALLOY)
             {
@@ -1557,13 +1557,13 @@ namespace RBI.BUS.BUSMSSQL_CAL
         ///</summary>
         private float AGE_CLSCC()
         {
-            DateTime AGE_COAT = COMPONET_INSTALL_DATE;
+            DateTime AGE_COAT = COMPONENT_INSTALL_DATE;
             if (EXTERN_COAT_QUALITY == "High coating quality")
-                AGE_COAT = COMPONET_INSTALL_DATE.AddYears(15);
+                AGE_COAT = COMPONENT_INSTALL_DATE.AddYears(15);
             else if (EXTERN_COAT_QUALITY == "Medium coating quality")
-                AGE_COAT = COMPONET_INSTALL_DATE.AddYears(5);
+                AGE_COAT = COMPONENT_INSTALL_DATE.AddYears(5);
             else
-                AGE_COAT = COMPONET_INSTALL_DATE;
+                AGE_COAT = COMPONENT_INSTALL_DATE;
             TimeSpan TICK_SPAN = DateTime.Now.Subtract(AGE_COAT);
             float DATA = Math.Max(0, (float)Math.Round((double)TICK_SPAN.Days / 365, 2));
             return DATA;

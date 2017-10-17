@@ -11,7 +11,8 @@ namespace RBI.DAL.MSSQL
     {
         public static SqlConnection GetDBConnection()
         {
-            String serverName = @"DESKTOP-L1AFIQR";
+            String serverName = @"DESKTOP-MH9PM6E";
+            //String serverName = @"DESKTOP-L1AFIQR";
             String DbName = "rbi";
             return SQL_DBConnectUtils.GetDBConnect(serverName, DbName);
         }       

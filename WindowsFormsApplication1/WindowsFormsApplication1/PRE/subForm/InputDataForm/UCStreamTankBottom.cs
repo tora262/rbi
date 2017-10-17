@@ -18,23 +18,6 @@ namespace RBI.PRE.subForm.InputDataForm
             InitializeComponent();
         }
         RW_STREAM stream = new RW_STREAM();
-        private void addExposureAmine()
-        {
-            cbExposureAmine.Properties.Items.Add("");
-            cbExposureAmine.Properties.Items.Add("None");
-            cbExposureAmine.Properties.Items.Add("Low Learn Amine");
-            cbExposureAmine.Properties.Items.Add("High Rich Amine");
-        }
-        private void addAmineSolutionComposition()
-        {
-            cbAmineSolutionComposition.Properties.Items.Add("");
-            cbAmineSolutionComposition.Properties.Items.Add("Monoethanolamine MEA");
-            cbAmineSolutionComposition.Properties.Items.Add("Disopropanolamine DIPA");
-            cbAmineSolutionComposition.Properties.Items.Add("Diethanolamine DEA");
-            cbAmineSolutionComposition.Properties.Items.Add("Methyldiethanolamine MDEA");
-            cbAmineSolutionComposition.Properties.Items.Add("Sulfinol");
-            cbAmineSolutionComposition.Properties.Items.Add("Diglycolamine DGA");
-        }
         public RW_STREAM getData1()
         {
             

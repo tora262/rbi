@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RBI.Object.ObjectMSSQL
 {
-    class COMPONENT_MASTER
+    public class COMPONENT_MASTER
     {
         public int ComponentID { set; get; }
         public String ComponentNumber { set; get; }

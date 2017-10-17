@@ -44,7 +44,13 @@ namespace RBI.PRE.subForm.InputDataForm
 
         private void btnOK_Click(object sender, EventArgs e)
         {
+            if (txtFacilityName.Text == "")
+            {
+                MessageBox.Show("Facility Name cannot Empty", "Cortek RBI", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
             FacilityName = txtFacilityName.Text;
+            RibbonForm1.facilityName = txtFacilityName.Text;
             this.Close();
         }
 

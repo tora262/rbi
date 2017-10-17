@@ -26,19 +26,20 @@ namespace RBI.PRE.subForm.InputDataForm
             stream.AqueousShutdown = chkAqueousPhaseShutdown.Checked ? 1 : 0;
             stream.ToxicConstituent = chkToxicConstituents.Checked ? 1 : 0;
             stream.Caustic = chkEnvironmentContainsCaustic.Checked ? 1 : 0;
-            stream.Chloride = float.Parse(txtChlorideIon.Text);
-            stream.CO3Concentration = float.Parse(txtCO3ConcentrationWater.Text);
+            stream.Chloride = txtChlorideIon.Text != "" ? float.Parse(txtChlorideIon.Text) : 0;
+            stream.CO3Concentration = txtCO3ConcentrationWater.Text != "" ? float.Parse(txtCO3ConcentrationWater.Text) : 0;
             stream.Cyanide = chkPresenceCyanides.Checked ? 1 : 0;
             stream.ExposedToGasAmine = chkExposedAcidGas.Checked ? 1 : 0;
             stream.ExposedToSulphur = chkExposedSulphurBearing.Checked ? 1 : 0;
             stream.ExposureToAmine = cbExposureAmine.Text;
             stream.H2S = chkEnviromentContainsH2S.Checked ? 1 : 0;
-            stream.H2SInWater = float.Parse(txtH2SContent.Text);
-            stream.Hydrogen = chkPresenceHydrofluoricAcid.Checked ? 1 : 0;
+            stream.H2SInWater = txtH2SContent.Text != "" ? float.Parse(txtH2SContent.Text) : 0;
+            stream.Hydrogen = chkProcessContainsHydrogen.Checked ? 1 : 0;
             stream.MaterialExposedToClInt = chkChlorine.Checked ? 1 : 0;
-            stream.NaOHConcentration = float.Parse(txtNaOHConcentration.Text);
-            stream.ReleaseFluidPercentToxic = float.Parse(txtReleaseFluidPercent.Text);
-            stream.WaterpH = float.Parse(txtpHWater.Text);
+            stream.NaOHConcentration = txtNaOHConcentration.Text != "" ? float.Parse(txtNaOHConcentration.Text) : 0;
+            stream.ReleaseFluidPercentToxic = txtReleaseFluidPercent.Text != "" ? float.Parse(txtReleaseFluidPercent.Text) : 0;
+            stream.WaterpH = txtpHWater.Text != "" ? float.Parse(txtpHWater.Text) : 0;
+            stream.Hydrofluoric = chkPresenceHydrofluoricAcid.Checked ? 1 : 0;
             return stream;
         }
         public RW_STREAM getData2()

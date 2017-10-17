@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RBI.Object.ObjectMSSQL
 {
-    class EQUIPMENT_TYPE
+    public class EQUIPMENT_TYPE
     {
         public int EquipmentTypeID { set; get; }
         public String EquipmentTypeCode { set; get; } //what is it

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using RBI.Object.ObjectMSSQL;
-
+using RBI.DAL.MSSQL;
 namespace RBI.PRE.subForm.InputDataForm
 {
     public partial class NewSite : Form
@@ -26,7 +26,12 @@ namespace RBI.PRE.subForm.InputDataForm
 
         private void btnOK_Click(object sender, EventArgs e)
         {
-            RibbonForm1.k = txtSiteName.Text;
+            if (txtSiteName.Text == "")
+            {
+                MessageBox.Show("Site Name cannot Empty", "Cortek RBI", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            RibbonForm1.siteName = txtSiteName.Text;
             this.Close();
         }
 

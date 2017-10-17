@@ -40,6 +40,7 @@ namespace RBI.PRE.subForm.InputDataForm
             eq.ThermalHistory = cbThermalHistory.Text;
             eq.YearLowestExpTemp = chkEquipmentOperatingManyYear.Checked ? 1 : 0;
             eq.Volume = float.Parse(txtEquipmentVolume.Text);
+
             eq.TypeOfSoil = cbTypeSoild.Text;
             eq.EnvironmentSensitivity = cbEnvironmentalSensitivity.Text;
             eq.DistanceToGroundWater = float.Parse(txtDistanceGroundWater.Text);

@@ -157,10 +157,10 @@
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Amine low velocity corrosion - Corrosion coupons", ((short)(3)), 3),
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Amine low velocity corrosion - Electrical resistance probes", ((short)(4)), 4),
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Amine low velocity corrosion - Key process variable", ((short)(5)), 5),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("HCl corrosion - Corrosion coupons", ((short)(6)), 6),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("HCl corrosion - Electrical resistance probes", ((short)(7)), 7),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("HCl corrosion - Key process parameters", ((short)(8)), 8),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("HCl corrosion - Key process parameters & Electrical resistance probes", ((short)(9)), 9),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("HCI corrosion - Corrosion coupons", ((short)(6)), 6),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("HCI corrosion - Electrical resistance probes", ((short)(7)), 7),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("HCI corrosion - Key process parameters", ((short)(8)), 8),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("HCI corrosion - Key process parameters & Electrical resistance probes", ((short)(9)), 9),
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("HF corrosion - Corrosion coupons", ((short)(10)), 10),
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("HF corrosion - Electrical resistance probes", ((short)(11)), 11),
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("HF corrosion - Key process variable", ((short)(12)), 12),
@@ -189,7 +189,6 @@
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Sulfuric acid (H2S/H2) corrosion low velocity - Corrosion coupons", ((short)(33)), 33),
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Sulfuric acid (H2S/H2) corrosion low velocity - Electrical resistance probes", ((short)(34)), 34),
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Sulfuric acid (H2S/H2) corrosion low velocity - Key process parameters", ((short)(35)), 35)});
-            this.cbOnlineMonitoring.Properties.SmallImages = this.imgColOnlineMonitoring;
             this.cbOnlineMonitoring.Size = new System.Drawing.Size(281, 20);
             this.cbOnlineMonitoring.TabIndex = 6;
             // 
@@ -205,7 +204,6 @@
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Stabilised After Welding", ((short)(1)), 1),
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Stabilised Before Welding", ((short)(2)), 2),
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("None", ((short)(3)), 3)});
-            this.cbThermalHistory.Properties.SmallImages = this.imgColThermalHistory;
             this.cbThermalHistory.Size = new System.Drawing.Size(281, 20);
             this.cbThermalHistory.TabIndex = 7;
             // 
@@ -221,7 +219,6 @@
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Temperate", ((short)(1)), 1),
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Arid/Dry", ((short)(2)), 2),
             new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Severe", ((short)(3)), 3)});
-            this.cbExternalEnvironment.Properties.SmallImages = this.imgColExternalRnvironment;
             this.cbExternalEnvironment.Size = new System.Drawing.Size(281, 20);
             this.cbExternalEnvironment.TabIndex = 8;
             // 
@@ -563,7 +560,7 @@
             this.label10.ForeColor = System.Drawing.Color.Black;
             this.label10.Location = new System.Drawing.Point(716, 128);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(17, 13);
+            this.label10.Size = new System.Drawing.Size(18, 13);
             this.label10.TabIndex = 0;
             this.label10.Text = "⁰C";
             // 

@@ -30,7 +30,7 @@ namespace RBI.PRE.subForm.InputDataForm
             eq.InterfaceSoilWater = chkInterfaceSoilWater.Checked ? 1 : 0;
             eq.LinerOnlineMonitoring = chkLinerOnlineMonitoring.Checked ? 1 : 0;
             eq.MaterialExposedToClExt = chkMaterialExposedFluid.Checked ? 1 : 0;
-            eq.MinReqTemperaturePressurisation = float.Parse(txtMinRequiredTemperature.Text);
+            eq.MinReqTemperaturePressurisation = txtMinRequiredTemperature.Text!=""?float.Parse(txtMinRequiredTemperature.Text):0;
             eq.OnlineMonitoring = cbOnlineMonitoring.Text;
             eq.PresenceSulphidesO2 = chkPresenceSulphideOperation.Checked ? 1 : 0;
             eq.PresenceSulphidesO2Shutdown = chkPresenceSulphideShutdown.Checked ? 1 : 0;
@@ -40,7 +40,7 @@ namespace RBI.PRE.subForm.InputDataForm
             eq.ManagementFactor = (float)numSystemManagementFactor.Value;
             eq.ThermalHistory = cbThermalHistory.Text;
             eq.YearLowestExpTemp = chkEquipmentOperatingManyYear.Checked ? 1 : 0;
-            eq.Volume = float.Parse(txtEquipmentVolume.Text);
+            eq.Volume = txtEquipmentVolume.Text!=""?float.Parse(txtEquipmentVolume.Text):0;
             return eq;
         }
     }

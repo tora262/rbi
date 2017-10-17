@@ -22,22 +22,22 @@ namespace RBI.Object.ObjectMSSQL
         public int numExternalCorrosion { set; get; }
         public int numCUI { set; get; }
         public int numExternalCUI { set; get; }
+        public int numHTHA { set; get; }
 
-
-        public string inspThinning { set; get; }
-        public string inspCaustic { set; get; }
-        public string inspAmine { set; get; }
-        public string inspSulphide { set; get; }
-        public string inspHICSOHIC_H2S { set; get; }
-        public string inspCarbonate { set; get; }
-        public string inspExternal_CLSCC { set; get; }
-        public string inspPTA { set; get; }
-        public string inspCLSCC { set; get; }
-        public string inspHSC_HF { set; get; }
-        public string inspHICSOHIC_HF { set; get; }
-        public string inspExternalCorrosion { set; get; }
-        public string inspCUI { set; get; }
-        public string inspExternalCUI { set; get; }
-
+        public string effThinning { set; get; }
+        public string effCaustic { set; get; }
+        public string effAmine { set; get; }
+        public string effSulphide { set; get; }
+        public string effHICSOHIC_H2S { set; get; }
+        public string effCarbonate { set; get; }
+        public string effExternal_CLSCC { set; get; }
+        public string effPTA { set; get; }
+        public string effCLSCC { set; get; }
+        public string effHSC_HF { set; get; }
+        public string effHICSOHIC_HF { set; get; }
+        public string effExternalCorrosion { set; get; }
+        public string effCUI { set; get; }
+        public string effExternalCUI { set; get; }
+        public string effHTHA { set; get; }
     }
 }

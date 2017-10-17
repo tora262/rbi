@@ -17,7 +17,6 @@ namespace RBI.PRE.subForm.InputDataForm
             InitializeComponent();
             addEquipmentType();
         }
-
         private void addEquipmentType()
         {
             cbEquipmentType.Properties.Items.Add("Accumulator");
@@ -36,30 +35,40 @@ namespace RBI.PRE.subForm.InputDataForm
             cbEquipmentType.Properties.Items.Add("Tower");
             cbEquipmentType.Properties.Items.Add("Vertical Vessel");
         }
-
         private void btnCancel_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
 
-        //public EQUIPMENT_MASTER getData1()
-        //{
-        //    EQUIPMENT_MASTER eqMaster = new EQUIPMENT_MASTER();
+        public EQUIPMENT_MASTER getData1()
+        {
+            EQUIPMENT_MASTER eqMaster = new EQUIPMENT_MASTER();
 
-        //    eqMaster.EquipmentNumber = txtEquipmentNumber.Text;
-        //    eqMaster.EquipmentName = txtEquipmentName.Text;
-        //    eqMaster.CommissionDate = dateCommission.DateTime;
-        //    eqMaster.PFDNo = txtPDFNo.Text;
-        //    eqMaster.ProcessDescription = txtProcessDescription.Text;
-        //    eqMaster.EquipmentDesc = txtDescription.Text;
-        //    return eqMaster;
-        //}
-        //public EQUIPMENT_TYPE getData2()
-        //{
-        //    EQUIPMENT_TYPE eqType = new EQUIPMENT_TYPE();
-        //    eqType.EquipmentTypeName = cbEquipmentType.Text;
-        //    return eqType;
-        //}
+            eqMaster.EquipmentNumber = txtEquipmentNumber.Text;
+            eqMaster.EquipmentName = txtEquipmentName.Text;
+            eqMaster.CommissionDate = dateCommission.DateTime;
+            eqMaster.PFDNo = txtPDFNo.Text;
+            eqMaster.ProcessDescription = txtProcessDescription.Text;
+            eqMaster.EquipmentDesc = txtDescription.Text;
+            return eqMaster;
+        }
+        public EQUIPMENT_TYPE getData2()
+        {
+            EQUIPMENT_TYPE eqType = new EQUIPMENT_TYPE();
+            eqType.EquipmentTypeName = cbEquipmentType.Text;
+            return eqType;
+        }
+
+        private void btnOK_Click(object sender, EventArgs e)
+        {
+            if(txtEquipmentName.Text == "")
+            {
+                MessageBox.Show("Equipment Name cannot Empty", "Cortek RBI", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            RibbonForm1.equipmentName = txtEquipmentName.Text;
+            this.Close();
+        }
     }
 }

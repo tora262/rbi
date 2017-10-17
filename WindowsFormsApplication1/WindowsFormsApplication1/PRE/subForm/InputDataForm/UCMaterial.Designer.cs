@@ -33,8 +33,8 @@
             this.cbPTAMaterial = new DevExpress.XtraEditors.ButtonEdit();
             this.chkNickelAlloy = new System.Windows.Forms.CheckBox();
             this.chkAusteniticSteel = new System.Windows.Forms.CheckBox();
-            this.chkIsPTA = new System.Windows.Forms.CheckBox();
-            this.chkIsHTHA = new System.Windows.Forms.CheckBox();
+            this.chkIsPTASeverity = new System.Windows.Forms.CheckBox();
+            this.chkIsHTHASeverity = new System.Windows.Forms.CheckBox();
             this.chkChromium = new System.Windows.Forms.CheckBox();
             this.chkSusceptibleTemper = new System.Windows.Forms.CheckBox();
             this.chkCarbonLowAlloySteel = new System.Windows.Forms.CheckBox();
@@ -75,10 +75,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.cbSulfurContent = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.cbHeatTreatment = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.cbHTHAMaterial = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.cbPTAMaterialGrade = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.cbSulfurContent = new DevExpress.XtraEditors.ImageComboBoxEdit();
+            this.cbHeatTreatment = new DevExpress.XtraEditors.ImageComboBoxEdit();
+            this.cbHTHAMaterial = new DevExpress.XtraEditors.ImageComboBoxEdit();
+            this.cbPTAMaterialGrade = new DevExpress.XtraEditors.ImageComboBoxEdit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.cbPTAMaterial.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbSulfurContent.Properties)).BeginInit();
@@ -96,8 +96,8 @@
             this.groupBox1.Controls.Add(this.cbPTAMaterial);
             this.groupBox1.Controls.Add(this.chkNickelAlloy);
             this.groupBox1.Controls.Add(this.chkAusteniticSteel);
-            this.groupBox1.Controls.Add(this.chkIsPTA);
-            this.groupBox1.Controls.Add(this.chkIsHTHA);
+            this.groupBox1.Controls.Add(this.chkIsPTASeverity);
+            this.groupBox1.Controls.Add(this.chkIsHTHASeverity);
             this.groupBox1.Controls.Add(this.chkChromium);
             this.groupBox1.Controls.Add(this.chkSusceptibleTemper);
             this.groupBox1.Controls.Add(this.chkCarbonLowAlloySteel);
@@ -153,12 +153,11 @@
             this.cbPTAMaterial.Name = "cbPTAMaterial";
             editorButtonImageOptions1.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.True;
             editorButtonImageOptions1.EnableTransparency = false;
-            editorButtonImageOptions1.Image = global::RBI.Properties.Resources.backspace_icon_16x16;
             this.cbPTAMaterial.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(),
             new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions1, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null)});
             this.cbPTAMaterial.Properties.ButtonsStyle = DevExpress.XtraEditors.Controls.BorderStyles.HotFlat;
-            this.cbPTAMaterial.Size = new System.Drawing.Size(490, 22);
+            this.cbPTAMaterial.Size = new System.Drawing.Size(490, 20);
             this.cbPTAMaterial.TabIndex = 16;
             // 
             // chkNickelAlloy
@@ -179,25 +178,23 @@
             this.chkAusteniticSteel.TabIndex = 4;
             this.chkAusteniticSteel.UseVisualStyleBackColor = true;
             // 
-            // chkIsPTA
+            // chkIsPTASeverity
             // 
-            this.chkIsPTA.AutoSize = true;
-            this.chkIsPTA.Location = new System.Drawing.Point(172, 367);
-            this.chkIsPTA.Name = "chkIsPTA";
-            this.chkIsPTA.Size = new System.Drawing.Size(15, 14);
-            this.chkIsPTA.TabIndex = 4;
-            this.chkIsPTA.UseVisualStyleBackColor = true;
-            this.chkIsPTA.CheckedChanged += new System.EventHandler(this.chkIsPTA_CheckedChanged);
+            this.chkIsPTASeverity.AutoSize = true;
+            this.chkIsPTASeverity.Location = new System.Drawing.Point(172, 367);
+            this.chkIsPTASeverity.Name = "chkIsPTASeverity";
+            this.chkIsPTASeverity.Size = new System.Drawing.Size(15, 14);
+            this.chkIsPTASeverity.TabIndex = 4;
+            this.chkIsPTASeverity.UseVisualStyleBackColor = true;
             // 
-            // chkIsHTHA
+            // chkIsHTHASeverity
             // 
-            this.chkIsHTHA.AutoSize = true;
-            this.chkIsHTHA.Location = new System.Drawing.Point(172, 305);
-            this.chkIsHTHA.Name = "chkIsHTHA";
-            this.chkIsHTHA.Size = new System.Drawing.Size(15, 14);
-            this.chkIsHTHA.TabIndex = 4;
-            this.chkIsHTHA.UseVisualStyleBackColor = true;
-            this.chkIsHTHA.CheckedChanged += new System.EventHandler(this.chkIsHTHA_CheckedChanged);
+            this.chkIsHTHASeverity.AutoSize = true;
+            this.chkIsHTHASeverity.Location = new System.Drawing.Point(172, 305);
+            this.chkIsHTHASeverity.Name = "chkIsHTHASeverity";
+            this.chkIsHTHASeverity.Size = new System.Drawing.Size(15, 14);
+            this.chkIsHTHASeverity.TabIndex = 4;
+            this.chkIsHTHASeverity.UseVisualStyleBackColor = true;
             // 
             // chkChromium
             // 
@@ -277,7 +274,7 @@
             this.label12.ForeColor = System.Drawing.Color.Black;
             this.label12.Location = new System.Drawing.Point(669, 77);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(17, 13);
+            this.label12.Size = new System.Drawing.Size(18, 13);
             this.label12.TabIndex = 3;
             this.label12.Text = "⁰C";
             // 
@@ -288,7 +285,7 @@
             this.label11.ForeColor = System.Drawing.Color.Black;
             this.label11.Location = new System.Drawing.Point(669, 53);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(17, 13);
+            this.label11.Size = new System.Drawing.Size(18, 13);
             this.label11.TabIndex = 3;
             this.label11.Text = "⁰C";
             // 
@@ -299,7 +296,7 @@
             this.label10.ForeColor = System.Drawing.Color.Black;
             this.label10.Location = new System.Drawing.Point(316, 53);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(17, 13);
+            this.label10.Size = new System.Drawing.Size(18, 13);
             this.label10.TabIndex = 3;
             this.label10.Text = "⁰C";
             // 
@@ -591,7 +588,7 @@
             this.cbSulfurContent.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.cbSulfurContent.Size = new System.Drawing.Size(368, 20);
-            this.cbSulfurContent.TabIndex = 18;
+            this.cbSulfurContent.TabIndex = 17;
             // 
             // cbHeatTreatment
             // 
@@ -600,25 +597,25 @@
             this.cbHeatTreatment.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.cbHeatTreatment.Size = new System.Drawing.Size(368, 20);
-            this.cbHeatTreatment.TabIndex = 19;
+            this.cbHeatTreatment.TabIndex = 17;
             // 
             // cbHTHAMaterial
             // 
-            this.cbHTHAMaterial.Location = new System.Drawing.Point(172, 337);
+            this.cbHTHAMaterial.Location = new System.Drawing.Point(172, 334);
             this.cbHTHAMaterial.Name = "cbHTHAMaterial";
             this.cbHTHAMaterial.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.cbHTHAMaterial.Size = new System.Drawing.Size(368, 20);
-            this.cbHTHAMaterial.TabIndex = 20;
+            this.cbHTHAMaterial.TabIndex = 17;
             // 
             // cbPTAMaterialGrade
             // 
-            this.cbPTAMaterialGrade.Location = new System.Drawing.Point(172, 397);
+            this.cbPTAMaterialGrade.Location = new System.Drawing.Point(172, 393);
             this.cbPTAMaterialGrade.Name = "cbPTAMaterialGrade";
             this.cbPTAMaterialGrade.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.cbPTAMaterialGrade.Size = new System.Drawing.Size(368, 20);
-            this.cbPTAMaterialGrade.TabIndex = 21;
+            this.cbPTAMaterialGrade.TabIndex = 17;
             // 
             // UCMaterial
             // 
@@ -648,8 +645,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.CheckBox chkNickelAlloy;
         private System.Windows.Forms.CheckBox chkAusteniticSteel;
-        private System.Windows.Forms.CheckBox chkIsPTA;
-        private System.Windows.Forms.CheckBox chkIsHTHA;
+        private System.Windows.Forms.CheckBox chkIsPTASeverity;
+        private System.Windows.Forms.CheckBox chkIsHTHASeverity;
         private System.Windows.Forms.CheckBox chkChromium;
         private System.Windows.Forms.CheckBox chkSusceptibleTemper;
         private System.Windows.Forms.CheckBox chkCarbonLowAlloySteel;
@@ -686,9 +683,9 @@
         private System.Windows.Forms.TextBox txtSigmaPhase;
         private System.Windows.Forms.Label label16;
         private DevExpress.XtraEditors.ButtonEdit cbPTAMaterial;
-        private DevExpress.XtraEditors.ComboBoxEdit cbPTAMaterialGrade;
-        private DevExpress.XtraEditors.ComboBoxEdit cbHTHAMaterial;
-        private DevExpress.XtraEditors.ComboBoxEdit cbHeatTreatment;
-        private DevExpress.XtraEditors.ComboBoxEdit cbSulfurContent;
+        private DevExpress.XtraEditors.ImageComboBoxEdit cbSulfurContent;
+        private DevExpress.XtraEditors.ImageComboBoxEdit cbPTAMaterialGrade;
+        private DevExpress.XtraEditors.ImageComboBoxEdit cbHTHAMaterial;
+        private DevExpress.XtraEditors.ImageComboBoxEdit cbHeatTreatment;
     }
 }

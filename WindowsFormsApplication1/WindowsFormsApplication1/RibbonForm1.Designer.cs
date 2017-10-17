@@ -77,7 +77,7 @@
             this.ribbonPage3 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup6 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ribbonStatusBar = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
+            this.ribStatusbar = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             this.defaultLookAndFeel1 = new DevExpress.LookAndFeel.DefaultLookAndFeel(this.components);
             this.xtraTabData = new DevExpress.XtraTab.XtraTabControl();
             this.xTabHome = new DevExpress.XtraTab.XtraTabPage();
@@ -105,8 +105,6 @@
             this.imageCollection1 = new DevExpress.Utils.ImageCollection(this.components);
             this.popupMenu2 = new DevExpress.XtraBars.PopupMenu(this.components);
             this.navGrRecord = new DevExpress.XtraNavBar.NavBarGroup();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.ribbon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabData)).BeginInit();
@@ -169,7 +167,7 @@
             this.ribbonPage4,
             this.ribbonPage3});
             this.ribbon.Size = new System.Drawing.Size(1096, 146);
-            this.ribbon.StatusBar = this.ribbonStatusBar;
+            this.ribbon.StatusBar = this.ribStatusbar;
             // 
             // barBtnNewEquipment
             // 
@@ -286,10 +284,12 @@
             // btnSave
             // 
             this.btnSave.Caption = "Save";
+            this.btnSave.Enabled = false;
             this.btnSave.Id = 14;
             this.btnSave.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnSave.ImageOptions.Image")));
             this.btnSave.Name = "btnSave";
             this.btnSave.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btnSave.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnSave_ItemClick);
             // 
             // barButtonItem6
             // 
@@ -532,12 +532,12 @@
             this.ribbonPageGroup6.Name = "ribbonPageGroup6";
             this.ribbonPageGroup6.Text = "Contact";
             // 
-            // ribbonStatusBar
+            // ribStatusbar
             // 
-            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 669);
-            this.ribbonStatusBar.Name = "ribbonStatusBar";
-            this.ribbonStatusBar.Ribbon = this.ribbon;
-            this.ribbonStatusBar.Size = new System.Drawing.Size(1096, 21);
+            this.ribStatusbar.Location = new System.Drawing.Point(0, 669);
+            this.ribStatusbar.Name = "ribStatusbar";
+            this.ribStatusbar.Ribbon = this.ribbon;
+            this.ribStatusbar.Size = new System.Drawing.Size(1096, 21);
             // 
             // defaultLookAndFeel1
             // 
@@ -558,7 +558,6 @@
             this.xTabHome});
             this.xtraTabData.UseDisabledStatePainter = false;
             this.xtraTabData.CloseButtonClick += new System.EventHandler(this.xtraTabData_CloseButtonClick);
-            this.xtraTabData.Click += new System.EventHandler(this.xtraTabControl1_Click);
             // 
             // xTabHome
             // 
@@ -645,6 +644,10 @@
             this.treeListProject.OptionsLayout.AddNewColumns = false;
             this.treeListProject.Size = new System.Drawing.Size(185, 507);
             this.treeListProject.TabIndex = 1;
+            this.treeListProject.DoubleClick += new System.EventHandler(this.treeListProject_DoubleClick);
+            
+            this.treeListProject.MouseUp += new System.Windows.Forms.MouseEventHandler(this.treeListProject_MouseUp);
+            this.treeListProject.MouseDown += new System.Windows.Forms.MouseEventHandler(this.treeListProject_MouseDown);
             // 
             // textEdit1
             // 
@@ -692,7 +695,7 @@
             this.navBarControl2.Location = new System.Drawing.Point(2, 0);
             this.navBarControl2.Name = "navBarControl2";
             this.navBarControl2.OptionsNavPane.ExpandedWidth = 163;
-            this.navBarControl2.Size = new System.Drawing.Size(163, 392);
+            this.navBarControl2.Size = new System.Drawing.Size(163, 412);
             this.navBarControl2.TabIndex = 0;
             this.navBarControl2.Text = "navBarControl2";
             // 
@@ -796,16 +799,6 @@
             this.navGrRecord.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.SmallIconsText;
             this.navGrRecord.Name = "navGrRecord";
             // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
-            // contextMenuStrip2
-            // 
-            this.contextMenuStrip2.Name = "contextMenuStrip2";
-            this.contextMenuStrip2.Size = new System.Drawing.Size(61, 4);
-            // 
             // RibbonForm1
             // 
             this.AllowFormGlass = DevExpress.Utils.DefaultBoolean.True;
@@ -815,13 +808,13 @@
             this.Controls.Add(this.xtraTabData);
             this.Controls.Add(this.dockPanel1);
             this.Controls.Add(this.dockPanel2);
-            this.Controls.Add(this.ribbonStatusBar);
+            this.Controls.Add(this.ribStatusbar);
             this.Controls.Add(this.ribbon);
             this.FormBorderEffect = DevExpress.XtraEditors.FormBorderEffect.Glow;
             this.IsMdiContainer = true;
             this.Name = "RibbonForm1";
             this.Ribbon = this.ribbon;
-            this.StatusBar = this.ribbonStatusBar;
+            this.StatusBar = this.ribStatusbar;
             this.Text = "Cortek RBI";
             ((System.ComponentModel.ISupportInitialize)(this.ribbon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).EndInit();
@@ -848,7 +841,7 @@
         private DevExpress.XtraBars.Ribbon.RibbonControl ribbon;
         private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage1;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup1;
-        private DevExpress.XtraBars.Ribbon.RibbonStatusBar ribbonStatusBar;
+        private DevExpress.XtraBars.Ribbon.RibbonStatusBar ribStatusbar;
         private DevExpress.LookAndFeel.DefaultLookAndFeel defaultLookAndFeel1;
         private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage2;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup2;
@@ -920,7 +913,5 @@
         private DevExpress.XtraNavBar.NavBarGroup navGrRecord;
         private DevExpress.XtraNavBar.NavBarItem navNoInspection;
         private DevExpress.XtraNavBar.NavBarItem navStream;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
     }
 }

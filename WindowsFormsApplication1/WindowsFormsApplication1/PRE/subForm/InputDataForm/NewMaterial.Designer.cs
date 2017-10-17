@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NewMaterial));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -69,14 +68,15 @@
             this.chkCarbon = new System.Windows.Forms.CheckBox();
             this.btnOK = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbHeatTreatment.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbSulphurContent.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbPTA.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbHTHA.Properties)).BeginInit();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -90,15 +90,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(471, 59);
             this.panel1.TabIndex = 0;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(39, 2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(53, 50);
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
             // 
             // label2
             // 
@@ -213,7 +204,7 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(224, 135);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(17, 13);
+            this.label8.Size = new System.Drawing.Size(18, 13);
             this.label8.TabIndex = 1;
             this.label8.Text = "⁰C";
             // 
@@ -222,7 +213,7 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(224, 108);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(17, 13);
+            this.label9.Size = new System.Drawing.Size(18, 13);
             this.label9.TabIndex = 1;
             this.label9.Text = "⁰C";
             // 
@@ -281,7 +272,7 @@
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(225, 191);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(17, 13);
+            this.label14.Size = new System.Drawing.Size(18, 13);
             this.label14.TabIndex = 1;
             this.label14.Text = "⁰C";
             // 
@@ -443,6 +434,15 @@
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(39, 2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(53, 50);
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
+            // 
             // NewMaterial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -484,7 +484,6 @@
             this.Text = "Cortek";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbHeatTreatment.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbSulphurContent.Properties)).EndInit();
@@ -492,6 +491,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.cbHTHA.Properties)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

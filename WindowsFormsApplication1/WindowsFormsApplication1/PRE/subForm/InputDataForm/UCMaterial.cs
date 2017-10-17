@@ -21,7 +21,7 @@ namespace RBI.PRE.subForm.InputDataForm
             addSulfurContent();
             addMaterialGradeHTHA();
             addHeatTreatment();
-            addMaterialGradeHTHA();
+            addPTAMterial();
         }
 
         private void addSulfurContent()
@@ -51,15 +51,17 @@ namespace RBI.PRE.subForm.InputDataForm
             cbHTHAMaterial.Properties.Items.Add("1.25Cr-0.5Mo");
             cbHTHAMaterial.Properties.Items.Add("2.25Cr-1Mo");
             cbHTHAMaterial.Properties.Items.Add("Not Applicable");
+            
         }
         private void addPTAMterial()
         {
+            
             cbPTAMaterialGrade.Properties.Items.Add("");
-            cbPTAMaterialGrade.Properties.Items.Add("Regular 300 series Stainless Steel and Alloys 600 and 800");
-            cbPTAMaterialGrade.Properties.Items.Add("L Grade 300 series Stainless Steel");
-            cbPTAMaterialGrade.Properties.Items.Add("H Grade 300 series Stainless Steel");
+            cbPTAMaterialGrade.Properties.Items.Add("Regular 300 series Stainless Steels and Alloys 600 and 800");
+            cbPTAMaterialGrade.Properties.Items.Add("L Grade 300 series Stainless Steels");
+            cbPTAMaterialGrade.Properties.Items.Add("H Grade 300 series Stainless Steels");
             cbPTAMaterialGrade.Properties.Items.Add("321 Stainless Steel");
-            cbPTAMaterialGrade.Properties.Items.Add("347 Stainless Steel, Alloy 20, Alloy 625, All  austenitic weld overlay");
+            cbPTAMaterialGrade.Properties.Items.Add("347 Stainless Steel, Alloy 20, Alloy 625, All austenitic weld overlay");
             cbPTAMaterialGrade.Properties.Items.Add("Not Applicable");
         }
 
@@ -67,38 +69,29 @@ namespace RBI.PRE.subForm.InputDataForm
         {
             RW_MATERIAL ma = new RW_MATERIAL();
             ma.MaterialName = cbPTAMaterial.Text;
-            ma.DesignPressure = float.Parse(txtDesignPressure.Text);
-            ma.DesignTemperature = float.Parse(txtMaxDesignTemperature.Text);
-            ma.MinDesignTemperature = float.Parse(txtMinDesignTemperature.Text);
-            ma.BrittleFractureThickness = float.Parse(txtBrittleFracture.Text);
-            ma.CorrosionAllowance = float.Parse(txtCorrosionAllowance.Text);
+            ma.DesignPressure = txtDesignPressure.Text != "" ? float.Parse(txtDesignPressure.Text) : 0;
+            ma.DesignTemperature = txtMaxDesignTemperature.Text != "" ? float.Parse(txtMaxDesignTemperature.Text) : 0;
+            ma.MinDesignTemperature = txtMinDesignTemperature.Text != "" ? float.Parse(txtMinDesignTemperature.Text) : 0;
+            ma.BrittleFractureThickness = txtBrittleFracture.Text != "" ? float.Parse(txtBrittleFracture.Text) : 0;
+            ma.CorrosionAllowance = txtCorrosionAllowance.Text != "" ? float.Parse(txtCorrosionAllowance.Text) : 0;
             //if(tankBottom) -> hide txtSigmaPhase
-            ma.SigmaPhase = float.Parse(txtSigmaPhase.Text);
+            ma.SigmaPhase = txtSigmaPhase.Text != "" ? float.Parse(txtSigmaPhase.Text) : 0;
             ma.SulfurContent = cbSulfurContent.Text;
             ma.HeatTreatment = cbHeatTreatment.Text;
-            ma.ReferenceTemperature = float.Parse(txtReferenceTemperature.Text);
+            ma.ReferenceTemperature = txtReferenceTemperature.Text != "" ? float.Parse(txtReferenceTemperature.Text) : 0;
             ma.PTAMaterialCode = cbPTAMaterial.Text;
             ma.HTHAMaterialCode = cbHTHAMaterial.Text;
-            ma.IsPTA = chkIsPTA.Checked ? 1 : 0;
-            ma.IsHTHA = chkIsHTHA.Checked ? 1 : 0;
+            ma.IsPTA = chkIsPTASeverity.Checked ? 1 : 0;
+            ma.IsHTHA = chkIsHTHASeverity.Checked ? 1 : 0;
             ma.Austenitic = chkAusteniticSteel.Checked ? 1 : 0;
             ma.Temper = chkSusceptibleTemper.Checked ? 1 : 0;
             ma.CarbonLowAlloy = chkCarbonLowAlloySteel.Checked ? 1 : 0;
             ma.NickelBased = chkNickelAlloy.Checked ? 1 : 0;
             ma.ChromeMoreEqual12 = chkChromium.Checked ? 1 : 0;
-            ma.AllowableStress = float.Parse(txtAllowableStress.Text);
-            ma.CostFactor = float.Parse(txtMaterialCostFactor.Text);
+            ma.AllowableStress = txtAllowableStress.Text != "" ? float.Parse(txtAllowableStress.Text) : 0;
+            ma.CostFactor = txtMaterialCostFactor.Text != "" ? float.Parse(txtMaterialCostFactor.Text) : 0;
             return ma;
         }
 
-        private void chkIsHTHA_CheckedChanged(object sender, EventArgs e)
-        {
-            cbHTHAMaterial.Enabled = chkIsHTHA.Checked ? true : false;
-        }
-
-        private void chkIsPTA_CheckedChanged(object sender, EventArgs e)
-        {
-            cbPTAMaterialGrade.Enabled = chkIsPTA.Checked ? true : false;
-        }
     }
 }

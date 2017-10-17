@@ -86,6 +86,10 @@
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.txtHTHA = new System.Windows.Forms.TextBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.cbHTHA = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -106,6 +110,8 @@
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.txtExternalCUI);
             this.groupBox1.Controls.Add(this.label14);
+            this.groupBox1.Controls.Add(this.txtHTHA);
+            this.groupBox1.Controls.Add(this.label29);
             this.groupBox1.Controls.Add(this.txtExternalCLSCC);
             this.groupBox1.Controls.Add(this.label13);
             this.groupBox1.Controls.Add(this.txtCarbonate);
@@ -123,7 +129,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(3, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(828, 221);
+            this.groupBox1.Size = new System.Drawing.Size(828, 253);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Number of Inspection";
@@ -369,6 +375,7 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.cbExternalCUI);
+            this.groupBox2.Controls.Add(this.cbHTHA);
             this.groupBox2.Controls.Add(this.cbExternalCLSCC);
             this.groupBox2.Controls.Add(this.cbCUI);
             this.groupBox2.Controls.Add(this.cbExternalCorrosion);
@@ -381,6 +388,7 @@
             this.groupBox2.Controls.Add(this.cbAmine);
             this.groupBox2.Controls.Add(this.cbPTA);
             this.groupBox2.Controls.Add(this.cbCaustic);
+            this.groupBox2.Controls.Add(this.label30);
             this.groupBox2.Controls.Add(this.cbThinning);
             this.groupBox2.Controls.Add(this.label21);
             this.groupBox2.Controls.Add(this.label15);
@@ -397,9 +405,9 @@
             this.groupBox2.Controls.Add(this.label23);
             this.groupBox2.Controls.Add(this.label24);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(3, 230);
+            this.groupBox2.Location = new System.Drawing.Point(3, 252);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(828, 232);
+            this.groupBox2.Size = new System.Drawing.Size(828, 253);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Inspection Category";
@@ -740,6 +748,47 @@
             this.label24.TabIndex = 0;
             this.label24.Text = "CLSCC Cracking";
             // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(21, 211);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(39, 15);
+            this.label29.TabIndex = 0;
+            this.label29.Text = "HTHA";
+            // 
+            // txtHTHA
+            // 
+            this.txtHTHA.Location = new System.Drawing.Point(243, 211);
+            this.txtHTHA.Name = "txtHTHA";
+            this.txtHTHA.Size = new System.Drawing.Size(100, 20);
+            this.txtHTHA.TabIndex = 1;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(21, 210);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(39, 15);
+            this.label30.TabIndex = 0;
+            this.label30.Text = "HTHA";
+            // 
+            // cbHTHA
+            // 
+            this.cbHTHA.FormattingEnabled = true;
+            this.cbHTHA.Items.AddRange(new object[] {
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"});
+            this.cbHTHA.Location = new System.Drawing.Point(243, 209);
+            this.cbHTHA.Name = "cbHTHA";
+            this.cbHTHA.Size = new System.Drawing.Size(121, 21);
+            this.cbHTHA.TabIndex = 1;
+            // 
             // UCNoInspection
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -747,7 +796,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "UCNoInspection";
-            this.Size = new System.Drawing.Size(837, 480);
+            this.Size = new System.Drawing.Size(837, 508);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -816,5 +865,9 @@
         private System.Windows.Forms.ComboBox cbCLSCC;
         private System.Windows.Forms.ComboBox cbAmine;
         private System.Windows.Forms.ComboBox cbPTA;
+        private System.Windows.Forms.TextBox txtHTHA;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.ComboBox cbHTHA;
+        private System.Windows.Forms.Label label30;
     }
 }

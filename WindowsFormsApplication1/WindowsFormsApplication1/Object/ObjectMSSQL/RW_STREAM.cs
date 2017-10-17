@@ -45,5 +45,15 @@ namespace RBI.Object.ObjectMSSQL
         public float FluidLeaveDikePercent { set; get; }
         public float FluidLeaveDikeRemainOnSitePercent { set; get; }
         public float FluidGoOffSitePercent { set; get; }
+        public float CUI_PERCENT_1 { set; get; }// % Operating at -12 °C to -8 °C
+        public float CUI_PERCENT_2 { set; get; }// % Operating at -8 °C to 6 °C
+        public float CUI_PERCENT_3 { set; get; }// % Operating at 6 °C to 32 °C
+        public float CUI_PERCENT_4 { set; get; }// % Operating at 32 °C to 71 °C
+        public float CUI_PERCENT_5 { set; get; }// % Operating at 71 °C to 107 °C
+        public float CUI_PERCENT_6 { set; get; }// % Operating at 107 °C to 121 °C
+        public float CUI_PERCENT_7 { set; get; }// % Operating at 121 °C to 135 °C
+        public float CUI_PERCENT_8 { set; get; }// % Operating at 135 °C to 162 °C
+        public float CUI_PERCENT_9 { set; get; }// % Operating at 162 °C to 176 °C
+        public float CUI_PERCENT_10 { set; get; }// % Operating at 176 °C or above
     }
 }

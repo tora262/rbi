@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions1 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions2 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.cbAmineSolutionComposition = new DevExpress.XtraEditors.ImageComboBoxEdit();
+            this.cbExposureAmine = new DevExpress.XtraEditors.ImageComboBoxEdit();
             this.chkProcessContainsHydrogen = new System.Windows.Forms.CheckBox();
             this.chkExposedSulphurBearing = new System.Windows.Forms.CheckBox();
             this.chkPresenceHydrofluoricAcid = new System.Windows.Forms.CheckBox();
@@ -74,19 +74,17 @@
             this.label24 = new System.Windows.Forms.Label();
             this.txtFluidHeight = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
+            this.cbPrimaryFluid = new DevExpress.XtraEditors.ImageComboBoxEdit();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.cbExposureAmine = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.cbAmineSolutionComposition = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.buttonEdit1 = new DevExpress.XtraEditors.ButtonEdit();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.cbExposureAmine.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbAmineSolutionComposition.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbExposureAmine.Properties)).BeginInit();
+            this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cbPrimaryFluid.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -147,6 +145,37 @@
             this.groupBox3.TabIndex = 1;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Environment Condition";
+            // 
+            // cbAmineSolutionComposition
+            // 
+            this.cbAmineSolutionComposition.Location = new System.Drawing.Point(251, 159);
+            this.cbAmineSolutionComposition.Name = "cbAmineSolutionComposition";
+            this.cbAmineSolutionComposition.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cbAmineSolutionComposition.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.ImageComboBoxItem[] {
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("", null, -1),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Monoethanolamine MEA", null, -1),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Disopropanolamine DIPA", null, -1),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Diethanolamine DEA", null, -1),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Methyldiethanolamine MDEA", null, -1),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Sulfinol", null, -1),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Diglycolamine DGA", null, -1)});
+            this.cbAmineSolutionComposition.Size = new System.Drawing.Size(406, 20);
+            this.cbAmineSolutionComposition.TabIndex = 2;
+            // 
+            // cbExposureAmine
+            // 
+            this.cbExposureAmine.Location = new System.Drawing.Point(251, 133);
+            this.cbExposureAmine.Name = "cbExposureAmine";
+            this.cbExposureAmine.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cbExposureAmine.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.ImageComboBoxItem[] {
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("", null, -1),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("None", null, -1),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Low Lean Amine", null, -1),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("High Rich Amine", null, -1)});
+            this.cbExposureAmine.Size = new System.Drawing.Size(406, 20);
+            this.cbExposureAmine.TabIndex = 2;
             // 
             // chkProcessContainsHydrogen
             // 
@@ -484,13 +513,13 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.buttonEdit1);
             this.groupBox2.Controls.Add(this.txtPercentageFluidGoingOffsite);
             this.groupBox2.Controls.Add(this.txtPercentageLeavingDike);
             this.groupBox2.Controls.Add(this.txtPercentageLeavingRemainsOnSite);
             this.groupBox2.Controls.Add(this.label24);
             this.groupBox2.Controls.Add(this.txtFluidHeight);
             this.groupBox2.Controls.Add(this.label23);
+            this.groupBox2.Controls.Add(this.cbPrimaryFluid);
             this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.label2);
@@ -550,6 +579,15 @@
             this.label23.TabIndex = 0;
             this.label23.Text = "Percentage of Fluid Leaving the\r\nDike";
             // 
+            // cbPrimaryFluid
+            // 
+            this.cbPrimaryFluid.Location = new System.Drawing.Point(232, 14);
+            this.cbPrimaryFluid.Name = "cbPrimaryFluid";
+            this.cbPrimaryFluid.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cbPrimaryFluid.Size = new System.Drawing.Size(471, 20);
+            this.cbPrimaryFluid.TabIndex = 2;
+            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -590,37 +628,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Fluid";
             // 
-            // cbExposureAmine
-            // 
-            this.cbExposureAmine.Location = new System.Drawing.Point(250, 135);
-            this.cbExposureAmine.Name = "cbExposureAmine";
-            this.cbExposureAmine.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.cbExposureAmine.Size = new System.Drawing.Size(407, 20);
-            this.cbExposureAmine.TabIndex = 3;
-            // 
-            // cbAmineSolutionComposition
-            // 
-            this.cbAmineSolutionComposition.Location = new System.Drawing.Point(250, 161);
-            this.cbAmineSolutionComposition.Name = "cbAmineSolutionComposition";
-            this.cbAmineSolutionComposition.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.cbAmineSolutionComposition.Size = new System.Drawing.Size(407, 20);
-            this.cbAmineSolutionComposition.TabIndex = 4;
-            // 
-            // buttonEdit1
-            // 
-            this.buttonEdit1.Location = new System.Drawing.Point(251, 19);
-            this.buttonEdit1.Name = "buttonEdit1";
-            editorButtonImageOptions1.Image = global::RBI.Properties.Resources.InforIcon;
-            editorButtonImageOptions2.Image = global::RBI.Properties.Resources.backspace_icon_16x16;
-            this.buttonEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(),
-            new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions1, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null),
-            new DevExpress.XtraEditors.Controls.EditorButton(editorButtonImageOptions2, DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, null)});
-            this.buttonEdit1.Size = new System.Drawing.Size(406, 22);
-            this.buttonEdit1.TabIndex = 4;
-            // 
             // UCStreamTankBottom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -631,11 +638,11 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cbAmineSolutionComposition.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbExposureAmine.Properties)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.cbExposureAmine.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbAmineSolutionComposition.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbPrimaryFluid.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -681,6 +688,9 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtNaOHConcentration;
         private System.Windows.Forms.Label label5;
+        private DevExpress.XtraEditors.ImageComboBoxEdit cbAmineSolutionComposition;
+        private DevExpress.XtraEditors.ImageComboBoxEdit cbExposureAmine;
+        private DevExpress.XtraEditors.ImageComboBoxEdit cbPrimaryFluid;
         private System.Windows.Forms.TextBox txtFluidHeight;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtPercentageFluidGoingOffsite;
@@ -690,8 +700,5 @@
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private DevExpress.XtraEditors.ComboBoxEdit cbAmineSolutionComposition;
-        private DevExpress.XtraEditors.ComboBoxEdit cbExposureAmine;
-        private DevExpress.XtraEditors.ButtonEdit buttonEdit1;
     }
 }
