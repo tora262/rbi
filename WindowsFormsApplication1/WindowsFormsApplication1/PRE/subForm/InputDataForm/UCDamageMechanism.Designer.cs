@@ -1,4 +1,6 @@
-﻿namespace RBI.PRE.subForm.InputDataForm
+﻿using DevExpress.XtraTreeList;
+
+namespace RBI.PRE.subForm.InputDataForm
 {
     partial class UCDamageMechanism
     {
@@ -43,7 +45,9 @@
             this.colDF_2AP = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.colDF_3AP = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.colRecord = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.repositoryItemCheckEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -78,6 +82,8 @@
             this.treeList1.Name = "treeList1";
             this.treeList1.OptionsView.AutoWidth = false;
             this.treeList1.OptionsView.FocusRectStyle = DevExpress.XtraTreeList.DrawFocusRectStyle.RowFocus;
+            this.treeList1.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
+            this.repositoryItemCheckEdit2});
             this.treeList1.Size = new System.Drawing.Size(942, 474);
             this.treeList1.TabIndex = 1;
             // 
@@ -94,10 +100,10 @@
             // colActive
             // 
             this.colActive.Caption = "Active";
+            this.colActive.ColumnEdit = this.repositoryItemCheckEdit2;
             this.colActive.FieldName = "Active";
             this.colActive.Name = "colActive";
             this.colActive.Visible = true;
-            this.colActive.ColumnEdit = this.repositoryItemCheckEdit1;
             this.colActive.VisibleIndex = 1;
             this.colActive.Width = 39;
             // 
@@ -200,6 +206,11 @@
             this.colRecord.VisibleIndex = 12;
             this.colRecord.Width = 45;
             // 
+            // repositoryItemCheckEdit2
+            // 
+            this.repositoryItemCheckEdit2.AutoHeight = false;
+            this.repositoryItemCheckEdit2.Name = "repositoryItemCheckEdit2";
+            // 
             // UCDamageMechanism
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -209,6 +220,7 @@
             this.Name = "UCDamageMechanism";
             this.Size = new System.Drawing.Size(942, 518);
             ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -216,8 +228,10 @@
 
         #endregion
 
+        
+
         private System.Windows.Forms.Label label1;
-        private DevExpress.XtraTreeList.TreeList treeList1;
+        public DevExpress.XtraTreeList.TreeList treeList1;
         private DevExpress.XtraTreeList.Columns.TreeListColumn colType;
         private DevExpress.XtraTreeList.Columns.TreeListColumn colActive;
         private DevExpress.XtraTreeList.Columns.TreeListColumn coNotes;
@@ -231,5 +245,6 @@
         private DevExpress.XtraTreeList.Columns.TreeListColumn colDF_2AP;
         private DevExpress.XtraTreeList.Columns.TreeListColumn colDF_3AP;
         private DevExpress.XtraTreeList.Columns.TreeListColumn colRecord;
+        private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit2;
     }
 }

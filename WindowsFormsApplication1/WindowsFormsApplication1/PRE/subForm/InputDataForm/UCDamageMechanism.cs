@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraTreeList.Nodes;
+using DevExpress.XtraEditors.Repository;
+using DevExpress.XtraTreeList;
 
 namespace RBI.PRE.subForm.InputDataForm
 {
@@ -25,7 +27,8 @@ namespace RBI.PRE.subForm.InputDataForm
         TreeListNode parentNode5 = null;
         TreeListNode childNode = null;
 
-        private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit1;
+        private RepositoryItemCheckEdit repositoryItemCheckEdit1 = new RepositoryItemCheckEdit();
+        private RepositoryItemButtonEdit repositoryItemButtonEdit1 = new RepositoryItemButtonEdit();
 
         string[] parentNodeName = 
         {
@@ -147,17 +150,23 @@ namespace RBI.PRE.subForm.InputDataForm
         #endregion
         private void InitData()
         {
+            colActive.ColumnEdit = repositoryItemCheckEdit1;
+            colEL.ColumnEdit = repositoryItemCheckEdit1;
+            colDF.ColumnEdit = repositoryItemCheckEdit1;
             //nhanh thu 1
             treeList1.BeginUnboundLoad();
             parentNode1 = treeList1.AppendNode(
             new object[] { parentNodeName[0] }, -1); 
             treeList1.EndUnboundLoad();
+            treeList1.SetRowCellValue(parentNode1, colActive, null);
             for(int i = 0; i < childNode1.Length; i++)
             {
                 treeList1.BeginUnboundLoad();
                 childNode = treeList1.AppendNode(
                 new object[] { childNode1[i] }, parentNode1);
                 treeList1.EndUnboundLoad();
+                
+                
             }
             //nhanh thu 2
             treeList1.BeginUnboundLoad();
@@ -207,6 +216,9 @@ namespace RBI.PRE.subForm.InputDataForm
                 new object[] { childNode5[i] }, parentNode5);
                 treeList1.EndUnboundLoad();
             }
+            colActive.ColumnEdit = repositoryItemCheckEdit1;
+            colRecord.ColumnEdit = repositoryItemButtonEdit1;
         }
+
     }
 }
