@@ -33,77 +33,37 @@
             this.label1 = new System.Windows.Forms.Label();
             this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
             this.tabSemiPoF = new DevExpress.XtraTab.XtraTabPage();
-            this.tabFullyPoF = new DevExpress.XtraTab.XtraTabPage();
-            this.tabSemiCoF = new DevExpress.XtraTab.XtraTabPage();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.imageComboBoxEdit4 = new DevExpress.XtraEditors.ImageComboBoxEdit();
+            this.imgColLF7 = new DevExpress.Utils.ImageCollection(this.components);
+            this.imageComboBoxEdit3 = new DevExpress.XtraEditors.ImageComboBoxEdit();
+            this.imgColLF6 = new DevExpress.Utils.ImageCollection(this.components);
+            this.imageComboBoxEdit2 = new DevExpress.XtraEditors.ImageComboBoxEdit();
+            this.imgColLF4 = new DevExpress.Utils.ImageCollection(this.components);
+            this.imageComboBoxEdit1 = new DevExpress.XtraEditors.ImageComboBoxEdit();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.cbLF1 = new DevExpress.XtraEditors.ImageComboBoxEdit();
+            this.imgColLF1 = new DevExpress.Utils.ImageCollection(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.cbLF1 = new DevExpress.XtraEditors.ImageComboBoxEdit();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.imageComboBoxEdit1 = new DevExpress.XtraEditors.ImageComboBoxEdit();
-            this.imageComboBoxEdit2 = new DevExpress.XtraEditors.ImageComboBoxEdit();
-            this.imageComboBoxEdit3 = new DevExpress.XtraEditors.ImageComboBoxEdit();
-            this.imageComboBoxEdit4 = new DevExpress.XtraEditors.ImageComboBoxEdit();
-            this.imgColLF4 = new DevExpress.Utils.ImageCollection(this.components);
-            this.imgColLF6 = new DevExpress.Utils.ImageCollection(this.components);
-            this.imgColLF7 = new DevExpress.Utils.ImageCollection(this.components);
-            this.imgColLF1 = new DevExpress.Utils.ImageCollection(this.components);
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.cbThinningType = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.txt00 = new DevExpress.XtraEditors.TextEdit();
-            this.txt01 = new DevExpress.XtraEditors.TextEdit();
-            this.txt02 = new DevExpress.XtraEditors.TextEdit();
-            this.txt12 = new DevExpress.XtraEditors.TextEdit();
-            this.txt11 = new DevExpress.XtraEditors.TextEdit();
-            this.txt10 = new DevExpress.XtraEditors.TextEdit();
-            this.txt22 = new DevExpress.XtraEditors.TextEdit();
-            this.txt21 = new DevExpress.XtraEditors.TextEdit();
-            this.txt20 = new DevExpress.XtraEditors.TextEdit();
-            this.txt32 = new DevExpress.XtraEditors.TextEdit();
-            this.txt31 = new DevExpress.XtraEditors.TextEdit();
-            this.txt30 = new DevExpress.XtraEditors.TextEdit();
-            this.txt42 = new DevExpress.XtraEditors.TextEdit();
-            this.txt41 = new DevExpress.XtraEditors.TextEdit();
-            this.txt40 = new DevExpress.XtraEditors.TextEdit();
-            this.txt52 = new DevExpress.XtraEditors.TextEdit();
-            this.txt51 = new DevExpress.XtraEditors.TextEdit();
-            this.txt50 = new DevExpress.XtraEditors.TextEdit();
-            this.txt62 = new DevExpress.XtraEditors.TextEdit();
-            this.txt61 = new DevExpress.XtraEditors.TextEdit();
-            this.txt60 = new DevExpress.XtraEditors.TextEdit();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.tabFullyPoF = new DevExpress.XtraTab.XtraTabPage();
+            this.label40 = new System.Windows.Forms.Label();
+            this.btnRLI = new System.Windows.Forms.Button();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
             this.txtC0 = new DevExpress.XtraEditors.TextEdit();
             this.txtB2 = new DevExpress.XtraEditors.TextEdit();
             this.txtB1 = new DevExpress.XtraEditors.TextEdit();
@@ -120,71 +80,86 @@
             this.txt72 = new DevExpress.XtraEditors.TextEdit();
             this.txt71 = new DevExpress.XtraEditors.TextEdit();
             this.txt70 = new DevExpress.XtraEditors.TextEdit();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.btnRLI = new System.Windows.Forms.Button();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
-            this.label50 = new System.Windows.Forms.Label();
-            this.cbCF1 = new DevExpress.XtraEditors.ImageComboBoxEdit();
-            this.cbCF2 = new DevExpress.XtraEditors.ImageComboBoxEdit();
-            this.cbCF3 = new DevExpress.XtraEditors.ImageComboBoxEdit();
+            this.txt62 = new DevExpress.XtraEditors.TextEdit();
+            this.txt61 = new DevExpress.XtraEditors.TextEdit();
+            this.txt60 = new DevExpress.XtraEditors.TextEdit();
+            this.txt52 = new DevExpress.XtraEditors.TextEdit();
+            this.txt51 = new DevExpress.XtraEditors.TextEdit();
+            this.txt50 = new DevExpress.XtraEditors.TextEdit();
+            this.txt42 = new DevExpress.XtraEditors.TextEdit();
+            this.txt41 = new DevExpress.XtraEditors.TextEdit();
+            this.txt40 = new DevExpress.XtraEditors.TextEdit();
+            this.txt32 = new DevExpress.XtraEditors.TextEdit();
+            this.txt31 = new DevExpress.XtraEditors.TextEdit();
+            this.txt30 = new DevExpress.XtraEditors.TextEdit();
+            this.txt22 = new DevExpress.XtraEditors.TextEdit();
+            this.txt21 = new DevExpress.XtraEditors.TextEdit();
+            this.txt20 = new DevExpress.XtraEditors.TextEdit();
+            this.txt12 = new DevExpress.XtraEditors.TextEdit();
+            this.txt11 = new DevExpress.XtraEditors.TextEdit();
+            this.txt10 = new DevExpress.XtraEditors.TextEdit();
+            this.txt02 = new DevExpress.XtraEditors.TextEdit();
+            this.txt01 = new DevExpress.XtraEditors.TextEdit();
+            this.txt00 = new DevExpress.XtraEditors.TextEdit();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
+            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
+            this.cbThinningType = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.tabSemiCoF = new DevExpress.XtraTab.XtraTabPage();
+            this.cbCF9 = new DevExpress.XtraEditors.ImageComboBoxEdit();
+            this.imgColCF56 = new DevExpress.Utils.ImageCollection(this.components);
+            this.cbCF8 = new DevExpress.XtraEditors.ImageComboBoxEdit();
+            this.cbCF7 = new DevExpress.XtraEditors.ImageComboBoxEdit();
             this.cbCF6 = new DevExpress.XtraEditors.ImageComboBoxEdit();
             this.cbCF5 = new DevExpress.XtraEditors.ImageComboBoxEdit();
             this.cbCF4 = new DevExpress.XtraEditors.ImageComboBoxEdit();
-            this.cbCF9 = new DevExpress.XtraEditors.ImageComboBoxEdit();
-            this.cbCF8 = new DevExpress.XtraEditors.ImageComboBoxEdit();
-            this.cbCF7 = new DevExpress.XtraEditors.ImageComboBoxEdit();
-            this.imgColCF56 = new DevExpress.Utils.ImageCollection(this.components);
+            this.cbCF3 = new DevExpress.XtraEditors.ImageComboBoxEdit();
+            this.cbCF2 = new DevExpress.XtraEditors.ImageComboBoxEdit();
+            this.cbCF1 = new DevExpress.XtraEditors.ImageComboBoxEdit();
+            this.label48 = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
             this.imageCollection2 = new DevExpress.Utils.ImageCollection(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
             this.xtraTabControl1.SuspendLayout();
             this.tabSemiPoF.SuspendLayout();
-            this.tabFullyPoF.SuspendLayout();
-            this.tabSemiCoF.SuspendLayout();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.cbLF1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageComboBoxEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageComboBoxEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageComboBoxEdit3.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageComboBoxEdit4.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgColLF4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgColLF6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgColLF7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageComboBoxEdit3.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgColLF6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageComboBoxEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgColLF4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageComboBoxEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbLF1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgColLF1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbThinningType.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt00.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt01.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt02.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt12.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt11.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt10.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt22.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt21.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt20.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt32.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt31.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt30.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt42.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt41.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt40.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt52.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt51.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt50.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt62.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt61.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt60.Properties)).BeginInit();
+            this.panel1.SuspendLayout();
+            this.tabFullyPoF.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txtC0.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtB2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtB1.Properties)).BeginInit();
@@ -201,16 +176,41 @@
             ((System.ComponentModel.ISupportInitialize)(this.txt72.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt71.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt70.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbCF1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbCF2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbCF3.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt62.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt61.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt60.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt52.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt51.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt50.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt42.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt41.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt40.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt32.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt31.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt30.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt22.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt21.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt20.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt12.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt11.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt10.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt02.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt01.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt00.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbThinningType.Properties)).BeginInit();
+            this.tabSemiCoF.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cbCF9.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgColCF56)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbCF8.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbCF7.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbCF6.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbCF5.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbCF4.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbCF9.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbCF8.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbCF7.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgColCF56)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbCF3.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbCF2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbCF1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageCollection2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -257,8 +257,278 @@
             this.tabSemiPoF.Controls.Add(this.label3);
             this.tabSemiPoF.Controls.Add(this.label2);
             this.tabSemiPoF.Name = "tabSemiPoF";
-            this.tabSemiPoF.Size = new System.Drawing.Size(609, 570);
+            this.tabSemiPoF.Size = new System.Drawing.Size(605, 567);
             this.tabSemiPoF.Text = "Semi-Quanatitative PoF";
+            // 
+            // imageComboBoxEdit4
+            // 
+            this.imageComboBoxEdit4.Location = new System.Drawing.Point(312, 367);
+            this.imageComboBoxEdit4.Name = "imageComboBoxEdit4";
+            this.imageComboBoxEdit4.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.imageComboBoxEdit4.Properties.Appearance.Options.UseFont = true;
+            this.imageComboBoxEdit4.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.imageComboBoxEdit4.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.ImageComboBoxItem[] {
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("No", ((short)(0)), 0),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Yes", ((short)(1)), 1)});
+            this.imageComboBoxEdit4.Properties.SmallImages = this.imgColLF7;
+            this.imageComboBoxEdit4.Size = new System.Drawing.Size(268, 22);
+            this.imageComboBoxEdit4.TabIndex = 17;
+            // 
+            // imgColLF7
+            // 
+            this.imgColLF7.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("imgColLF7.ImageStream")));
+            this.imgColLF7.Images.SetKeyName(0, "green2.png");
+            this.imgColLF7.Images.SetKeyName(1, "red.png");
+            // 
+            // imageComboBoxEdit3
+            // 
+            this.imageComboBoxEdit3.Location = new System.Drawing.Point(312, 331);
+            this.imageComboBoxEdit3.Name = "imageComboBoxEdit3";
+            this.imageComboBoxEdit3.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.imageComboBoxEdit3.Properties.Appearance.Options.UseFont = true;
+            this.imageComboBoxEdit3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.imageComboBoxEdit3.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.ImageComboBoxItem[] {
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Significantly below normal operating range", ((short)(0)), 0),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Within normal operating range", ((short)(1)), 1),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Close to design limits", ((short)(2)), 2),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Above design limits", ((short)(3)), 3)});
+            this.imageComboBoxEdit3.Properties.SmallImages = this.imgColLF6;
+            this.imageComboBoxEdit3.Size = new System.Drawing.Size(268, 22);
+            this.imageComboBoxEdit3.TabIndex = 16;
+            // 
+            // imgColLF6
+            // 
+            this.imgColLF6.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("imgColLF6.ImageStream")));
+            this.imgColLF6.Images.SetKeyName(0, "green3.png");
+            this.imgColLF6.Images.SetKeyName(1, "green2.png");
+            this.imgColLF6.Images.SetKeyName(2, "yellow.png");
+            this.imgColLF6.Images.SetKeyName(3, "orange.png");
+            // 
+            // imageComboBoxEdit2
+            // 
+            this.imageComboBoxEdit2.Location = new System.Drawing.Point(312, 298);
+            this.imageComboBoxEdit2.Name = "imageComboBoxEdit2";
+            this.imageComboBoxEdit2.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.imageComboBoxEdit2.Properties.Appearance.Options.UseFont = true;
+            this.imageComboBoxEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.imageComboBoxEdit2.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.ImageComboBoxItem[] {
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Very stable operation", ((short)(0)), 0),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Infrequent operational upsets", ((short)(1)), 1),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Regular operational upsets", ((short)(2)), 2)});
+            this.imageComboBoxEdit2.Properties.SmallImages = this.imgColLF4;
+            this.imageComboBoxEdit2.Size = new System.Drawing.Size(268, 22);
+            this.imageComboBoxEdit2.TabIndex = 15;
+            // 
+            // imgColLF4
+            // 
+            this.imgColLF4.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("imgColLF4.ImageStream")));
+            this.imgColLF4.Images.SetKeyName(0, "green3.png");
+            this.imgColLF4.Images.SetKeyName(1, "green2.png");
+            this.imgColLF4.Images.SetKeyName(2, "yellow.png");
+            // 
+            // imageComboBoxEdit1
+            // 
+            this.imageComboBoxEdit1.Location = new System.Drawing.Point(312, 267);
+            this.imageComboBoxEdit1.Name = "imageComboBoxEdit1";
+            this.imageComboBoxEdit1.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.imageComboBoxEdit1.Properties.Appearance.Options.UseFont = true;
+            this.imageComboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.imageComboBoxEdit1.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.ImageComboBoxItem[] {
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Continuous operation", ((short)(0)), 0),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Occational shutdowns", ((short)(1)), 1),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Frequent shutdowns or intermittent operation", ((short)(2)), 2)});
+            this.imageComboBoxEdit1.Properties.SmallImages = this.imgColLF4;
+            this.imageComboBoxEdit1.Size = new System.Drawing.Size(268, 22);
+            this.imageComboBoxEdit1.TabIndex = 14;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label16.Location = new System.Drawing.Point(21, 270);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(216, 15);
+            this.label16.TabIndex = 13;
+            this.label16.Text = "LF4: Component Shutdown Frequency";
+            this.label16.Click += new System.EventHandler(this.label16_Click);
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label15.Location = new System.Drawing.Point(21, 301);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(143, 15);
+            this.label15.TabIndex = 12;
+            this.label15.Text = "LF5: Operational Stability";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label14.Location = new System.Drawing.Point(21, 334);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(240, 15);
+            this.label14.TabIndex = 11;
+            this.label14.Text = "LF6: Operational in relation to design limits";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label13.Location = new System.Drawing.Point(21, 370);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(155, 15);
+            this.label13.TabIndex = 10;
+            this.label13.Text = "LF7: Recurring repair issue";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label12.Location = new System.Drawing.Point(12, 235);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(151, 15);
+            this.label12.TabIndex = 9;
+            this.label12.Text = "LF4, LF5, LF6 and LF7";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label11.Location = new System.Drawing.Point(21, 206);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(288, 15);
+            this.label11.TabIndex = 8;
+            this.label11.Text = "LF3: Effectiveness of inspection programme against";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label10.Location = new System.Drawing.Point(12, 173);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(31, 15);
+            this.label10.TabIndex = 7;
+            this.label10.Text = "LF3";
+            // 
+            // cbLF1
+            // 
+            this.cbLF1.Location = new System.Drawing.Point(312, 68);
+            this.cbLF1.Name = "cbLF1";
+            this.cbLF1.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.cbLF1.Properties.Appearance.Options.UseFont = true;
+            this.cbLF1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cbLF1.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.ImageComboBoxItem[] {
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Better", ((short)(0)), 0),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("As expcted", ((short)(1)), 1),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Worse", ((short)(2)), 2)});
+            this.cbLF1.Properties.SmallImages = this.imgColLF1;
+            this.cbLF1.Size = new System.Drawing.Size(268, 22);
+            this.cbLF1.TabIndex = 6;
+            // 
+            // imgColLF1
+            // 
+            this.imgColLF1.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("imgColLF1.ImageStream")));
+            this.imgColLF1.Images.SetKeyName(0, "green2.png");
+            this.imgColLF1.Images.SetKeyName(1, "yellow.png");
+            this.imgColLF1.Images.SetKeyName(2, "red.png");
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.panel1.Controls.Add(this.label7);
+            this.panel1.Controls.Add(this.label8);
+            this.panel1.Controls.Add(this.label9);
+            this.panel1.Location = new System.Drawing.Point(312, 132);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(268, 25);
+            this.panel1.TabIndex = 5;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label7.Location = new System.Drawing.Point(172, 9);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(82, 15);
+            this.label7.TabIndex = 6;
+            this.label7.Text = "108 months";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label8.Location = new System.Drawing.Point(92, 9);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(74, 15);
+            this.label8.TabIndex = 7;
+            this.label8.Text = "72 months";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label9.Location = new System.Drawing.Point(3, 9);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(74, 15);
+            this.label9.TabIndex = 8;
+            this.label9.Text = "36 months";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label6.Location = new System.Drawing.Point(21, 142);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(263, 15);
+            this.label6.TabIndex = 4;
+            this.label6.Text = "LF2: Is failure due to ... expected within the next";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label5.Location = new System.Drawing.Point(12, 111);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(31, 15);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "LF2";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label4.Location = new System.Drawing.Point(21, 71);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(258, 15);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "LF1: Current condition from inspection records";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label3.Location = new System.Drawing.Point(12, 43);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(31, 15);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "LF1";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label2.Location = new System.Drawing.Point(12, 13);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(125, 15);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Likelihood Factors";
             // 
             // tabFullyPoF
             // 
@@ -328,725 +598,60 @@
             this.tabFullyPoF.Controls.Add(this.label18);
             this.tabFullyPoF.Controls.Add(this.label17);
             this.tabFullyPoF.Name = "tabFullyPoF";
-            this.tabFullyPoF.Size = new System.Drawing.Size(609, 570);
+            this.tabFullyPoF.Size = new System.Drawing.Size(605, 567);
             this.tabFullyPoF.Text = "Fully-Quantitative PoF";
             // 
-            // tabSemiCoF
-            // 
-            this.tabSemiCoF.Controls.Add(this.cbCF9);
-            this.tabSemiCoF.Controls.Add(this.cbCF8);
-            this.tabSemiCoF.Controls.Add(this.cbCF7);
-            this.tabSemiCoF.Controls.Add(this.cbCF6);
-            this.tabSemiCoF.Controls.Add(this.cbCF5);
-            this.tabSemiCoF.Controls.Add(this.cbCF4);
-            this.tabSemiCoF.Controls.Add(this.cbCF3);
-            this.tabSemiCoF.Controls.Add(this.cbCF2);
-            this.tabSemiCoF.Controls.Add(this.cbCF1);
-            this.tabSemiCoF.Controls.Add(this.label48);
-            this.tabSemiCoF.Controls.Add(this.label49);
-            this.tabSemiCoF.Controls.Add(this.label50);
-            this.tabSemiCoF.Controls.Add(this.label45);
-            this.tabSemiCoF.Controls.Add(this.label46);
-            this.tabSemiCoF.Controls.Add(this.label47);
-            this.tabSemiCoF.Controls.Add(this.label44);
-            this.tabSemiCoF.Controls.Add(this.label43);
-            this.tabSemiCoF.Controls.Add(this.label42);
-            this.tabSemiCoF.Controls.Add(this.label41);
-            this.tabSemiCoF.Name = "tabSemiCoF";
-            this.tabSemiCoF.Size = new System.Drawing.Size(609, 570);
-            this.tabSemiCoF.Text = "Semi-Quantitative CoF";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label2.Location = new System.Drawing.Point(12, 13);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(125, 15);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Likelihood Factors";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label3.Location = new System.Drawing.Point(12, 43);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(31, 15);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "LF1";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label4.Location = new System.Drawing.Point(21, 71);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(258, 15);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "LF1: Current condition from inspection records";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label5.Location = new System.Drawing.Point(12, 111);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(31, 15);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "LF2";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label6.Location = new System.Drawing.Point(21, 142);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(263, 15);
-            this.label6.TabIndex = 4;
-            this.label6.Text = "LF2: Is failure due to ... expected within the next";
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.label8);
-            this.panel1.Controls.Add(this.label9);
-            this.panel1.Location = new System.Drawing.Point(312, 132);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(268, 25);
-            this.panel1.TabIndex = 5;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label7.Location = new System.Drawing.Point(172, 9);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(82, 15);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "108 months";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label8.Location = new System.Drawing.Point(92, 9);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(74, 15);
-            this.label8.TabIndex = 7;
-            this.label8.Text = "72 months";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label9.Location = new System.Drawing.Point(3, 9);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(74, 15);
-            this.label9.TabIndex = 8;
-            this.label9.Text = "36 months";
-            // 
-            // cbLF1
-            // 
-            this.cbLF1.Location = new System.Drawing.Point(312, 68);
-            this.cbLF1.Name = "cbLF1";
-            this.cbLF1.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.cbLF1.Properties.Appearance.Options.UseFont = true;
-            this.cbLF1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.cbLF1.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.ImageComboBoxItem[] {
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Better", ((short)(0)), 0),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("As expcted", ((short)(1)), 1),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Worse", ((short)(2)), 2)});
-            this.cbLF1.Properties.SmallImages = this.imgColLF1;
-            this.cbLF1.Size = new System.Drawing.Size(268, 22);
-            this.cbLF1.TabIndex = 6;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label10.Location = new System.Drawing.Point(12, 173);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(31, 15);
-            this.label10.TabIndex = 7;
-            this.label10.Text = "LF3";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label11.Location = new System.Drawing.Point(21, 206);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(288, 15);
-            this.label11.TabIndex = 8;
-            this.label11.Text = "LF3: Effectiveness of inspection programme against";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label12.Location = new System.Drawing.Point(12, 235);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(151, 15);
-            this.label12.TabIndex = 9;
-            this.label12.Text = "LF4, LF5, LF6 and LF7";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label13.Location = new System.Drawing.Point(21, 370);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(155, 15);
-            this.label13.TabIndex = 10;
-            this.label13.Text = "LF7: Recurring repair issue";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label14.Location = new System.Drawing.Point(21, 334);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(240, 15);
-            this.label14.TabIndex = 11;
-            this.label14.Text = "LF6: Operational in relation to design limits";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label15.Location = new System.Drawing.Point(21, 301);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(143, 15);
-            this.label15.TabIndex = 12;
-            this.label15.Text = "LF5: Operational Stability";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label16.Location = new System.Drawing.Point(21, 270);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(216, 15);
-            this.label16.TabIndex = 13;
-            this.label16.Text = "LF4: Component Shutdown Frequency";
-            this.label16.Click += new System.EventHandler(this.label16_Click);
-            // 
-            // imageComboBoxEdit1
-            // 
-            this.imageComboBoxEdit1.Location = new System.Drawing.Point(312, 267);
-            this.imageComboBoxEdit1.Name = "imageComboBoxEdit1";
-            this.imageComboBoxEdit1.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.imageComboBoxEdit1.Properties.Appearance.Options.UseFont = true;
-            this.imageComboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.imageComboBoxEdit1.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.ImageComboBoxItem[] {
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Continuous Operation", ((short)(0)), 0),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Occational shutdowns", ((short)(1)), 1),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Frequent shutdowns or intermittent operation", ((short)(2)), 2)});
-            this.imageComboBoxEdit1.Properties.SmallImages = this.imgColLF4;
-            this.imageComboBoxEdit1.Size = new System.Drawing.Size(268, 22);
-            this.imageComboBoxEdit1.TabIndex = 14;
-            // 
-            // imageComboBoxEdit2
-            // 
-            this.imageComboBoxEdit2.Location = new System.Drawing.Point(312, 298);
-            this.imageComboBoxEdit2.Name = "imageComboBoxEdit2";
-            this.imageComboBoxEdit2.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.imageComboBoxEdit2.Properties.Appearance.Options.UseFont = true;
-            this.imageComboBoxEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.imageComboBoxEdit2.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.ImageComboBoxItem[] {
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Very stable operation", ((short)(0)), 0),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Infrequent operational upsets", ((short)(1)), 1),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Regular operational upsets", ((short)(2)), 2)});
-            this.imageComboBoxEdit2.Properties.SmallImages = this.imgColLF4;
-            this.imageComboBoxEdit2.Size = new System.Drawing.Size(268, 22);
-            this.imageComboBoxEdit2.TabIndex = 15;
-            // 
-            // imageComboBoxEdit3
-            // 
-            this.imageComboBoxEdit3.Location = new System.Drawing.Point(312, 331);
-            this.imageComboBoxEdit3.Name = "imageComboBoxEdit3";
-            this.imageComboBoxEdit3.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.imageComboBoxEdit3.Properties.Appearance.Options.UseFont = true;
-            this.imageComboBoxEdit3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.imageComboBoxEdit3.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.ImageComboBoxItem[] {
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Significantly below normal operating range", ((short)(0)), 0),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Within normal operating range", ((short)(1)), 1),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Close to design limits", ((short)(2)), 2),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Above design limits", ((short)(3)), 3)});
-            this.imageComboBoxEdit3.Properties.SmallImages = this.imgColLF6;
-            this.imageComboBoxEdit3.Size = new System.Drawing.Size(268, 22);
-            this.imageComboBoxEdit3.TabIndex = 16;
-            // 
-            // imageComboBoxEdit4
-            // 
-            this.imageComboBoxEdit4.Location = new System.Drawing.Point(312, 367);
-            this.imageComboBoxEdit4.Name = "imageComboBoxEdit4";
-            this.imageComboBoxEdit4.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.imageComboBoxEdit4.Properties.Appearance.Options.UseFont = true;
-            this.imageComboBoxEdit4.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.imageComboBoxEdit4.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.ImageComboBoxItem[] {
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("No", ((short)(0)), 0),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Yes", ((short)(1)), 1)});
-            this.imageComboBoxEdit4.Properties.SmallImages = this.imgColLF7;
-            this.imageComboBoxEdit4.Size = new System.Drawing.Size(268, 22);
-            this.imageComboBoxEdit4.TabIndex = 17;
-            // 
-            // imgColLF4
-            // 
-            this.imgColLF4.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("imgColLF4.ImageStream")));
-            this.imgColLF4.Images.SetKeyName(0, "green3.png");
-            this.imgColLF4.Images.SetKeyName(1, "green2.png");
-            this.imgColLF4.Images.SetKeyName(2, "yellow.png");
-            // 
-            // imgColLF6
-            // 
-            this.imgColLF6.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("imgColLF6.ImageStream")));
-            this.imgColLF6.Images.SetKeyName(0, "green3.png");
-            this.imgColLF6.Images.SetKeyName(1, "green2.png");
-            this.imgColLF6.Images.SetKeyName(2, "yellow.png");
-            this.imgColLF6.Images.SetKeyName(3, "orange.png");
-            // 
-            // imgColLF7
-            // 
-            this.imgColLF7.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("imgColLF7.ImageStream")));
-            this.imgColLF7.Images.SetKeyName(0, "green2.png");
-            this.imgColLF7.Images.SetKeyName(1, "red.png");
-            // 
-            // imgColLF1
-            // 
-            this.imgColLF1.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("imgColLF1.ImageStream")));
-            this.imgColLF1.Images.SetKeyName(0, "green2.png");
-            this.imgColLF1.Images.SetKeyName(1, "yellow.png");
-            this.imgColLF1.Images.SetKeyName(2, "red.png");
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label17.Location = new System.Drawing.Point(19, 15);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(255, 15);
-            this.label17.TabIndex = 0;
-            this.label17.Text = "Fully-Quantitative Probability of Failure";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label18.Location = new System.Drawing.Point(19, 40);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(94, 15);
-            this.label18.TabIndex = 1;
-            this.label18.Text = "Initial Factors";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label19.Location = new System.Drawing.Point(19, 68);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(84, 15);
-            this.label19.TabIndex = 2;
-            this.label19.Text = "Thinning Type";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label20.Location = new System.Drawing.Point(19, 124);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(174, 15);
-            this.label20.TabIndex = 3;
-            this.label20.Text = "Factor of Management System";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label21.Location = new System.Drawing.Point(19, 95);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(176, 15);
-            this.label21.TabIndex = 4;
-            this.label21.Text = "Total Generic Failure Frequenc";
-            // 
-            // cbThinningType
-            // 
-            this.cbThinningType.Location = new System.Drawing.Point(269, 65);
-            this.cbThinningType.Name = "cbThinningType";
-            this.cbThinningType.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.cbThinningType.Properties.Appearance.Options.UseFont = true;
-            this.cbThinningType.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.cbThinningType.Properties.Items.AddRange(new object[] {
-            "",
-            "General",
-            "Local"});
-            this.cbThinningType.Size = new System.Drawing.Size(180, 22);
-            this.cbThinningType.TabIndex = 5;
-            // 
-            // textEdit1
-            // 
-            this.textEdit1.Location = new System.Drawing.Point(269, 92);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.textEdit1.Properties.Appearance.Options.UseFont = true;
-            this.textEdit1.Size = new System.Drawing.Size(125, 22);
-            this.textEdit1.TabIndex = 6;
-            // 
-            // textEdit2
-            // 
-            this.textEdit2.Location = new System.Drawing.Point(269, 121);
-            this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.textEdit2.Properties.Appearance.Options.UseFont = true;
-            this.textEdit2.Size = new System.Drawing.Size(125, 22);
-            this.textEdit2.TabIndex = 7;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label22.Location = new System.Drawing.Point(19, 171);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(277, 15);
-            this.label22.TabIndex = 8;
-            this.label22.Text = "Damage Factors and Probability of Failure";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label23.Location = new System.Drawing.Point(19, 199);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(112, 15);
-            this.label23.TabIndex = 9;
-            this.label23.Text = "Assesment Periods";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label24.Location = new System.Drawing.Point(19, 232);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(195, 15);
-            this.label24.TabIndex = 10;
-            this.label24.Text = "Governing Thining Damage Factor";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label25.Location = new System.Drawing.Point(19, 256);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(295, 15);
-            this.label25.TabIndex = 11;
-            this.label25.Text = "Governing Stress Corrosion Cracking Damage Factor";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label26.Location = new System.Drawing.Point(19, 304);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(286, 15);
-            this.label26.TabIndex = 13;
-            this.label26.Text = "High Temperature Hydrogen Attack Damage Factor";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label27.Location = new System.Drawing.Point(19, 280);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(199, 15);
-            this.label27.TabIndex = 12;
-            this.label27.Text = "Governing External Damage Factor";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label28.Location = new System.Drawing.Point(19, 400);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(245, 15);
-            this.label28.TabIndex = 17;
-            this.label28.Text = "Total Damage Factor with General Thinning";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label29.Location = new System.Drawing.Point(19, 376);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(125, 15);
-            this.label29.TabIndex = 16;
-            this.label29.Text = "Other Damage Factor";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label30.Location = new System.Drawing.Point(19, 352);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(241, 15);
-            this.label30.TabIndex = 15;
-            this.label30.Text = "Piping Mechanical Fatigue Damage Factor";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label31.Location = new System.Drawing.Point(19, 328);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(233, 15);
-            this.label31.TabIndex = 14;
-            this.label31.Text = "Governing Brittle Fracture Damage Factor";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label32.Location = new System.Drawing.Point(19, 497);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(169, 15);
-            this.label32.TabIndex = 21;
-            this.label32.Text = "Probability of Failure Category";
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label33.Location = new System.Drawing.Point(19, 473);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(118, 15);
-            this.label33.TabIndex = 20;
-            this.label33.Text = "Probability of Failure";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label34.Location = new System.Drawing.Point(19, 449);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(152, 15);
-            this.label34.TabIndex = 19;
-            this.label34.Text = "Final Total Damage Factor";
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label35.Location = new System.Drawing.Point(19, 425);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(231, 15);
-            this.label35.TabIndex = 18;
-            this.label35.Text = "Total Damage Factor with Local Thinning";
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label36.Location = new System.Drawing.Point(19, 523);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(26, 15);
-            this.label36.TabIndex = 22;
-            this.label36.Text = "RLI";
-            // 
-            // txt00
-            // 
-            this.txt00.Location = new System.Drawing.Point(330, 229);
-            this.txt00.Name = "txt00";
-            this.txt00.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txt00.Properties.Appearance.Options.UseFont = true;
-            this.txt00.Size = new System.Drawing.Size(85, 22);
-            this.txt00.TabIndex = 23;
-            // 
-            // txt01
-            // 
-            this.txt01.Location = new System.Drawing.Point(421, 229);
-            this.txt01.Name = "txt01";
-            this.txt01.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txt01.Properties.Appearance.Options.UseFont = true;
-            this.txt01.Size = new System.Drawing.Size(85, 22);
-            this.txt01.TabIndex = 24;
-            // 
-            // txt02
-            // 
-            this.txt02.Location = new System.Drawing.Point(512, 229);
-            this.txt02.Name = "txt02";
-            this.txt02.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txt02.Properties.Appearance.Options.UseFont = true;
-            this.txt02.Size = new System.Drawing.Size(85, 22);
-            this.txt02.TabIndex = 25;
-            // 
-            // txt12
-            // 
-            this.txt12.Location = new System.Drawing.Point(512, 253);
-            this.txt12.Name = "txt12";
-            this.txt12.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txt12.Properties.Appearance.Options.UseFont = true;
-            this.txt12.Size = new System.Drawing.Size(85, 22);
-            this.txt12.TabIndex = 28;
-            // 
-            // txt11
-            // 
-            this.txt11.Location = new System.Drawing.Point(421, 253);
-            this.txt11.Name = "txt11";
-            this.txt11.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txt11.Properties.Appearance.Options.UseFont = true;
-            this.txt11.Size = new System.Drawing.Size(85, 22);
-            this.txt11.TabIndex = 27;
-            // 
-            // txt10
-            // 
-            this.txt10.Location = new System.Drawing.Point(330, 253);
-            this.txt10.Name = "txt10";
-            this.txt10.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txt10.Properties.Appearance.Options.UseFont = true;
-            this.txt10.Size = new System.Drawing.Size(85, 22);
-            this.txt10.TabIndex = 26;
-            // 
-            // txt22
-            // 
-            this.txt22.Location = new System.Drawing.Point(512, 277);
-            this.txt22.Name = "txt22";
-            this.txt22.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txt22.Properties.Appearance.Options.UseFont = true;
-            this.txt22.Size = new System.Drawing.Size(85, 22);
-            this.txt22.TabIndex = 31;
-            // 
-            // txt21
-            // 
-            this.txt21.Location = new System.Drawing.Point(421, 277);
-            this.txt21.Name = "txt21";
-            this.txt21.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txt21.Properties.Appearance.Options.UseFont = true;
-            this.txt21.Size = new System.Drawing.Size(85, 22);
-            this.txt21.TabIndex = 30;
-            // 
-            // txt20
-            // 
-            this.txt20.Location = new System.Drawing.Point(330, 277);
-            this.txt20.Name = "txt20";
-            this.txt20.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txt20.Properties.Appearance.Options.UseFont = true;
-            this.txt20.Size = new System.Drawing.Size(85, 22);
-            this.txt20.TabIndex = 29;
-            // 
-            // txt32
-            // 
-            this.txt32.Location = new System.Drawing.Point(512, 301);
-            this.txt32.Name = "txt32";
-            this.txt32.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txt32.Properties.Appearance.Options.UseFont = true;
-            this.txt32.Size = new System.Drawing.Size(85, 22);
-            this.txt32.TabIndex = 34;
-            // 
-            // txt31
-            // 
-            this.txt31.Location = new System.Drawing.Point(421, 301);
-            this.txt31.Name = "txt31";
-            this.txt31.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txt31.Properties.Appearance.Options.UseFont = true;
-            this.txt31.Size = new System.Drawing.Size(85, 22);
-            this.txt31.TabIndex = 33;
-            // 
-            // txt30
-            // 
-            this.txt30.Location = new System.Drawing.Point(330, 301);
-            this.txt30.Name = "txt30";
-            this.txt30.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txt30.Properties.Appearance.Options.UseFont = true;
-            this.txt30.Size = new System.Drawing.Size(85, 22);
-            this.txt30.TabIndex = 32;
-            // 
-            // txt42
-            // 
-            this.txt42.Location = new System.Drawing.Point(512, 325);
-            this.txt42.Name = "txt42";
-            this.txt42.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txt42.Properties.Appearance.Options.UseFont = true;
-            this.txt42.Size = new System.Drawing.Size(85, 22);
-            this.txt42.TabIndex = 37;
-            // 
-            // txt41
-            // 
-            this.txt41.Location = new System.Drawing.Point(421, 325);
-            this.txt41.Name = "txt41";
-            this.txt41.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txt41.Properties.Appearance.Options.UseFont = true;
-            this.txt41.Size = new System.Drawing.Size(85, 22);
-            this.txt41.TabIndex = 36;
-            // 
-            // txt40
-            // 
-            this.txt40.Location = new System.Drawing.Point(330, 325);
-            this.txt40.Name = "txt40";
-            this.txt40.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txt40.Properties.Appearance.Options.UseFont = true;
-            this.txt40.Size = new System.Drawing.Size(85, 22);
-            this.txt40.TabIndex = 35;
-            // 
-            // txt52
-            // 
-            this.txt52.Location = new System.Drawing.Point(512, 349);
-            this.txt52.Name = "txt52";
-            this.txt52.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txt52.Properties.Appearance.Options.UseFont = true;
-            this.txt52.Size = new System.Drawing.Size(85, 22);
-            this.txt52.TabIndex = 40;
-            // 
-            // txt51
-            // 
-            this.txt51.Location = new System.Drawing.Point(421, 349);
-            this.txt51.Name = "txt51";
-            this.txt51.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txt51.Properties.Appearance.Options.UseFont = true;
-            this.txt51.Size = new System.Drawing.Size(85, 22);
-            this.txt51.TabIndex = 39;
-            // 
-            // txt50
-            // 
-            this.txt50.Location = new System.Drawing.Point(330, 349);
-            this.txt50.Name = "txt50";
-            this.txt50.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txt50.Properties.Appearance.Options.UseFont = true;
-            this.txt50.Size = new System.Drawing.Size(85, 22);
-            this.txt50.TabIndex = 38;
-            // 
-            // txt62
-            // 
-            this.txt62.Location = new System.Drawing.Point(512, 373);
-            this.txt62.Name = "txt62";
-            this.txt62.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txt62.Properties.Appearance.Options.UseFont = true;
-            this.txt62.Size = new System.Drawing.Size(85, 22);
-            this.txt62.TabIndex = 43;
-            // 
-            // txt61
-            // 
-            this.txt61.Location = new System.Drawing.Point(421, 373);
-            this.txt61.Name = "txt61";
-            this.txt61.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txt61.Properties.Appearance.Options.UseFont = true;
-            this.txt61.Size = new System.Drawing.Size(85, 22);
-            this.txt61.TabIndex = 42;
-            // 
-            // txt60
-            // 
-            this.txt60.Location = new System.Drawing.Point(330, 373);
-            this.txt60.Name = "txt60";
-            this.txt60.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.txt60.Properties.Appearance.Options.UseFont = true;
-            this.txt60.Size = new System.Drawing.Size(85, 22);
-            this.txt60.TabIndex = 41;
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label40.Location = new System.Drawing.Point(428, 524);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(48, 15);
+            this.label40.TabIndex = 64;
+            this.label40.Text = "months";
+            // 
+            // btnRLI
+            // 
+            this.btnRLI.BackColor = System.Drawing.Color.White;
+            this.btnRLI.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRLI.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnRLI.Location = new System.Drawing.Point(451, 547);
+            this.btnRLI.Name = "btnRLI";
+            this.btnRLI.Size = new System.Drawing.Size(156, 23);
+            this.btnRLI.TabIndex = 63;
+            this.btnRLI.Text = "RLI Intermediate Values";
+            this.btnRLI.UseVisualStyleBackColor = false;
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label39.Location = new System.Drawing.Point(523, 211);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(65, 15);
+            this.label39.TabIndex = 62;
+            this.label39.Text = "72 months";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label38.Location = new System.Drawing.Point(428, 211);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(65, 15);
+            this.label38.TabIndex = 61;
+            this.label38.Text = "36 months";
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label37.Location = new System.Drawing.Point(345, 211);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(58, 15);
+            this.label37.TabIndex = 60;
+            this.label37.Text = "0 months";
             // 
             // txtC0
             // 
@@ -1192,184 +797,500 @@
             this.txt70.Size = new System.Drawing.Size(85, 22);
             this.txt70.TabIndex = 44;
             // 
-            // label37
+            // txt62
             // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label37.Location = new System.Drawing.Point(345, 211);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(58, 15);
-            this.label37.TabIndex = 60;
-            this.label37.Text = "0 months";
+            this.txt62.Location = new System.Drawing.Point(512, 373);
+            this.txt62.Name = "txt62";
+            this.txt62.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txt62.Properties.Appearance.Options.UseFont = true;
+            this.txt62.Size = new System.Drawing.Size(85, 22);
+            this.txt62.TabIndex = 43;
             // 
-            // label38
+            // txt61
             // 
-            this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label38.Location = new System.Drawing.Point(428, 211);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(65, 15);
-            this.label38.TabIndex = 61;
-            this.label38.Text = "36 months";
+            this.txt61.Location = new System.Drawing.Point(421, 373);
+            this.txt61.Name = "txt61";
+            this.txt61.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txt61.Properties.Appearance.Options.UseFont = true;
+            this.txt61.Size = new System.Drawing.Size(85, 22);
+            this.txt61.TabIndex = 42;
             // 
-            // label39
+            // txt60
             // 
-            this.label39.AutoSize = true;
-            this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label39.Location = new System.Drawing.Point(523, 211);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(65, 15);
-            this.label39.TabIndex = 62;
-            this.label39.Text = "72 months";
+            this.txt60.Location = new System.Drawing.Point(330, 373);
+            this.txt60.Name = "txt60";
+            this.txt60.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txt60.Properties.Appearance.Options.UseFont = true;
+            this.txt60.Size = new System.Drawing.Size(85, 22);
+            this.txt60.TabIndex = 41;
             // 
-            // btnRLI
+            // txt52
             // 
-            this.btnRLI.BackColor = System.Drawing.Color.White;
-            this.btnRLI.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRLI.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnRLI.Location = new System.Drawing.Point(451, 547);
-            this.btnRLI.Name = "btnRLI";
-            this.btnRLI.Size = new System.Drawing.Size(156, 23);
-            this.btnRLI.TabIndex = 63;
-            this.btnRLI.Text = "RLI Intermediate Values";
-            this.btnRLI.UseVisualStyleBackColor = false;
+            this.txt52.Location = new System.Drawing.Point(512, 349);
+            this.txt52.Name = "txt52";
+            this.txt52.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txt52.Properties.Appearance.Options.UseFont = true;
+            this.txt52.Size = new System.Drawing.Size(85, 22);
+            this.txt52.TabIndex = 40;
             // 
-            // label40
+            // txt51
             // 
-            this.label40.AutoSize = true;
-            this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label40.Location = new System.Drawing.Point(428, 524);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(48, 15);
-            this.label40.TabIndex = 64;
-            this.label40.Text = "months";
+            this.txt51.Location = new System.Drawing.Point(421, 349);
+            this.txt51.Name = "txt51";
+            this.txt51.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txt51.Properties.Appearance.Options.UseFont = true;
+            this.txt51.Size = new System.Drawing.Size(85, 22);
+            this.txt51.TabIndex = 39;
             // 
-            // label41
+            // txt50
             // 
-            this.label41.AutoSize = true;
-            this.label41.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label41.Location = new System.Drawing.Point(6, 16);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(145, 15);
-            this.label41.TabIndex = 0;
-            this.label41.Text = "Consequence Factors";
+            this.txt50.Location = new System.Drawing.Point(330, 349);
+            this.txt50.Name = "txt50";
+            this.txt50.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txt50.Properties.Appearance.Options.UseFont = true;
+            this.txt50.Size = new System.Drawing.Size(85, 22);
+            this.txt50.TabIndex = 38;
             // 
-            // label42
+            // txt42
             // 
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label42.Location = new System.Drawing.Point(15, 56);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(102, 15);
-            this.label42.TabIndex = 1;
-            this.label42.Text = "CF1: Product loss";
+            this.txt42.Location = new System.Drawing.Point(512, 325);
+            this.txt42.Name = "txt42";
+            this.txt42.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txt42.Properties.Appearance.Options.UseFont = true;
+            this.txt42.Size = new System.Drawing.Size(85, 22);
+            this.txt42.TabIndex = 37;
             // 
-            // label43
+            // txt41
             // 
-            this.label43.AutoSize = true;
-            this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label43.Location = new System.Drawing.Point(15, 81);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(117, 15);
-            this.label43.TabIndex = 2;
-            this.label43.Text = "CF2: Pressure factor";
+            this.txt41.Location = new System.Drawing.Point(421, 325);
+            this.txt41.Name = "txt41";
+            this.txt41.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txt41.Properties.Appearance.Options.UseFont = true;
+            this.txt41.Size = new System.Drawing.Size(85, 22);
+            this.txt41.TabIndex = 36;
             // 
-            // label44
+            // txt40
             // 
-            this.label44.AutoSize = true;
-            this.label44.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label44.Location = new System.Drawing.Point(15, 107);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(222, 15);
-            this.label44.TabIndex = 3;
-            this.label44.Text = "CF3: Explosion or fire damage potential";
+            this.txt40.Location = new System.Drawing.Point(330, 325);
+            this.txt40.Name = "txt40";
+            this.txt40.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txt40.Properties.Appearance.Options.UseFont = true;
+            this.txt40.Size = new System.Drawing.Size(85, 22);
+            this.txt40.TabIndex = 35;
             // 
-            // label45
+            // txt32
             // 
-            this.label45.AutoSize = true;
-            this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label45.Location = new System.Drawing.Point(15, 183);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(225, 15);
-            this.label45.TabIndex = 6;
-            this.label45.Text = "CF6: Location of component within plant";
+            this.txt32.Location = new System.Drawing.Point(512, 301);
+            this.txt32.Name = "txt32";
+            this.txt32.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txt32.Properties.Appearance.Options.UseFont = true;
+            this.txt32.Size = new System.Drawing.Size(85, 22);
+            this.txt32.TabIndex = 34;
             // 
-            // label46
+            // txt31
             // 
-            this.label46.AutoSize = true;
-            this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label46.Location = new System.Drawing.Point(15, 157);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(220, 15);
-            this.label46.TabIndex = 5;
-            this.label46.Text = "CF5: Effect of item failure on production";
+            this.txt31.Location = new System.Drawing.Point(421, 301);
+            this.txt31.Name = "txt31";
+            this.txt31.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txt31.Properties.Appearance.Options.UseFont = true;
+            this.txt31.Size = new System.Drawing.Size(85, 22);
+            this.txt31.TabIndex = 33;
             // 
-            // label47
+            // txt30
             // 
-            this.label47.AutoSize = true;
-            this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label47.Location = new System.Drawing.Point(15, 132);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(179, 15);
-            this.label47.TabIndex = 4;
-            this.label47.Text = "CF4: Potential toxicity of release";
+            this.txt30.Location = new System.Drawing.Point(330, 301);
+            this.txt30.Name = "txt30";
+            this.txt30.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txt30.Properties.Appearance.Options.UseFont = true;
+            this.txt30.Size = new System.Drawing.Size(85, 22);
+            this.txt30.TabIndex = 32;
             // 
-            // label48
+            // txt22
             // 
-            this.label48.AutoSize = true;
-            this.label48.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label48.Location = new System.Drawing.Point(15, 259);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(180, 15);
-            this.label48.TabIndex = 9;
-            this.label48.Text = "CF9: Engineered safety features";
+            this.txt22.Location = new System.Drawing.Point(512, 277);
+            this.txt22.Name = "txt22";
+            this.txt22.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txt22.Properties.Appearance.Options.UseFont = true;
+            this.txt22.Size = new System.Drawing.Size(85, 22);
+            this.txt22.TabIndex = 31;
             // 
-            // label49
+            // txt21
             // 
-            this.label49.AutoSize = true;
-            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label49.Location = new System.Drawing.Point(15, 233);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(229, 15);
-            this.label49.TabIndex = 8;
-            this.label49.Text = "CF8: Threat to personnel and enviroment";
+            this.txt21.Location = new System.Drawing.Point(421, 277);
+            this.txt21.Name = "txt21";
+            this.txt21.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txt21.Properties.Appearance.Options.UseFont = true;
+            this.txt21.Size = new System.Drawing.Size(85, 22);
+            this.txt21.TabIndex = 30;
             // 
-            // label50
+            // txt20
             // 
-            this.label50.AutoSize = true;
-            this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label50.Location = new System.Drawing.Point(15, 208);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(207, 15);
-            this.label50.TabIndex = 7;
-            this.label50.Text = "CF7: Time taken to rectify item failure";
+            this.txt20.Location = new System.Drawing.Point(330, 277);
+            this.txt20.Name = "txt20";
+            this.txt20.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txt20.Properties.Appearance.Options.UseFont = true;
+            this.txt20.Size = new System.Drawing.Size(85, 22);
+            this.txt20.TabIndex = 29;
             // 
-            // cbCF1
+            // txt12
             // 
-            this.cbCF1.Location = new System.Drawing.Point(287, 55);
-            this.cbCF1.Name = "cbCF1";
-            this.cbCF1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.txt12.Location = new System.Drawing.Point(512, 253);
+            this.txt12.Name = "txt12";
+            this.txt12.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txt12.Properties.Appearance.Options.UseFont = true;
+            this.txt12.Size = new System.Drawing.Size(85, 22);
+            this.txt12.TabIndex = 28;
+            // 
+            // txt11
+            // 
+            this.txt11.Location = new System.Drawing.Point(421, 253);
+            this.txt11.Name = "txt11";
+            this.txt11.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txt11.Properties.Appearance.Options.UseFont = true;
+            this.txt11.Size = new System.Drawing.Size(85, 22);
+            this.txt11.TabIndex = 27;
+            // 
+            // txt10
+            // 
+            this.txt10.Location = new System.Drawing.Point(330, 253);
+            this.txt10.Name = "txt10";
+            this.txt10.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txt10.Properties.Appearance.Options.UseFont = true;
+            this.txt10.Size = new System.Drawing.Size(85, 22);
+            this.txt10.TabIndex = 26;
+            // 
+            // txt02
+            // 
+            this.txt02.Location = new System.Drawing.Point(512, 229);
+            this.txt02.Name = "txt02";
+            this.txt02.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txt02.Properties.Appearance.Options.UseFont = true;
+            this.txt02.Size = new System.Drawing.Size(85, 22);
+            this.txt02.TabIndex = 25;
+            // 
+            // txt01
+            // 
+            this.txt01.Location = new System.Drawing.Point(421, 229);
+            this.txt01.Name = "txt01";
+            this.txt01.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txt01.Properties.Appearance.Options.UseFont = true;
+            this.txt01.Size = new System.Drawing.Size(85, 22);
+            this.txt01.TabIndex = 24;
+            // 
+            // txt00
+            // 
+            this.txt00.Location = new System.Drawing.Point(330, 229);
+            this.txt00.Name = "txt00";
+            this.txt00.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.txt00.Properties.Appearance.Options.UseFont = true;
+            this.txt00.Size = new System.Drawing.Size(85, 22);
+            this.txt00.TabIndex = 23;
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label36.Location = new System.Drawing.Point(19, 523);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(26, 15);
+            this.label36.TabIndex = 22;
+            this.label36.Text = "RLI";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label32.Location = new System.Drawing.Point(19, 497);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(169, 15);
+            this.label32.TabIndex = 21;
+            this.label32.Text = "Probability of Failure Category";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label33.Location = new System.Drawing.Point(19, 473);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(118, 15);
+            this.label33.TabIndex = 20;
+            this.label33.Text = "Probability of Failure";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label34.Location = new System.Drawing.Point(19, 449);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(152, 15);
+            this.label34.TabIndex = 19;
+            this.label34.Text = "Final Total Damage Factor";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label35.Location = new System.Drawing.Point(19, 425);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(231, 15);
+            this.label35.TabIndex = 18;
+            this.label35.Text = "Total Damage Factor with Local Thinning";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label28.Location = new System.Drawing.Point(19, 400);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(245, 15);
+            this.label28.TabIndex = 17;
+            this.label28.Text = "Total Damage Factor with General Thinning";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label29.Location = new System.Drawing.Point(19, 376);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(125, 15);
+            this.label29.TabIndex = 16;
+            this.label29.Text = "Other Damage Factor";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label30.Location = new System.Drawing.Point(19, 352);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(241, 15);
+            this.label30.TabIndex = 15;
+            this.label30.Text = "Piping Mechanical Fatigue Damage Factor";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label31.Location = new System.Drawing.Point(19, 328);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(233, 15);
+            this.label31.TabIndex = 14;
+            this.label31.Text = "Governing Brittle Fracture Damage Factor";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label26.Location = new System.Drawing.Point(19, 304);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(286, 15);
+            this.label26.TabIndex = 13;
+            this.label26.Text = "High Temperature Hydrogen Attack Damage Factor";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label27.Location = new System.Drawing.Point(19, 280);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(199, 15);
+            this.label27.TabIndex = 12;
+            this.label27.Text = "Governing External Damage Factor";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label25.Location = new System.Drawing.Point(19, 256);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(295, 15);
+            this.label25.TabIndex = 11;
+            this.label25.Text = "Governing Stress Corrosion Cracking Damage Factor";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label24.Location = new System.Drawing.Point(19, 232);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(195, 15);
+            this.label24.TabIndex = 10;
+            this.label24.Text = "Governing Thining Damage Factor";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label23.Location = new System.Drawing.Point(19, 199);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(112, 15);
+            this.label23.TabIndex = 9;
+            this.label23.Text = "Assesment Periods";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label22.Location = new System.Drawing.Point(19, 171);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(277, 15);
+            this.label22.TabIndex = 8;
+            this.label22.Text = "Damage Factors and Probability of Failure";
+            // 
+            // textEdit2
+            // 
+            this.textEdit2.Location = new System.Drawing.Point(269, 121);
+            this.textEdit2.Name = "textEdit2";
+            this.textEdit2.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.textEdit2.Properties.Appearance.Options.UseFont = true;
+            this.textEdit2.Size = new System.Drawing.Size(125, 22);
+            this.textEdit2.TabIndex = 7;
+            // 
+            // textEdit1
+            // 
+            this.textEdit1.Location = new System.Drawing.Point(269, 92);
+            this.textEdit1.Name = "textEdit1";
+            this.textEdit1.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.textEdit1.Properties.Appearance.Options.UseFont = true;
+            this.textEdit1.Size = new System.Drawing.Size(125, 22);
+            this.textEdit1.TabIndex = 6;
+            // 
+            // cbThinningType
+            // 
+            this.cbThinningType.Location = new System.Drawing.Point(269, 65);
+            this.cbThinningType.Name = "cbThinningType";
+            this.cbThinningType.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.cbThinningType.Properties.Appearance.Options.UseFont = true;
+            this.cbThinningType.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.cbCF1.Size = new System.Drawing.Size(252, 20);
-            this.cbCF1.TabIndex = 10;
+            this.cbThinningType.Properties.Items.AddRange(new object[] {
+            "",
+            "General",
+            "Local"});
+            this.cbThinningType.Size = new System.Drawing.Size(180, 22);
+            this.cbThinningType.TabIndex = 5;
             // 
-            // cbCF2
+            // label21
             // 
-            this.cbCF2.Location = new System.Drawing.Point(287, 80);
-            this.cbCF2.Name = "cbCF2";
-            this.cbCF2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label21.Location = new System.Drawing.Point(19, 95);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(176, 15);
+            this.label21.TabIndex = 4;
+            this.label21.Text = "Total Generic Failure Frequenc";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label20.Location = new System.Drawing.Point(19, 124);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(174, 15);
+            this.label20.TabIndex = 3;
+            this.label20.Text = "Factor of Management System";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label19.Location = new System.Drawing.Point(19, 68);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(84, 15);
+            this.label19.TabIndex = 2;
+            this.label19.Text = "Thinning Type";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label18.Location = new System.Drawing.Point(19, 40);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(94, 15);
+            this.label18.TabIndex = 1;
+            this.label18.Text = "Initial Factors";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label17.Location = new System.Drawing.Point(19, 15);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(255, 15);
+            this.label17.TabIndex = 0;
+            this.label17.Text = "Fully-Quantitative Probability of Failure";
+            // 
+            // tabSemiCoF
+            // 
+            this.tabSemiCoF.Controls.Add(this.cbCF9);
+            this.tabSemiCoF.Controls.Add(this.cbCF8);
+            this.tabSemiCoF.Controls.Add(this.cbCF7);
+            this.tabSemiCoF.Controls.Add(this.cbCF6);
+            this.tabSemiCoF.Controls.Add(this.cbCF5);
+            this.tabSemiCoF.Controls.Add(this.cbCF4);
+            this.tabSemiCoF.Controls.Add(this.cbCF3);
+            this.tabSemiCoF.Controls.Add(this.cbCF2);
+            this.tabSemiCoF.Controls.Add(this.cbCF1);
+            this.tabSemiCoF.Controls.Add(this.label48);
+            this.tabSemiCoF.Controls.Add(this.label49);
+            this.tabSemiCoF.Controls.Add(this.label50);
+            this.tabSemiCoF.Controls.Add(this.label45);
+            this.tabSemiCoF.Controls.Add(this.label46);
+            this.tabSemiCoF.Controls.Add(this.label47);
+            this.tabSemiCoF.Controls.Add(this.label44);
+            this.tabSemiCoF.Controls.Add(this.label43);
+            this.tabSemiCoF.Controls.Add(this.label42);
+            this.tabSemiCoF.Controls.Add(this.label41);
+            this.tabSemiCoF.Name = "tabSemiCoF";
+            this.tabSemiCoF.Size = new System.Drawing.Size(605, 567);
+            this.tabSemiCoF.Text = "Semi-Quantitative CoF";
+            // 
+            // cbCF9
+            // 
+            this.cbCF9.Location = new System.Drawing.Point(287, 258);
+            this.cbCF9.Name = "cbCF9";
+            this.cbCF9.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.cbCF2.Size = new System.Drawing.Size(252, 20);
-            this.cbCF2.TabIndex = 11;
+            this.cbCF9.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.ImageComboBoxItem[] {
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Adequate", ((short)(0)), 0),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Inadequate", ((short)(1)), 2)});
+            this.cbCF9.Properties.SmallImages = this.imgColCF56;
+            this.cbCF9.Size = new System.Drawing.Size(252, 20);
+            this.cbCF9.TabIndex = 18;
             // 
-            // cbCF3
+            // imgColCF56
             // 
-            this.cbCF3.Location = new System.Drawing.Point(287, 106);
-            this.cbCF3.Name = "cbCF3";
-            this.cbCF3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.imgColCF56.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("imgColCF56.ImageStream")));
+            this.imgColCF56.Images.SetKeyName(0, "green.png");
+            this.imgColCF56.Images.SetKeyName(1, "yellow.png");
+            this.imgColCF56.Images.SetKeyName(2, "orange.png");
+            // 
+            // cbCF8
+            // 
+            this.cbCF8.Location = new System.Drawing.Point(287, 232);
+            this.cbCF8.Name = "cbCF8";
+            this.cbCF8.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.cbCF3.Size = new System.Drawing.Size(252, 20);
-            this.cbCF3.TabIndex = 12;
+            this.cbCF8.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.ImageComboBoxItem[] {
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("No threat", ((short)(0)), 0),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Threat to personnel or environment", ((short)(1)), 1),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Threat to personnel and environment", ((short)(2)), 2)});
+            this.cbCF8.Properties.SmallImages = this.imgColCF56;
+            this.cbCF8.Size = new System.Drawing.Size(252, 20);
+            this.cbCF8.TabIndex = 17;
+            // 
+            // cbCF7
+            // 
+            this.cbCF7.Location = new System.Drawing.Point(287, 207);
+            this.cbCF7.Name = "cbCF7";
+            this.cbCF7.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cbCF7.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.ImageComboBoxItem[] {
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Less than week", ((short)(0)), 0),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Less than one month", ((short)(1)), 1),
+            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Greater than one month", ((short)(2)), 2)});
+            this.cbCF7.Properties.SmallImages = this.imgColCF56;
+            this.cbCF7.Size = new System.Drawing.Size(252, 20);
+            this.cbCF7.TabIndex = 16;
             // 
             // cbCF6
             // 
@@ -1408,53 +1329,132 @@
             this.cbCF4.Size = new System.Drawing.Size(252, 20);
             this.cbCF4.TabIndex = 13;
             // 
-            // cbCF9
+            // cbCF3
             // 
-            this.cbCF9.Location = new System.Drawing.Point(287, 258);
-            this.cbCF9.Name = "cbCF9";
-            this.cbCF9.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.cbCF3.Location = new System.Drawing.Point(287, 106);
+            this.cbCF3.Name = "cbCF3";
+            this.cbCF3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.cbCF9.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.ImageComboBoxItem[] {
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Adequate", ((short)(0)), 0),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Inadequate", ((short)(1)), 2)});
-            this.cbCF9.Properties.SmallImages = this.imgColCF56;
-            this.cbCF9.Size = new System.Drawing.Size(252, 20);
-            this.cbCF9.TabIndex = 18;
+            this.cbCF3.Size = new System.Drawing.Size(252, 20);
+            this.cbCF3.TabIndex = 12;
             // 
-            // cbCF8
+            // cbCF2
             // 
-            this.cbCF8.Location = new System.Drawing.Point(287, 232);
-            this.cbCF8.Name = "cbCF8";
-            this.cbCF8.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.cbCF2.Location = new System.Drawing.Point(287, 80);
+            this.cbCF2.Name = "cbCF2";
+            this.cbCF2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.cbCF8.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.ImageComboBoxItem[] {
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("No threat", ((short)(0)), 0),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Threat to personnel or enviroment", ((short)(1)), 1),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Threat to personnel and enviroment", ((short)(2)), 2)});
-            this.cbCF8.Properties.SmallImages = this.imgColCF56;
-            this.cbCF8.Size = new System.Drawing.Size(252, 20);
-            this.cbCF8.TabIndex = 17;
+            this.cbCF2.Size = new System.Drawing.Size(252, 20);
+            this.cbCF2.TabIndex = 11;
             // 
-            // cbCF7
+            // cbCF1
             // 
-            this.cbCF7.Location = new System.Drawing.Point(287, 207);
-            this.cbCF7.Name = "cbCF7";
-            this.cbCF7.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.cbCF1.Location = new System.Drawing.Point(287, 55);
+            this.cbCF1.Name = "cbCF1";
+            this.cbCF1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.cbCF7.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.ImageComboBoxItem[] {
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Less than week", ((short)(0)), 0),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Less than one month", ((short)(1)), 1),
-            new DevExpress.XtraEditors.Controls.ImageComboBoxItem("Greather than one month", ((short)(2)), 2)});
-            this.cbCF7.Properties.SmallImages = this.imgColCF56;
-            this.cbCF7.Size = new System.Drawing.Size(252, 20);
-            this.cbCF7.TabIndex = 16;
+            this.cbCF1.Size = new System.Drawing.Size(252, 20);
+            this.cbCF1.TabIndex = 10;
             // 
-            // imgColCF56
+            // label48
             // 
-            this.imgColCF56.ImageStream = ((DevExpress.Utils.ImageCollectionStreamer)(resources.GetObject("imgColCF56.ImageStream")));
-            this.imgColCF56.Images.SetKeyName(0, "green.png");
-            this.imgColCF56.Images.SetKeyName(1, "yellow.png");
-            this.imgColCF56.Images.SetKeyName(2, "orange.png");
+            this.label48.AutoSize = true;
+            this.label48.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label48.Location = new System.Drawing.Point(15, 259);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(180, 15);
+            this.label48.TabIndex = 9;
+            this.label48.Text = "CF9: Engineered safety features";
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label49.Location = new System.Drawing.Point(15, 233);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(236, 15);
+            this.label49.TabIndex = 8;
+            this.label49.Text = "CF8: Threat to personnel and environment";
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label50.Location = new System.Drawing.Point(15, 208);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(207, 15);
+            this.label50.TabIndex = 7;
+            this.label50.Text = "CF7: Time taken to rectify item failure";
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label45.Location = new System.Drawing.Point(15, 183);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(225, 15);
+            this.label45.TabIndex = 6;
+            this.label45.Text = "CF6: Location of component within plant";
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label46.Location = new System.Drawing.Point(15, 157);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(220, 15);
+            this.label46.TabIndex = 5;
+            this.label46.Text = "CF5: Effect of item failure on production";
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label47.Location = new System.Drawing.Point(15, 132);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(179, 15);
+            this.label47.TabIndex = 4;
+            this.label47.Text = "CF4: Potential toxicity of release";
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label44.Location = new System.Drawing.Point(15, 107);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(222, 15);
+            this.label44.TabIndex = 3;
+            this.label44.Text = "CF3: Explosion or fire damage potential";
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label43.Location = new System.Drawing.Point(15, 81);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(117, 15);
+            this.label43.TabIndex = 2;
+            this.label43.Text = "CF2: Pressure factor";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label42.Location = new System.Drawing.Point(15, 56);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(102, 15);
+            this.label42.TabIndex = 1;
+            this.label42.Text = "CF1: Product loss";
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label41.Location = new System.Drawing.Point(6, 16);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(145, 15);
+            this.label41.TabIndex = 0;
+            this.label41.Text = "Consequence Factors";
             // 
             // imageCollection2
             // 
@@ -1472,45 +1472,19 @@
             this.xtraTabControl1.ResumeLayout(false);
             this.tabSemiPoF.ResumeLayout(false);
             this.tabSemiPoF.PerformLayout();
-            this.tabFullyPoF.ResumeLayout(false);
-            this.tabFullyPoF.PerformLayout();
-            this.tabSemiCoF.ResumeLayout(false);
-            this.tabSemiCoF.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imageComboBoxEdit4.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgColLF7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageComboBoxEdit3.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgColLF6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageComboBoxEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgColLF4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageComboBoxEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbLF1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgColLF1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.cbLF1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageComboBoxEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageComboBoxEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageComboBoxEdit3.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageComboBoxEdit4.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgColLF4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgColLF6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgColLF7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgColLF1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbThinningType.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt00.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt01.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt02.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt12.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt11.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt10.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt22.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt21.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt20.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt32.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt31.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt30.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt42.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt41.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt40.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt52.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt51.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt50.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt62.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt61.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt60.Properties)).EndInit();
+            this.tabFullyPoF.ResumeLayout(false);
+            this.tabFullyPoF.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txtC0.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtB2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtB1.Properties)).EndInit();
@@ -1527,16 +1501,42 @@
             ((System.ComponentModel.ISupportInitialize)(this.txt72.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt71.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt70.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbCF1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbCF2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbCF3.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt62.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt61.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt60.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt52.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt51.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt50.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt42.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt41.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt40.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt32.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt31.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt30.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt22.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt21.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt20.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt12.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt11.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt10.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt02.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt01.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt00.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbThinningType.Properties)).EndInit();
+            this.tabSemiCoF.ResumeLayout(false);
+            this.tabSemiCoF.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cbCF9.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgColCF56)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbCF8.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbCF7.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbCF6.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbCF5.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cbCF4.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbCF9.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbCF8.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cbCF7.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgColCF56)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbCF3.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbCF2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cbCF1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageCollection2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
