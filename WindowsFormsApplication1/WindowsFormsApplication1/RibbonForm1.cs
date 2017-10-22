@@ -39,12 +39,9 @@ namespace RBI
             InitializeComponent();
             
             treeListProject.OptionsBehavior.Editable = false;
-
-            addNewTab("Damage Mechanism", dm);
         }
 
 
-        UCDamageMechanism dm = new UCDamageMechanism();
         TreeListNode siteNode = null;
         TreeListNode facilityNode = null;
         TreeListNode equipmentNode = null;

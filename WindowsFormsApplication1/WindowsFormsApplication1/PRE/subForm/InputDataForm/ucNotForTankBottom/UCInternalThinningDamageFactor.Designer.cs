@@ -505,9 +505,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label1.Location = new System.Drawing.Point(49, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(286, 20);
+            this.label1.Size = new System.Drawing.Size(258, 20);
             this.label1.TabIndex = 54;
-            this.label1.Text = "External Corrosion Damage Factor";
+            this.label1.Text = "InternalThinningDamageFactor";
             // 
             // label18
             // 
@@ -855,7 +855,7 @@
             this.label38.TabIndex = 127;
             this.label38.Text = "Years Since Last Inspection, age, tk";
             // 
-            // InternalThinningDamageFactor
+            // UCInternalThinningDamageFactor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -941,7 +941,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "InternalThinningDamageFactor";
+            this.Name = "UCInternalThinningDamageFactor";
             this.Size = new System.Drawing.Size(811, 866);
             this.Load += new System.EventHandler(this.InternalThinningDamageFactor_Load);
             this.ResumeLayout(false);
