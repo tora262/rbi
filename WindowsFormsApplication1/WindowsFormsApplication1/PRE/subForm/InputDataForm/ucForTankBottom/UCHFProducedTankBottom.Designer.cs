@@ -1,6 +1,6 @@
 ﻿namespace RBI.PRE.subForm.InputDataForm.ucForTankBottom
 {
-    partial class UCSulfideStressCrackingDamageFactor
+    partial class UCHFProducedTankBottom
     {
         /// <summary> 
         /// Required designer variable.
@@ -30,16 +30,14 @@
         {
             this.tbPresenceOfCracks = new System.Windows.Forms.TextBox();
             this.label27 = new System.Windows.Forms.Label();
-            this.tbMaximumBrinnellHardnessOfWeld = new System.Windows.Forms.TextBox();
+            this.tbSulfurContent = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
-            this.tbEnvironmentContainsH2S = new System.Windows.Forms.TextBox();
+            this.tbMaximumBrinnellHardnessOfWeld = new System.Windows.Forms.TextBox();
             this.tbH2SContent = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
-            this.tbpHofWater = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.tbBaseValueOfDamageFactor72m = new System.Windows.Forms.TextBox();
-            this.tbBaseValueOfDamageFactor36m = new System.Windows.Forms.TextBox();
+            this.tbNumberOfInspection = new System.Windows.Forms.TextBox();
+            this.tbYearsSinceLastInspection72m = new System.Windows.Forms.TextBox();
             this.tbYearsSinceLastInspection36m = new System.Windows.Forms.TextBox();
             this.tbBaseValueOfDamageFactor0m = new System.Windows.Forms.TextBox();
             this.tbYearsSinceLastInspection0m = new System.Windows.Forms.TextBox();
@@ -47,7 +45,7 @@
             this.label16 = new System.Windows.Forms.Label();
             this.tbSVI = new System.Windows.Forms.TextBox();
             this.tbSusceptibility = new System.Windows.Forms.TextBox();
-            this.tbNumberOfInspection = new System.Windows.Forms.TextBox();
+            this.tbLastInspectionDate = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
@@ -56,31 +54,18 @@
             this.label23 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.tbHICDamageFactor0m = new System.Windows.Forms.TextBox();
-            this.tbYearsSinceLastInspection72m = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.tbLastInspectionDate = new System.Windows.Forms.TextBox();
             this.tbCommisionDate = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.tbPWHT = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
             this.tbHighestInspectionEffectiveness = new System.Windows.Forms.TextBox();
+            this.tbBaseValueOfDamageFactor36m = new System.Windows.Forms.TextBox();
             this.tbRiskAnalysisPeriod = new System.Windows.Forms.TextBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.tbEnvironmentalSeverity = new System.Windows.Forms.TextBox();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.tbAssessmentDate = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tbAssessmentName = new System.Windows.Forms.TextBox();
             this.tbComponentNumber = new System.Windows.Forms.TextBox();
@@ -88,13 +73,20 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.tbPresenceOfCyanides = new System.Windows.Forms.TextBox();
-            this.label29 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.tbBaseValueOfDamageFactor72m = new System.Windows.Forms.TextBox();
             this.groupBox4.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // tbPresenceOfCracks
@@ -114,12 +106,12 @@
             this.label27.TabIndex = 51;
             this.label27.Text = "Presence of Cracks";
             // 
-            // tbMaximumBrinnellHardnessOfWeld
+            // tbSulfurContent
             // 
-            this.tbMaximumBrinnellHardnessOfWeld.Location = new System.Drawing.Point(255, 203);
-            this.tbMaximumBrinnellHardnessOfWeld.Name = "tbMaximumBrinnellHardnessOfWeld";
-            this.tbMaximumBrinnellHardnessOfWeld.Size = new System.Drawing.Size(478, 22);
-            this.tbMaximumBrinnellHardnessOfWeld.TabIndex = 50;
+            this.tbSulfurContent.Location = new System.Drawing.Point(255, 203);
+            this.tbSulfurContent.Name = "tbSulfurContent";
+            this.tbSulfurContent.Size = new System.Drawing.Size(478, 22);
+            this.tbSulfurContent.TabIndex = 50;
             // 
             // label24
             // 
@@ -127,16 +119,16 @@
             this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label24.Location = new System.Drawing.Point(17, 206);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(208, 15);
+            this.label24.Size = new System.Drawing.Size(84, 15);
             this.label24.TabIndex = 49;
-            this.label24.Text = "Maximum Brinnell Hardness of Weld";
+            this.label24.Text = "Sulfur Content";
             // 
-            // tbEnvironmentContainsH2S
+            // tbMaximumBrinnellHardnessOfWeld
             // 
-            this.tbEnvironmentContainsH2S.Location = new System.Drawing.Point(255, 175);
-            this.tbEnvironmentContainsH2S.Name = "tbEnvironmentContainsH2S";
-            this.tbEnvironmentContainsH2S.Size = new System.Drawing.Size(114, 22);
-            this.tbEnvironmentContainsH2S.TabIndex = 48;
+            this.tbMaximumBrinnellHardnessOfWeld.Location = new System.Drawing.Point(255, 175);
+            this.tbMaximumBrinnellHardnessOfWeld.Name = "tbMaximumBrinnellHardnessOfWeld";
+            this.tbMaximumBrinnellHardnessOfWeld.Size = new System.Drawing.Size(478, 22);
+            this.tbMaximumBrinnellHardnessOfWeld.TabIndex = 48;
             // 
             // tbH2SContent
             // 
@@ -151,9 +143,9 @@
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label25.Location = new System.Drawing.Point(17, 178);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(154, 15);
+            this.label25.Size = new System.Drawing.Size(208, 15);
             this.label25.TabIndex = 45;
-            this.label25.Text = "Environment Contains H2S";
+            this.label25.Text = "Maximum Brinnell Hardness of Weld";
             // 
             // label26
             // 
@@ -165,54 +157,37 @@
             this.label26.TabIndex = 46;
             this.label26.Text = "H2S Content in Water (ppm)";
             // 
-            // tbpHofWater
+            // tbNumberOfInspection
             // 
-            this.tbpHofWater.Location = new System.Drawing.Point(619, 146);
-            this.tbpHofWater.Name = "tbpHofWater";
-            this.tbpHofWater.Size = new System.Drawing.Size(114, 22);
-            this.tbpHofWater.TabIndex = 44;
+            this.tbNumberOfInspection.Location = new System.Drawing.Point(619, 90);
+            this.tbNumberOfInspection.Name = "tbNumberOfInspection";
+            this.tbNumberOfInspection.Size = new System.Drawing.Size(114, 22);
+            this.tbNumberOfInspection.TabIndex = 41;
             // 
-            // label8
+            // tbYearsSinceLastInspection72m
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label8.Location = new System.Drawing.Point(455, 149);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(71, 15);
-            this.label8.TabIndex = 43;
-            this.label8.Text = "pH of Water";
-            // 
-            // tbBaseValueOfDamageFactor72m
-            // 
-            this.tbBaseValueOfDamageFactor72m.Location = new System.Drawing.Point(604, 181);
-            this.tbBaseValueOfDamageFactor72m.Name = "tbBaseValueOfDamageFactor72m";
-            this.tbBaseValueOfDamageFactor72m.Size = new System.Drawing.Size(114, 22);
-            this.tbBaseValueOfDamageFactor72m.TabIndex = 45;
-            // 
-            // tbBaseValueOfDamageFactor36m
-            // 
-            this.tbBaseValueOfDamageFactor36m.Location = new System.Drawing.Point(484, 181);
-            this.tbBaseValueOfDamageFactor36m.Name = "tbBaseValueOfDamageFactor36m";
-            this.tbBaseValueOfDamageFactor36m.Size = new System.Drawing.Size(114, 22);
-            this.tbBaseValueOfDamageFactor36m.TabIndex = 43;
+            this.tbYearsSinceLastInspection72m.Location = new System.Drawing.Point(604, 118);
+            this.tbYearsSinceLastInspection72m.Name = "tbYearsSinceLastInspection72m";
+            this.tbYearsSinceLastInspection72m.Size = new System.Drawing.Size(114, 22);
+            this.tbYearsSinceLastInspection72m.TabIndex = 44;
             // 
             // tbYearsSinceLastInspection36m
             // 
-            this.tbYearsSinceLastInspection36m.Location = new System.Drawing.Point(484, 153);
+            this.tbYearsSinceLastInspection36m.Location = new System.Drawing.Point(484, 118);
             this.tbYearsSinceLastInspection36m.Name = "tbYearsSinceLastInspection36m";
             this.tbYearsSinceLastInspection36m.Size = new System.Drawing.Size(114, 22);
             this.tbYearsSinceLastInspection36m.TabIndex = 42;
             // 
             // tbBaseValueOfDamageFactor0m
             // 
-            this.tbBaseValueOfDamageFactor0m.Location = new System.Drawing.Point(364, 181);
+            this.tbBaseValueOfDamageFactor0m.Location = new System.Drawing.Point(364, 146);
             this.tbBaseValueOfDamageFactor0m.Name = "tbBaseValueOfDamageFactor0m";
             this.tbBaseValueOfDamageFactor0m.Size = new System.Drawing.Size(114, 22);
             this.tbBaseValueOfDamageFactor0m.TabIndex = 41;
             // 
             // tbYearsSinceLastInspection0m
             // 
-            this.tbYearsSinceLastInspection0m.Location = new System.Drawing.Point(364, 153);
+            this.tbYearsSinceLastInspection0m.Location = new System.Drawing.Point(364, 118);
             this.tbYearsSinceLastInspection0m.Name = "tbYearsSinceLastInspection0m";
             this.tbYearsSinceLastInspection0m.Size = new System.Drawing.Size(114, 22);
             this.tbYearsSinceLastInspection0m.TabIndex = 38;
@@ -221,7 +196,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label15.Location = new System.Drawing.Point(17, 184);
+            this.label15.Location = new System.Drawing.Point(17, 149);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(170, 15);
             this.label15.TabIndex = 40;
@@ -231,7 +206,7 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label16.Location = new System.Drawing.Point(17, 156);
+            this.label16.Location = new System.Drawing.Point(17, 121);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(184, 15);
             this.label16.TabIndex = 39;
@@ -239,24 +214,24 @@
             // 
             // tbSVI
             // 
-            this.tbSVI.Location = new System.Drawing.Point(362, 86);
+            this.tbSVI.Location = new System.Drawing.Point(368, 64);
             this.tbSVI.Name = "tbSVI";
             this.tbSVI.Size = new System.Drawing.Size(114, 22);
             this.tbSVI.TabIndex = 37;
             // 
             // tbSusceptibility
             // 
-            this.tbSusceptibility.Location = new System.Drawing.Point(364, 58);
+            this.tbSusceptibility.Location = new System.Drawing.Point(370, 36);
             this.tbSusceptibility.Name = "tbSusceptibility";
             this.tbSusceptibility.Size = new System.Drawing.Size(114, 22);
             this.tbSusceptibility.TabIndex = 34;
             // 
-            // tbNumberOfInspection
+            // tbLastInspectionDate
             // 
-            this.tbNumberOfInspection.Location = new System.Drawing.Point(619, 90);
-            this.tbNumberOfInspection.Name = "tbNumberOfInspection";
-            this.tbNumberOfInspection.Size = new System.Drawing.Size(114, 22);
-            this.tbNumberOfInspection.TabIndex = 41;
+            this.tbLastInspectionDate.Location = new System.Drawing.Point(619, 62);
+            this.tbLastInspectionDate.Name = "tbLastInspectionDate";
+            this.tbLastInspectionDate.Size = new System.Drawing.Size(114, 22);
+            this.tbLastInspectionDate.TabIndex = 40;
             // 
             // label20
             // 
@@ -308,9 +283,9 @@
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label23.Location = new System.Drawing.Point(11, 58);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(221, 15);
+            this.label23.Size = new System.Drawing.Size(175, 15);
             this.label23.TabIndex = 50;
-            this.label23.Text = "Sulfide Stress Cracking Damage Factor";
+            this.label23.Text = "HIC/SOHIC-HF Damage Factor";
             // 
             // groupBox4
             // 
@@ -322,10 +297,10 @@
             this.groupBox4.Controls.Add(this.tbHICDamageFactor0m);
             this.groupBox4.Controls.Add(this.label23);
             this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.groupBox4.Location = new System.Drawing.Point(9, 647);
+            this.groupBox4.Location = new System.Drawing.Point(3, 599);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(825, 120);
-            this.groupBox4.TabIndex = 5;
+            this.groupBox4.TabIndex = 10;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Damage Factor";
             // 
@@ -336,49 +311,15 @@
             this.tbHICDamageFactor0m.Size = new System.Drawing.Size(114, 22);
             this.tbHICDamageFactor0m.TabIndex = 49;
             // 
-            // tbYearsSinceLastInspection72m
-            // 
-            this.tbYearsSinceLastInspection72m.Location = new System.Drawing.Point(604, 153);
-            this.tbYearsSinceLastInspection72m.Name = "tbYearsSinceLastInspection72m";
-            this.tbYearsSinceLastInspection72m.Size = new System.Drawing.Size(114, 22);
-            this.tbYearsSinceLastInspection72m.TabIndex = 44;
-            // 
             // label13
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label13.Location = new System.Drawing.Point(11, 61);
+            this.label13.Location = new System.Drawing.Point(17, 39);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(220, 15);
+            this.label13.Size = new System.Drawing.Size(174, 15);
             this.label13.TabIndex = 36;
-            this.label13.Text = "Susceptibility to Sulfide Stress Cracking";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label18.Location = new System.Drawing.Point(375, 65);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(48, 15);
-            this.label18.TabIndex = 33;
-            this.label18.Text = "months";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label14.Location = new System.Drawing.Point(11, 33);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(131, 15);
-            this.label14.TabIndex = 35;
-            this.label14.Text = "Environmental Severity";
-            // 
-            // tbLastInspectionDate
-            // 
-            this.tbLastInspectionDate.Location = new System.Drawing.Point(619, 62);
-            this.tbLastInspectionDate.Name = "tbLastInspectionDate";
-            this.tbLastInspectionDate.Size = new System.Drawing.Size(114, 22);
-            this.tbLastInspectionDate.TabIndex = 40;
+            this.label13.Text = "Susceptibility to HIC/SOHIC-HF";
             // 
             // tbCommisionDate
             // 
@@ -434,12 +375,29 @@
             this.label1.TabIndex = 34;
             this.label1.Text = "PWHT";
             // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label18.Location = new System.Drawing.Point(375, 65);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(48, 15);
+            this.label18.TabIndex = 33;
+            this.label18.Text = "months";
+            // 
             // tbHighestInspectionEffectiveness
             // 
             this.tbHighestInspectionEffectiveness.Location = new System.Drawing.Point(255, 90);
             this.tbHighestInspectionEffectiveness.Name = "tbHighestInspectionEffectiveness";
             this.tbHighestInspectionEffectiveness.Size = new System.Drawing.Size(114, 22);
             this.tbHighestInspectionEffectiveness.TabIndex = 32;
+            // 
+            // tbBaseValueOfDamageFactor36m
+            // 
+            this.tbBaseValueOfDamageFactor36m.Location = new System.Drawing.Point(484, 146);
+            this.tbBaseValueOfDamageFactor36m.Name = "tbBaseValueOfDamageFactor36m";
+            this.tbBaseValueOfDamageFactor36m.Size = new System.Drawing.Size(114, 22);
+            this.tbBaseValueOfDamageFactor36m.TabIndex = 43;
             // 
             // tbRiskAnalysisPeriod
             // 
@@ -448,165 +406,12 @@
             this.tbRiskAnalysisPeriod.Size = new System.Drawing.Size(114, 22);
             this.tbRiskAnalysisPeriod.TabIndex = 31;
             // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.groupBox4);
-            this.panel1.Controls.Add(this.groupBox3);
-            this.panel1.Controls.Add(this.groupBox2);
-            this.panel1.Controls.Add(this.groupBox1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(951, 789);
-            this.panel1.TabIndex = 3;
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.tbEnvironmentalSeverity);
-            this.groupBox3.Controls.Add(this.label28);
-            this.groupBox3.Controls.Add(this.label19);
-            this.groupBox3.Controls.Add(this.label17);
-            this.groupBox3.Controls.Add(this.label9);
-            this.groupBox3.Controls.Add(this.tbBaseValueOfDamageFactor72m);
-            this.groupBox3.Controls.Add(this.tbYearsSinceLastInspection72m);
-            this.groupBox3.Controls.Add(this.tbBaseValueOfDamageFactor36m);
-            this.groupBox3.Controls.Add(this.tbYearsSinceLastInspection36m);
-            this.groupBox3.Controls.Add(this.tbBaseValueOfDamageFactor0m);
-            this.groupBox3.Controls.Add(this.tbYearsSinceLastInspection0m);
-            this.groupBox3.Controls.Add(this.label15);
-            this.groupBox3.Controls.Add(this.label16);
-            this.groupBox3.Controls.Add(this.tbSVI);
-            this.groupBox3.Controls.Add(this.tbSusceptibility);
-            this.groupBox3.Controls.Add(this.label13);
-            this.groupBox3.Controls.Add(this.label14);
-            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.groupBox3.Location = new System.Drawing.Point(9, 410);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(825, 231);
-            this.groupBox3.TabIndex = 4;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Intermediate Results";
-            // 
-            // tbEnvironmentalSeverity
-            // 
-            this.tbEnvironmentalSeverity.Location = new System.Drawing.Point(362, 30);
-            this.tbEnvironmentalSeverity.Name = "tbEnvironmentalSeverity";
-            this.tbEnvironmentalSeverity.Size = new System.Drawing.Size(118, 22);
-            this.tbEnvironmentalSeverity.TabIndex = 50;
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label28.Location = new System.Drawing.Point(11, 89);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(106, 15);
-            this.label28.TabIndex = 49;
-            this.label28.Text = "Severity Index, SVI";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label19.Location = new System.Drawing.Point(631, 135);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(65, 15);
-            this.label19.TabIndex = 48;
-            this.label19.Text = "72 months";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label17.Location = new System.Drawing.Point(508, 135);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(65, 15);
-            this.label17.TabIndex = 47;
-            this.label17.Text = "36 months";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label9.Location = new System.Drawing.Point(392, 135);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(58, 15);
-            this.label9.TabIndex = 46;
-            this.label9.Text = "0 months";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.tbPresenceOfCyanides);
-            this.groupBox2.Controls.Add(this.label29);
-            this.groupBox2.Controls.Add(this.tbPresenceOfCracks);
-            this.groupBox2.Controls.Add(this.label27);
-            this.groupBox2.Controls.Add(this.tbMaximumBrinnellHardnessOfWeld);
-            this.groupBox2.Controls.Add(this.label24);
-            this.groupBox2.Controls.Add(this.tbEnvironmentContainsH2S);
-            this.groupBox2.Controls.Add(this.tbH2SContent);
-            this.groupBox2.Controls.Add(this.label25);
-            this.groupBox2.Controls.Add(this.label26);
-            this.groupBox2.Controls.Add(this.tbpHofWater);
-            this.groupBox2.Controls.Add(this.label8);
-            this.groupBox2.Controls.Add(this.tbNumberOfInspection);
-            this.groupBox2.Controls.Add(this.tbLastInspectionDate);
-            this.groupBox2.Controls.Add(this.tbCommisionDate);
-            this.groupBox2.Controls.Add(this.label10);
-            this.groupBox2.Controls.Add(this.label11);
-            this.groupBox2.Controls.Add(this.label12);
-            this.groupBox2.Controls.Add(this.tbPWHT);
-            this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Controls.Add(this.label18);
-            this.groupBox2.Controls.Add(this.tbHighestInspectionEffectiveness);
-            this.groupBox2.Controls.Add(this.tbRiskAnalysisPeriod);
-            this.groupBox2.Controls.Add(this.tbAssessmentDate);
-            this.groupBox2.Controls.Add(this.label7);
-            this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.groupBox2.Location = new System.Drawing.Point(3, 153);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(831, 251);
-            this.groupBox2.TabIndex = 3;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Assessment Data Input";
-            // 
             // tbAssessmentDate
             // 
             this.tbAssessmentDate.Location = new System.Drawing.Point(255, 34);
             this.tbAssessmentDate.Name = "tbAssessmentDate";
             this.tbAssessmentDate.Size = new System.Drawing.Size(114, 22);
             this.tbAssessmentDate.TabIndex = 27;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label7.Location = new System.Drawing.Point(17, 93);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(182, 15);
-            this.label7.TabIndex = 29;
-            this.label7.Text = "Highest Inspection Effectiveness";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label6.Location = new System.Drawing.Point(17, 65);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(117, 15);
-            this.label6.TabIndex = 30;
-            this.label6.Text = "Risk Analysis Period";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label5.Location = new System.Drawing.Point(17, 37);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(96, 15);
-            this.label5.TabIndex = 28;
-            this.label5.Text = "Assesment Date";
             // 
             // groupBox1
             // 
@@ -617,10 +422,10 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.groupBox1.Location = new System.Drawing.Point(9, 12);
+            this.groupBox1.Location = new System.Drawing.Point(3, 6);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(825, 135);
-            this.groupBox1.TabIndex = 2;
+            this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Assessment General Information";
             // 
@@ -675,39 +480,159 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Equipment Number";
             // 
-            // tbPresenceOfCyanides
+            // groupBox2
             // 
-            this.tbPresenceOfCyanides.Location = new System.Drawing.Point(619, 174);
-            this.tbPresenceOfCyanides.Name = "tbPresenceOfCyanides";
-            this.tbPresenceOfCyanides.Size = new System.Drawing.Size(114, 22);
-            this.tbPresenceOfCyanides.TabIndex = 54;
+            this.groupBox2.Controls.Add(this.tbPresenceOfCracks);
+            this.groupBox2.Controls.Add(this.label27);
+            this.groupBox2.Controls.Add(this.tbSulfurContent);
+            this.groupBox2.Controls.Add(this.label24);
+            this.groupBox2.Controls.Add(this.tbMaximumBrinnellHardnessOfWeld);
+            this.groupBox2.Controls.Add(this.tbH2SContent);
+            this.groupBox2.Controls.Add(this.label25);
+            this.groupBox2.Controls.Add(this.label26);
+            this.groupBox2.Controls.Add(this.tbNumberOfInspection);
+            this.groupBox2.Controls.Add(this.tbLastInspectionDate);
+            this.groupBox2.Controls.Add(this.tbCommisionDate);
+            this.groupBox2.Controls.Add(this.label10);
+            this.groupBox2.Controls.Add(this.label11);
+            this.groupBox2.Controls.Add(this.label12);
+            this.groupBox2.Controls.Add(this.tbPWHT);
+            this.groupBox2.Controls.Add(this.label1);
+            this.groupBox2.Controls.Add(this.label18);
+            this.groupBox2.Controls.Add(this.tbHighestInspectionEffectiveness);
+            this.groupBox2.Controls.Add(this.tbRiskAnalysisPeriod);
+            this.groupBox2.Controls.Add(this.tbAssessmentDate);
+            this.groupBox2.Controls.Add(this.label7);
+            this.groupBox2.Controls.Add(this.label6);
+            this.groupBox2.Controls.Add(this.label5);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.groupBox2.Location = new System.Drawing.Point(3, 147);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(831, 251);
+            this.groupBox2.TabIndex = 8;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Assessment Data Input";
             // 
-            // label29
+            // label7
             // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label29.Location = new System.Drawing.Point(455, 177);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(125, 15);
-            this.label29.TabIndex = 53;
-            this.label29.Text = "Presence of Cyanides";
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label7.Location = new System.Drawing.Point(17, 93);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(182, 15);
+            this.label7.TabIndex = 29;
+            this.label7.Text = "Highest Inspection Effectiveness";
             // 
-            // UCSulfideStressCrackingDamageFactor
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label6.Location = new System.Drawing.Point(17, 65);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(117, 15);
+            this.label6.TabIndex = 30;
+            this.label6.Text = "Risk Analysis Period";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label5.Location = new System.Drawing.Point(17, 37);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(96, 15);
+            this.label5.TabIndex = 28;
+            this.label5.Text = "Assesment Date";
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.label28);
+            this.groupBox3.Controls.Add(this.label19);
+            this.groupBox3.Controls.Add(this.label17);
+            this.groupBox3.Controls.Add(this.label9);
+            this.groupBox3.Controls.Add(this.tbBaseValueOfDamageFactor72m);
+            this.groupBox3.Controls.Add(this.tbYearsSinceLastInspection72m);
+            this.groupBox3.Controls.Add(this.tbBaseValueOfDamageFactor36m);
+            this.groupBox3.Controls.Add(this.tbYearsSinceLastInspection36m);
+            this.groupBox3.Controls.Add(this.tbBaseValueOfDamageFactor0m);
+            this.groupBox3.Controls.Add(this.tbYearsSinceLastInspection0m);
+            this.groupBox3.Controls.Add(this.label15);
+            this.groupBox3.Controls.Add(this.label16);
+            this.groupBox3.Controls.Add(this.tbSVI);
+            this.groupBox3.Controls.Add(this.tbSusceptibility);
+            this.groupBox3.Controls.Add(this.label13);
+            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.groupBox3.Location = new System.Drawing.Point(3, 404);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(825, 189);
+            this.groupBox3.TabIndex = 9;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Intermediate Results";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label28.Location = new System.Drawing.Point(17, 67);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(106, 15);
+            this.label28.TabIndex = 49;
+            this.label28.Text = "Severity Index, SVI";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label19.Location = new System.Drawing.Point(631, 100);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(65, 15);
+            this.label19.TabIndex = 48;
+            this.label19.Text = "72 months";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label17.Location = new System.Drawing.Point(508, 100);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(65, 15);
+            this.label17.TabIndex = 47;
+            this.label17.Text = "36 months";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label9.Location = new System.Drawing.Point(392, 100);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(58, 15);
+            this.label9.TabIndex = 46;
+            this.label9.Text = "0 months";
+            // 
+            // tbBaseValueOfDamageFactor72m
+            // 
+            this.tbBaseValueOfDamageFactor72m.Location = new System.Drawing.Point(604, 146);
+            this.tbBaseValueOfDamageFactor72m.Name = "tbBaseValueOfDamageFactor72m";
+            this.tbBaseValueOfDamageFactor72m.Size = new System.Drawing.Size(114, 22);
+            this.tbBaseValueOfDamageFactor72m.TabIndex = 45;
+            // 
+            // UCHFProducedTankBottom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.panel1);
-            this.Name = "UCSulfideStressCrackingDamageFactor";
-            this.Size = new System.Drawing.Size(951, 789);
+            this.Controls.Add(this.groupBox4);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox3);
+            this.Name = "UCHFProducedTankBottom";
+            this.Size = new System.Drawing.Size(851, 740);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -716,16 +641,14 @@
 
         private System.Windows.Forms.TextBox tbPresenceOfCracks;
         private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.TextBox tbMaximumBrinnellHardnessOfWeld;
+        private System.Windows.Forms.TextBox tbSulfurContent;
         private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.TextBox tbEnvironmentContainsH2S;
+        private System.Windows.Forms.TextBox tbMaximumBrinnellHardnessOfWeld;
         private System.Windows.Forms.TextBox tbH2SContent;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.TextBox tbpHofWater;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox tbBaseValueOfDamageFactor72m;
-        private System.Windows.Forms.TextBox tbBaseValueOfDamageFactor36m;
+        private System.Windows.Forms.TextBox tbNumberOfInspection;
+        private System.Windows.Forms.TextBox tbYearsSinceLastInspection72m;
         private System.Windows.Forms.TextBox tbYearsSinceLastInspection36m;
         private System.Windows.Forms.TextBox tbBaseValueOfDamageFactor0m;
         private System.Windows.Forms.TextBox tbYearsSinceLastInspection0m;
@@ -733,7 +656,7 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.TextBox tbSVI;
         private System.Windows.Forms.TextBox tbSusceptibility;
-        private System.Windows.Forms.TextBox tbNumberOfInspection;
+        private System.Windows.Forms.TextBox tbLastInspectionDate;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
@@ -742,33 +665,18 @@
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.TextBox tbHICDamageFactor0m;
-        private System.Windows.Forms.TextBox tbYearsSinceLastInspection72m;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox tbLastInspectionDate;
         private System.Windows.Forms.TextBox tbCommisionDate;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox tbPWHT;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label18;
         private System.Windows.Forms.TextBox tbHighestInspectionEffectiveness;
+        private System.Windows.Forms.TextBox tbBaseValueOfDamageFactor36m;
         private System.Windows.Forms.TextBox tbRiskAnalysisPeriod;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox tbEnvironmentalSeverity;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox tbPresenceOfCyanides;
-        private System.Windows.Forms.Label label29;
         private System.Windows.Forms.TextBox tbAssessmentDate;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox tbAssessmentName;
         private System.Windows.Forms.TextBox tbComponentNumber;
@@ -776,5 +684,15 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox tbBaseValueOfDamageFactor72m;
     }
 }

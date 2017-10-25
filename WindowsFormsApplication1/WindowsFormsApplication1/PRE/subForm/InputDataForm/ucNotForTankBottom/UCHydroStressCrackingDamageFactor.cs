@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace RBI.PRE.subForm.InputDataForm.ucForTankBottom
+namespace RBI.PRE.subForm.InputDataForm.ucNotForTankBottom
 {
-    public partial class UCSulfideStressCrackingDamageFactor : UserControl
+    public partial class UCHydroStressCrackingDamageFactor : UserControl
     {
-        public UCSulfideStressCrackingDamageFactor()
+        public UCHydroStressCrackingDamageFactor()
         {
             InitializeComponent();
         }
