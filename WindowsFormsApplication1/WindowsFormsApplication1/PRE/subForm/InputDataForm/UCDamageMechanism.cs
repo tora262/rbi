@@ -19,6 +19,9 @@ namespace RBI.PRE.subForm.InputDataForm
         {
             InitializeComponent();
             InitData();
+            emptyEdit = new RepositoryItem();
+            treeList1.RepositoryItems.Add(emptyEdit);
+            treelist1_CustomNodeEdit();
         }
         TreeListNode parentNode1 = null;
         TreeListNode parentNode2 = null;
@@ -26,6 +29,8 @@ namespace RBI.PRE.subForm.InputDataForm
         TreeListNode parentNode4 = null;
         TreeListNode parentNode5 = null;
         TreeListNode childNode = null;
+
+        private RepositoryItem emptyEdit;
 
         private RepositoryItemCheckEdit repositoryItemCheckEdit1 = new RepositoryItemCheckEdit();
         private RepositoryItemButtonEdit repositoryItemButtonEdit1 = new RepositoryItemButtonEdit();
@@ -148,11 +153,11 @@ namespace RBI.PRE.subForm.InputDataForm
             "Water (General + Localised Corrosion)"
         };
         #endregion
+
         private void InitData()
         {
             colActive.ColumnEdit = repositoryItemCheckEdit1;
-            colEL.ColumnEdit = repositoryItemCheckEdit1;
-            colDF.ColumnEdit = repositoryItemCheckEdit1;
+            colEL.ColumnEdit = repositoryItemCheckEdit2;
             //nhanh thu 1
             treeList1.BeginUnboundLoad();
             parentNode1 = treeList1.AppendNode(
@@ -220,5 +225,20 @@ namespace RBI.PRE.subForm.InputDataForm
             colRecord.ColumnEdit = repositoryItemButtonEdit1;
         }
 
+        private void treelist1_CustomNodeEdit()
+        {
+            foreach(TreeListNode node in treeList1.Nodes)
+            {
+                if (node.Level == 0)
+                    colEL.ColumnEdit = emptyEdit;
+                break;
+            }
+        }
+
+        private void treeList1_GetCustomNodeCellEdit(object sender, DevExpress.XtraTreeList.GetCustomNodeCellEditEventArgs e)
+        {
+            if (e.Column.FieldName == "EL?" && e.Node.Level == 0)
+                e.RepositoryItem = emptyEdit;
+        }
     }
 }

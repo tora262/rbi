@@ -470,6 +470,12 @@
     <Compile Include="PRE\subForm\InputDataForm\ucForTankBottom\UCVibrationInducedTankBottom.Designer.cs">
       <DependentUpon>UCVibrationInducedTankBottom.cs</DependentUpon>
     </Compile>
+    <Compile Include="PRE\subForm\InputDataForm\ucNotForTankBottom\UC885FEmbrittlementDamageFactor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PRE\subForm\InputDataForm\ucNotForTankBottom\UC885FEmbrittlementDamageFactor.Designer.cs">
+      <DependentUpon>UC885FEmbrittlementDamageFactor.cs</DependentUpon>
+    </Compile>
     <Compile Include="PRE\subForm\InputDataForm\ucNotForTankBottom\UCAmineCrackingDamageFactor.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -512,6 +518,12 @@
     <Compile Include="PRE\subForm\InputDataForm\ucNotForTankBottom\UCCorrosionUnderInsulationDamageFactor.Designer.cs">
       <DependentUpon>UCCorrosionUnderInsulationDamageFactor.cs</DependentUpon>
     </Compile>
+    <Compile Include="PRE\subForm\InputDataForm\ucNotForTankBottom\UCExternalChlorideStressCorrosionCrackingDamageFactor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PRE\subForm\InputDataForm\ucNotForTankBottom\UCExternalChlorideStressCorrosionCrackingDamageFactor.Designer.cs">
+      <DependentUpon>UCExternalChlorideStressCorrosionCrackingDamageFactor.cs</DependentUpon>
+    </Compile>
     <Compile Include="PRE\subForm\InputDataForm\ucNotForTankBottom\UCHFProduced.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -523,6 +535,12 @@
     </Compile>
     <Compile Include="PRE\subForm\InputDataForm\ucNotForTankBottom\ucHicSohicH2S.Designer.cs">
       <DependentUpon>ucHicSohicH2S.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PRE\subForm\InputDataForm\ucNotForTankBottom\UCHighTemperatureHydrogenAttackDamageFactor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PRE\subForm\InputDataForm\ucNotForTankBottom\UCHighTemperatureHydrogenAttackDamageFactor.Designer.cs">
+      <DependentUpon>UCHighTemperatureHydrogenAttackDamageFactor.cs</DependentUpon>
     </Compile>
     <Compile Include="PRE\subForm\InputDataForm\ucNotForTankBottom\UCHydroStressCrackingDamageFactor.cs">
       <SubType>UserControl</SubType>
@@ -632,11 +650,23 @@
     <Compile Include="PRE\subForm\InputDataForm\ucNotForTankBottom\UCPolythionicAcidCrackDamageFactor.Designer.cs">
       <DependentUpon>UCPolythionicAcidCrackDamageFactor.cs</DependentUpon>
     </Compile>
+    <Compile Include="PRE\subForm\InputDataForm\ucNotForTankBottom\UCSigmaPhaseEmbrittlementDamageFactor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PRE\subForm\InputDataForm\ucNotForTankBottom\UCSigmaPhaseEmbrittlementDamageFactor.Designer.cs">
+      <DependentUpon>UCSigmaPhaseEmbrittlementDamageFactor.cs</DependentUpon>
+    </Compile>
     <Compile Include="PRE\subForm\InputDataForm\ucNotForTankBottom\UCSulfideStressCrackingDamageFactor.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="PRE\subForm\InputDataForm\ucNotForTankBottom\UCSulfideStressCrackingDamageFactor.Designer.cs">
       <DependentUpon>UCSulfideStressCrackingDamageFactor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PRE\subForm\InputDataForm\ucNotForTankBottom\UCTemperEmbrittlementDamageFactor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PRE\subForm\InputDataForm\ucNotForTankBottom\UCTemperEmbrittlementDamageFactor.Designer.cs">
+      <DependentUpon>UCTemperEmbrittlementDamageFactor.cs</DependentUpon>
     </Compile>
     <Compile Include="PRE\subForm\InputDataForm\UCOperatingCondition.cs">
       <SubType>UserControl</SubType>
@@ -928,6 +958,9 @@
     <EmbeddedResource Include="PRE\subForm\InputDataForm\ucForTankBottom\UCVibrationInducedTankBottom.resx">
       <DependentUpon>UCVibrationInducedTankBottom.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PRE\subForm\InputDataForm\ucNotForTankBottom\UC885FEmbrittlementDamageFactor.resx">
+      <DependentUpon>UC885FEmbrittlementDamageFactor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PRE\subForm\InputDataForm\ucNotForTankBottom\UCAmineCrackingDamageFactor.resx">
       <DependentUpon>UCAmineCrackingDamageFactor.cs</DependentUpon>
     </EmbeddedResource>
@@ -949,11 +982,17 @@
     <EmbeddedResource Include="PRE\subForm\InputDataForm\ucNotForTankBottom\UCCorrosionUnderInsulationDamageFactor.resx">
       <DependentUpon>UCCorrosionUnderInsulationDamageFactor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PRE\subForm\InputDataForm\ucNotForTankBottom\UCExternalChlorideStressCorrosionCrackingDamageFactor.resx">
+      <DependentUpon>UCExternalChlorideStressCorrosionCrackingDamageFactor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PRE\subForm\InputDataForm\ucNotForTankBottom\UCHFProduced.resx">
       <DependentUpon>UCHFProduced.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PRE\subForm\InputDataForm\ucNotForTankBottom\ucHicSohicH2S.resx">
       <DependentUpon>ucHicSohicH2S.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PRE\subForm\InputDataForm\ucNotForTankBottom\UCHighTemperatureHydrogenAttackDamageFactor.resx">
+      <DependentUpon>UCHighTemperatureHydrogenAttackDamageFactor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PRE\subForm\InputDataForm\ucNotForTankBottom\UCHydroStressCrackingDamageFactor.resx">
       <DependentUpon>UCHydroStressCrackingDamageFactor.cs</DependentUpon>
@@ -1009,8 +1048,14 @@
     <EmbeddedResource Include="PRE\subForm\InputDataForm\ucNotForTankBottom\UCPolythionicAcidCrackDamageFactor.resx">
       <DependentUpon>UCPolythionicAcidCrackDamageFactor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PRE\subForm\InputDataForm\ucNotForTankBottom\UCSigmaPhaseEmbrittlementDamageFactor.resx">
+      <DependentUpon>UCSigmaPhaseEmbrittlementDamageFactor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PRE\subForm\InputDataForm\ucNotForTankBottom\UCSulfideStressCrackingDamageFactor.resx">
       <DependentUpon>UCSulfideStressCrackingDamageFactor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PRE\subForm\InputDataForm\ucNotForTankBottom\UCTemperEmbrittlementDamageFactor.resx">
+      <DependentUpon>UCTemperEmbrittlementDamageFactor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PRE\subForm\InputDataForm\UCOperatingCondition.resx">
       <DependentUpon>UCOperatingCondition.cs</DependentUpon>
@@ -1173,8 +1218,10 @@
     <None Include="ICON\support.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="PRE\ICON\" />
     <Folder Include="PRE\TabPlant\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PRE\ICON\1496738078_Information.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

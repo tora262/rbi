@@ -30,24 +30,32 @@ namespace RBI.PRE.subForm.InputDataForm
         /// </summary>
         private void InitializeComponent()
         {
+
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.treeList1 = new DevExpress.XtraTreeList.TreeList();
             this.colType = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.colActive = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.repositoryItemCheckEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.coNotes = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.colExpected = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.colLastInsp = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.colInspDueDate = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.colEL = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.repositoryItemButtonEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
             this.colValue = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.colDF = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.colDF_1AP = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.colDF_2AP = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.colDF_3AP = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.colRecord = new DevExpress.XtraTreeList.Columns.TreeListColumn();
-            this.repositoryItemCheckEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
+            this.treeListColumn1 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.persistentRepository1 = new DevExpress.XtraEditors.Repository.PersistentRepository(this.components);
+            this.repositoryItemCheckEdit3 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit3)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -59,9 +67,16 @@ namespace RBI.PRE.subForm.InputDataForm
             this.label1.Size = new System.Drawing.Size(139, 15);
             this.label1.TabIndex = 0;
             this.label1.Text = "Damage Mechanism";
+            
             // 
             // treeList1
             // 
+            this.treeList1.Appearance.FocusedRow.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.treeList1.Appearance.FocusedRow.Options.UseFont = true;
+            this.treeList1.Appearance.GroupButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.treeList1.Appearance.GroupButton.Options.UseFont = true;
+            this.treeList1.Appearance.Row.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.treeList1.Appearance.Row.Options.UseFont = true;
             this.treeList1.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
             this.colType,
             this.colActive,
@@ -75,15 +90,16 @@ namespace RBI.PRE.subForm.InputDataForm
             this.colDF_1AP,
             this.colDF_2AP,
             this.colDF_3AP,
-            this.colRecord});
-            this.treeList1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.treeList1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.colRecord,
+            this.treeListColumn1});
+            this.treeList1.Cursor = System.Windows.Forms.Cursors.SizeWE;
             this.treeList1.Location = new System.Drawing.Point(0, 44);
             this.treeList1.Name = "treeList1";
             this.treeList1.OptionsView.AutoWidth = false;
             this.treeList1.OptionsView.FocusRectStyle = DevExpress.XtraTreeList.DrawFocusRectStyle.RowFocus;
             this.treeList1.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
-            this.repositoryItemCheckEdit2});
+            this.repositoryItemCheckEdit2,
+            this.repositoryItemButtonEdit2});
             this.treeList1.Size = new System.Drawing.Size(942, 474);
             this.treeList1.TabIndex = 1;
             // 
@@ -106,6 +122,11 @@ namespace RBI.PRE.subForm.InputDataForm
             this.colActive.Visible = true;
             this.colActive.VisibleIndex = 1;
             this.colActive.Width = 39;
+            // 
+            // repositoryItemCheckEdit2
+            // 
+            this.repositoryItemCheckEdit2.AutoHeight = false;
+            this.repositoryItemCheckEdit2.Name = "repositoryItemCheckEdit2";
             // 
             // coNotes
             // 
@@ -146,11 +167,19 @@ namespace RBI.PRE.subForm.InputDataForm
             // colEL
             // 
             this.colEL.Caption = "EL?";
+            this.colEL.ColumnEdit = this.repositoryItemButtonEdit2;
             this.colEL.FieldName = "EL?";
             this.colEL.Name = "colEL";
             this.colEL.Visible = true;
             this.colEL.VisibleIndex = 6;
             this.colEL.Width = 28;
+            // 
+            // repositoryItemButtonEdit2
+            // 
+            this.repositoryItemButtonEdit2.AutoHeight = false;
+            this.repositoryItemButtonEdit2.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.repositoryItemButtonEdit2.Name = "repositoryItemButtonEdit2";
             // 
             // colValue
             // 
@@ -206,10 +235,22 @@ namespace RBI.PRE.subForm.InputDataForm
             this.colRecord.VisibleIndex = 12;
             this.colRecord.Width = 45;
             // 
-            // repositoryItemCheckEdit2
+            // treeListColumn1
             // 
-            this.repositoryItemCheckEdit2.AutoHeight = false;
-            this.repositoryItemCheckEdit2.Name = "repositoryItemCheckEdit2";
+            this.treeListColumn1.Caption = "treeListColumn1";
+            this.treeListColumn1.FieldName = "treeListColumn1";
+            this.treeListColumn1.Name = "treeListColumn1";
+            this.treeListColumn1.Visible = true;
+            this.treeListColumn1.VisibleIndex = 13;
+            // 
+            // persistentRepository1
+            // 
+            this.persistentRepository1.Items.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
+            this.repositoryItemCheckEdit3});
+            // 
+            // repositoryItemCheckEdit3
+            // 
+            this.repositoryItemCheckEdit3.Name = "repositoryItemCheckEdit3";
             // 
             // UCDamageMechanism
             // 
@@ -221,6 +262,8 @@ namespace RBI.PRE.subForm.InputDataForm
             this.Size = new System.Drawing.Size(942, 518);
             ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -246,5 +289,9 @@ namespace RBI.PRE.subForm.InputDataForm
         private DevExpress.XtraTreeList.Columns.TreeListColumn colDF_3AP;
         private DevExpress.XtraTreeList.Columns.TreeListColumn colRecord;
         private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit2;
+        private DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit repositoryItemButtonEdit2;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn treeListColumn1;
+        private DevExpress.XtraEditors.Repository.PersistentRepository persistentRepository1;
+        private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit3;
     }
 }

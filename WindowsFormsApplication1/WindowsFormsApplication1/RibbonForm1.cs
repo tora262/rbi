@@ -39,6 +39,7 @@ namespace RBI
             InitializeComponent();
             
             treeListProject.OptionsBehavior.Editable = false;
+            addNewTab("Damage Mechanism", dm);
         }
 
 
@@ -51,6 +52,7 @@ namespace RBI
         public static string facilityName = null;
         public static string equipmentName = null;
         public static string componentName = null;
+        public UCDamageMechanism dm = new UCDamageMechanism();
         private void treeListProject_DoubleClick(object sender, EventArgs e)
         {
             TreeList tree = sender as TreeList;
