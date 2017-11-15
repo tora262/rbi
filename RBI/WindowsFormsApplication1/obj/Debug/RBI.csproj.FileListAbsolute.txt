@@ -1,0 +1,346 @@
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.csprojResolveAssemblyReference.cache
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.GridControlDemo.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.ImportExcel.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.Equipment.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.Facility.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.FacilityInput.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.frmImportInspection.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.NewComponent.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.NewFluid.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.NewManufacturer.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.NewMaterial.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.NewSite.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCAssessmentInfo.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCCoatLiningIsulationCladding.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCComponentPropertiesTankBottom.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCComponentProperties.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCEquipmentPropertiesTankBottom.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCEquipmentProperties.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCMaterial.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCNoInspection.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCOperatingCondition.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCStreamTankBottom.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCStream.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.LoadExcel.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.newComponent.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.newEquipment.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.NewEquipmentForRBI.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.NewPlant.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.SplashScreen.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.subHomeUsr.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.subUCcomponent.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.subUCequipment.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.TabImportExcel.UCSpreadsheetLoadData.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.TestExcelApp.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.UCComponent.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.UCDamage.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.UCDevexpress.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.UCEqList_DevExpress.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.UCEquipListRbi_DevExpress.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.UCEquipmentForRBI.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.UCEquipmentInfomation.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.UCEquipmentsList.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.UCEquipmentTemp.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.UCFullPlant.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.UCInspHistory.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.UCRecommend.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.UCRevision.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.UCrisk.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.UCRisksummery.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.WaitingForm.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.WatingForm.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.TAB.RBIQuestion.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.TAB.ucTab10.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.TAB.ucTab11.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.TAB.ucTab12.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.TAB.ucTab13.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.TAB.ucTab5.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.TAB.ucTab6.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.TAB.ucTab7.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.TAB.ucTab8.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.TAB.ucTab9.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.PRE.UCRBI.UCRBI_general.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.Properties.Resources.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.RibbonForm1.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.test.resources
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RBI.csproj.GenerateResource.Cache
+E:\Project\hoang\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe.licenses
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.ImportExcel.resources
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.frmGenericFluids.resources
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.frmImportInspection.resources
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCAssessmentInfo.resources
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCCA.resources
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCCoatLiningIsulationCladding.resources
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCComponentPropertiesTank.resources
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCComponentProperties.resources
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCDamageMechanism.resources
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCEquipmentPropertiesTank.resources
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCEquipmentProperties.resources
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCExternalCorrosionDamageFactor.resources
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCMaterial.resources
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCNoInspection.resources
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCOperatingCondition.resources
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCStreamTank.resources
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCStream.resources
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCInternalThinningDamageFactor.resources
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.OutputDataForm.UCRiskFactor.resources
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.Properties.Resources.resources
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.RibbonForm1.resources
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.test.resources
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.csproj.GenerateResource.Cache
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe.licenses
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+E:\Project\hoang\RBI\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+E:\Project\hoang\RBI\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+E:\Project\hoang\RBI\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.csprojResolveAssemblyReference.cache
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCMaterialTank.resources
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.frmAllSites.resources
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.frmEquipment.resources
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.frmFacility.resources
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.frmFacilityInput.resources
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.frmNewComponent.resources
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.frmNewFluid.resources
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.frmNewManufacturer.resources
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.frmNewMaterial.resources
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.frmNewSite.resources
+E:\Project\hoang\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.frmDesignCode.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.BonusSkins.v17.1.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Charts.v17.1.Core.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Data.v17.1.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.DataAccess.v17.1.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.DataAccess.v17.1.UI.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Docs.v17.1.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Mvvm.v17.1.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Office.v17.1.Core.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Snap.v17.1.Core.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Snap.v17.1.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Snap.v17.1.Extensions.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Spreadsheet.v17.1.Core.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Utils.v17.1.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Utils.v17.1.UI.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Xpo.v17.1.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.XtraBars.v17.1.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.XtraCharts.v17.1.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.XtraCharts.v17.1.UI.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.XtraCharts.v17.1.Wizard.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.XtraNavBar.v17.1.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.XtraRichEdit.v17.1.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.XtraRichEdit.v17.1.Extensions.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.XtraSpreadsheet.v17.1.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\MySql.Data.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.CodeParser.v17.1.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Diagram.v17.1.Core.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.XtraDiagram.v17.1.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Pdf.v17.1.Drawing.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.XtraVerticalGrid.v17.1.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Data.v17.1.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.DataAccess.v17.1.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.DataAccess.v17.1.UI.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Docs.v17.1.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Mvvm.v17.1.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Office.v17.1.Core.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Snap.v17.1.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Snap.v17.1.Core.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Snap.v17.1.Extensions.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Spreadsheet.v17.1.Core.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Utils.v17.1.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Utils.v17.1.UI.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Xpo.v17.1.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.XtraBars.v17.1.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.XtraCharts.v17.1.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.XtraCharts.v17.1.UI.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.XtraCharts.v17.1.Wizard.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.XtraNavBar.v17.1.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.XtraRichEdit.v17.1.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.XtraRichEdit.v17.1.Extensions.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.XtraSpreadsheet.v17.1.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\MySql.Data.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Diagram.v17.1.Core.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.XtraDiagram.v17.1.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.Pdf.v17.1.Drawing.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\DevExpress.XtraVerticalGrid.v17.1.xml
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\de\DevExpress.DataAccess.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\es\DevExpress.DataAccess.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ja\DevExpress.DataAccess.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ru\DevExpress.DataAccess.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\de\DevExpress.DataAccess.v17.1.UI.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\es\DevExpress.DataAccess.v17.1.UI.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ja\DevExpress.DataAccess.v17.1.UI.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ru\DevExpress.DataAccess.v17.1.UI.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\de\DevExpress.Snap.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\es\DevExpress.Snap.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ja\DevExpress.Snap.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ru\DevExpress.Snap.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\de\DevExpress.Snap.v17.1.Core.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\es\DevExpress.Snap.v17.1.Core.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ja\DevExpress.Snap.v17.1.Core.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ru\DevExpress.Snap.v17.1.Core.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\de\DevExpress.Snap.v17.1.Extensions.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\es\DevExpress.Snap.v17.1.Extensions.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ja\DevExpress.Snap.v17.1.Extensions.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ru\DevExpress.Snap.v17.1.Extensions.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\de\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\es\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ja\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ru\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\de\DevExpress.Utils.v17.1.UI.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\es\DevExpress.Utils.v17.1.UI.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ja\DevExpress.Utils.v17.1.UI.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ru\DevExpress.Utils.v17.1.UI.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\de\DevExpress.Xpo.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\es\DevExpress.Xpo.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ja\DevExpress.Xpo.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ru\DevExpress.Xpo.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\de\DevExpress.XtraCharts.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\es\DevExpress.XtraCharts.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ja\DevExpress.XtraCharts.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ru\DevExpress.XtraCharts.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\de\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\es\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ja\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ru\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\de\DevExpress.XtraNavBar.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\es\DevExpress.XtraNavBar.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ja\DevExpress.XtraNavBar.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ru\DevExpress.XtraNavBar.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.Extensions.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.Extensions.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.Extensions.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.Extensions.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\de\DevExpress.XtraSpreadsheet.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\es\DevExpress.XtraSpreadsheet.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ja\DevExpress.XtraSpreadsheet.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ru\DevExpress.XtraSpreadsheet.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\de\DevExpress.Diagram.v17.1.Core.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\es\DevExpress.Diagram.v17.1.Core.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ja\DevExpress.Diagram.v17.1.Core.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ru\DevExpress.Diagram.v17.1.Core.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\de\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\es\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ja\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\bin\Debug\ru\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.csprojResolveAssemblyReference.cache
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.ImportExcel.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.frmDesignCode.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.frmEquipment.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.frmFacility.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.frmFacilityInput.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.frmAllSites.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.frmGenericFluids.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.frmImportInspection.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.frmNewComponent.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.frmNewFluid.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.frmNewManufacturer.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.frmNewMaterial.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.frmNewSite.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCAssessmentInfo.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCCA.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCCoatLiningIsulationCladding.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCComponentPropertiesTank.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCComponentProperties.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCMaterialTank.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCDamageMechanism.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCEquipmentPropertiesTank.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCEquipmentProperties.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCExternalCorrosionDamageFactor.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCMaterial.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCNoInspection.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCOperatingCondition.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCStreamTank.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCStream.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.InputDataForm.UCInternalThinningDamageFactor.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.PRE.subForm.OutputDataForm.UCRiskFactor.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.Properties.Resources.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.RibbonForm1.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.test.resources
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\RBI.csproj.GenerateResource.Cache
+F:\Code RBI 2\RBI\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe.licenses
+C:\Users\Trung Hieu Tran\Desktop\RBI\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Trung Hieu Tran\Desktop\RBI\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Trung Hieu Tran\Desktop\RBI\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

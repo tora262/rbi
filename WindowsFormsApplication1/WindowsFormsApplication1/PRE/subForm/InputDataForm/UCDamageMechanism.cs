@@ -18,10 +18,8 @@ namespace RBI.PRE.subForm.InputDataForm
         public UCDamageMechanism()
         {
             InitializeComponent();
-            InitData();
+            //InitData();
             emptyEdit = new RepositoryItem();
-            treeList1.RepositoryItems.Add(emptyEdit);
-            treelist1_CustomNodeEdit();
         }
         TreeListNode parentNode1 = null;
         TreeListNode parentNode2 = null;
@@ -235,10 +233,9 @@ namespace RBI.PRE.subForm.InputDataForm
             }
         }
 
-        private void treeList1_GetCustomNodeCellEdit(object sender, DevExpress.XtraTreeList.GetCustomNodeCellEditEventArgs e)
+        private void treeList1_GetCustomNodeCellEdit()
         {
-            if (e.Column.FieldName == "EL?" && e.Node.Level == 0)
-                e.RepositoryItem = emptyEdit;
+
         }
     }
 }
